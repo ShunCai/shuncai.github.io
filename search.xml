@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hexo+Next搭建个人博客完整教程]]></title>
+    <url>%2Farchives%2F4a17b156.html</url>
+    <content type="text"><![CDATA[Hexo+Next搭建个人博客完整教程，小白快速入门教程 官方网站 Hexo Next Hexo官网 Next博客 Next文档 博客搭建安装前提 Git 安装 Nodejs 安装Hexo1$ npm install -g hexo-cli 初始化博客123$ hexo init &lt;folder&gt;$ cd &lt;folder&gt;$ npm install Hexo启动1$ hexo server 浏览博客访问 http://localhost:4000 其它常用命令 Hexo清理 1$ hexo clear Hexo生成 1$ hexo generate Hexo指定端口启动 1$ hexo server -p 5000 Hexo清理&amp;生成&amp;启动 1$ hexo cl &amp;&amp; hexo g &amp;&amp; hexo s Hexo部署到远程站点 1$ hexo cl &amp;&amp; hexo g &amp;&amp; hexo s]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
+      </tags>
+  </entry>
+</search>

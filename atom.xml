@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>芷炫博客</title>
+  
+  <subtitle>吕顺才的个人博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://lvshuncai.com/"/>
+  <updated>2019-01-19T15:48:11.432Z</updated>
+  <id>https://lvshuncai.com/</id>
+  
+  <author>
+    <name>吕顺才</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo+Next搭建个人博客完整教程</title>
+    <link href="https://lvshuncai.com/archives/4a17b156.html"/>
+    <id>https://lvshuncai.com/archives/4a17b156.html</id>
+    <published>2019-01-19T14:21:13.000Z</published>
+    <updated>2019-01-19T15:48:11.432Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hexo+Next搭建个人博客完整教程，小白快速入门教程</p><a id="more"></a><h3 id="官方网站"><a href="#官方网站" class="headerlink" title="官方网站"></a>官方网站</h3><ul><li><a href="https://github.com/hexojs/hexo" target="_blank" rel="noopener">Hexo</a></li><li><a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">Next</a></li><li><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo官网</a>  </li><li><a href="https://theme-next.org/" target="_blank" rel="noopener">Next博客</a></li><li><a href="http://theme-next.iissnan.com" target="_blank" rel="noopener">Next文档</a></li></ul><h3 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h3><h4 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h4><ul><li><a href="https://imjad.cn/baidu/?q=Git%20%E5%AE%89%E8%A3%85" target="_blank" rel="noopener">Git 安装</a></li><li><a href="https://imjad.cn/baidu/?q=Nodejs%20%E5%AE%89%E8%A3%85" target="_blank" rel="noopener">Nodejs</a></li></ul><h4 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure><h4 id="初始化博客"><a href="#初始化博客" class="headerlink" title="初始化博客"></a>初始化博客</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ <span class="built_in">cd</span> &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure><h4 id="Hexo启动"><a href="#Hexo启动" class="headerlink" title="Hexo启动"></a>Hexo启动</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><h4 id="浏览博客"><a href="#浏览博客" class="headerlink" title="浏览博客"></a>浏览博客</h4><p>访问 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></p><h4 id="其它常用命令"><a href="#其它常用命令" class="headerlink" title="其它常用命令"></a>其它常用命令</h4><ul><li><p>Hexo清理</p>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clear</span><br></pre></td></tr></table></figure></li><li><p>Hexo生成</p>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></li><li><p>Hexo指定端口启动</p>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server -p 5000</span><br></pre></td></tr></table></figure></li><li><p>Hexo清理&amp;生成&amp;启动</p>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure></li><li><p>Hexo部署到远程站点</p>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Hexo+Next搭建个人博客完整教程，小白快速入门教程&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Hexo" scheme="https://lvshuncai.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://lvshuncai.com/tags/Hexo/"/>
+    
+      <category term="Next" scheme="https://lvshuncai.com/tags/Next/"/>
+    
+  </entry>
+  
+</feed>
