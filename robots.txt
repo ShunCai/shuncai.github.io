@@ -12,5 +12,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: https://lvshuncai.com/sitemap.xml
-Sitemap: https://lvshuncai.com/baidusitemap.xml
+Sitemap: https://github.lvshuncai.com/sitemap.xml
+Sitemap: https://github.lvshuncai.com/baidusitemap.xml
