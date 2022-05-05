@@ -1,12 +1,14 @@
 User-agent: *
 Allow: /
-Allow: /archives/
-Allow: /categories/
-Allow: /tags/
+Allow: /archives
+Allow: /categories
+Allow: /tags
 
-Disallow: /vendors/
-Disallow: /fancybox/
-Disallow: /about/
-Disallow: /schedule/
+Disallow: /vendors
+Disallow: /fancybox
+Disallow: /about
+Disallow: /schedule
+Disallow: /boards
 
 Sitemap: https://github.lvshuncai.com/sitemap.xml
+Sitemap: https://github.lvshuncai.com/baidusitemap.xml

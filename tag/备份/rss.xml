@@ -7,6 +7,7 @@
         <language>zh-CN</language>
         <pubDate>Sun, 06 Mar 2022 00:50:35 +0800</pubDate>
         <lastBuildDate>Sun, 06 Mar 2022 00:50:35 +0800</lastBuildDate>
+        <category>QQ</category>
         <category>QQ空间</category>
         <category>QQ相册</category>
         <category>QQ群相册</category>
@@ -24,6 +25,7 @@
             <guid isPermalink="true">https://github.lvshuncai.com/archives/qq-group-ablums-downloader.html</guid>
             <title>QQ群相册批量下载，一键下载你的QQ群相册</title>
             <link>https://github.lvshuncai.com/archives/qq-group-ablums-downloader.html</link>
+            <category>QQ</category>
             <category>QQ空间</category>
             <category>QQ相册</category>
             <category>QQ群相册</category>
@@ -59,6 +61,7 @@
             <guid isPermalink="true">https://github.lvshuncai.com/archives/qzone-export.html</guid>
             <title>QQ空间备份神器，一键备份你的青春</title>
             <link>https://github.lvshuncai.com/archives/qzone-export.html</link>
+            <category>QQ</category>
             <category>QQ空间</category>
             <category>QQ相册</category>
             <category>备份</category>
@@ -83,13 +86,13 @@
 &lt;li&gt;支持备份QQ好友、含好友成立时间、单向好友检测、空间访问权限检测、特别关心的好友等&lt;/li&gt;
 &lt;li&gt;支持备份QQ空间分享内容，以及评论、点赞、最近访问&lt;/li&gt;
 &lt;li&gt;支持备份QQ空间收藏夹内容&lt;/li&gt;
-&lt;li&gt;支持备份QQ空间访客&lt;/li&gt;
+&lt;li&gt;支持备份QQ空间访客，仅支持备份谁访问了我，非全部备份，备份内容的多少，看是不是黄钻&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;相关术语&#34;&gt;&lt;a href=&#34;#相关术语&#34; class=&#34;headerlink&#34; title=&#34;相关术语&#34;&gt;&lt;/a&gt;相关术语&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;阅前重点&lt;/strong&gt; ，&lt;strong&gt;阅前重点&lt;/strong&gt; ，&lt;strong&gt;阅前重点&lt;/strong&gt;&lt;br&gt;以下为助手的相关术语，先进行阅读有个总体的概念，后续正式开始备份的前后，可再回来阅读&lt;/p&gt;
 &lt;h2 id=&#34;备份压缩包&#34;&gt;&lt;a href=&#34;#备份压缩包&#34; class=&#34;headerlink&#34; title=&#34;备份压缩包&#34;&gt;&lt;/a&gt;备份压缩包&lt;/h2&gt;&lt;p&gt;助手采集数据完成后，点击下方&lt;strong&gt;打包下载&lt;/strong&gt;后得到的压缩文件，也就是ZIP文件，被称为&lt;strong&gt;备份压缩包&lt;/strong&gt;，文件以&lt;strong&gt;QQ空间备份_QQ号&lt;/strong&gt;命名&lt;/p&gt;
 &lt;h2 id=&#34;文案内容&#34;&gt;&lt;a href=&#34;#文案内容&#34; class=&#34;headerlink&#34; title=&#34;文案内容&#34;&gt;&lt;/a&gt;文案内容&lt;/h2&gt;&lt;p&gt;指QQ空间的纯文字内容，比如说说文字&amp;#x2F;评论、日志内容&amp;#x2F;评论、留言的文字、相册名称、相册描述、相片名称、相片描述、点赞列表&amp;#x2F;人、最近访客等文字内容&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/74OyA1&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/74OyA1.png&#34; alt=&#34;74OyA1.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;文案内容文件&#34;&gt;&lt;a href=&#34;#文案内容文件&#34; class=&#34;headerlink&#34; title=&#34;文案内容文件&#34;&gt;&lt;/a&gt;文案内容文件&lt;/h2&gt;&lt;p&gt;用来保存&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9&#34;&gt;文案内容&lt;/a&gt;以及展示&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9&#34;&gt;文案内容&lt;/a&gt;的实体文件，比如HTML、MD、JSON文件&lt;br&gt;实体文件文件是根据&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E7%B1%BB%E5%9E%8B&#34;&gt;备份类型&lt;/a&gt;生成的文件，存放在&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E5%8E%8B%E7%BC%A9%E5%8C%85&#34;&gt;备份压缩包&lt;/a&gt;中&lt;/p&gt;
-&lt;h2 id=&#34;文案内容下载文件夹&#34;&gt;&lt;a href=&#34;#文案内容下载文件夹&#34; class=&#34;headerlink&#34; title=&#34;文案内容下载文件夹&#34;&gt;&lt;/a&gt;文案内容下载文件夹&lt;/h2&gt;&lt;p&gt;也就是浏览器设置中的下载文件夹，打包下载后，&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E5%8E%8B%E7%BC%A9%E5%8C%85&#34;&gt;备份压缩包&lt;/a&gt;后将自动存放到该文件夹下&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/75iAFe&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75iAFe.png&#34; alt=&#34;75iAFe.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;文案内容下载文件夹&#34;&gt;&lt;a href=&#34;#文案内容下载文件夹&#34; class=&#34;headerlink&#34; title=&#34;文案内容下载文件夹&#34;&gt;&lt;/a&gt;文案内容下载文件夹&lt;/h2&gt;&lt;p&gt;浏览器设置中的下载文件夹，打包下载后，&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E5%8E%8B%E7%BC%A9%E5%8C%85&#34;&gt;备份压缩包&lt;/a&gt;后将自动存放到该文件夹下，别再问为什么找不到助手的备份内容在哪了。&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/75iAFe&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75iAFe.png&#34; alt=&#34;75iAFe.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;figcaption&gt;&lt;span&gt;举个栗子，仅供参考&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Edge浏览器：D:\下载\Edge&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Chrome浏览器：D:\下载\Chrome下载&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;360浏览器：D:\下载\360下载&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://baidu.lvshuncai.com/?q=RWRnZea1j+iniOWZqOS4i+i9veiuvue9rg==&#34;&gt;Edge如何设置下载文件夹？&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://baidu.lvshuncai.com/?q=Q2hyb21l5rWP6KeI5Zmo5LiL6L296K6+572u&#34;&gt;Chrome如何设置下载文件夹？&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://baidu.lvshuncai.com/?q=MzYw5rWP6KeI5Zmo5LiL6L296K6+572u&#34;&gt;360极速浏览器如何设置下载文件夹？&lt;/a&gt;&lt;/p&gt;
@@ -97,14 +100,18 @@
 &lt;h2 id=&#34;文案内容备份文件夹&#34;&gt;&lt;a href=&#34;#文案内容备份文件夹&#34; class=&#34;headerlink&#34; title=&#34;文案内容备份文件夹&#34;&gt;&lt;/a&gt;文案内容备份文件夹&lt;/h2&gt;&lt;p&gt;就是存放了所有&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9%E6%96%87%E4%BB%B6&#34;&gt;文案内容文件&lt;/a&gt;的文件夹，即解压&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E5%8E%8B%E7%BC%A9%E5%8C%85&#34;&gt;备份压缩包&lt;/a&gt;后得到的文件夹&lt;br&gt;该文件夹一般存放在&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;文案内容下载文件夹&lt;/a&gt;中，除非你特意解压到了其它地方&lt;/p&gt;
 &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;figcaption&gt;&lt;span&gt;举个栗子，仅供参考&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Edge浏览器：D:\下载\Edge\QQ空间备份_QQ号&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Chrome浏览器：D:\下载\Chrome下载\QQ空间备份_QQ号&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;360浏览器：D:\下载\360下载\QQ空间备份_QQ号&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h2 id=&#34;多媒体文件&#34;&gt;&lt;a href=&#34;#多媒体文件&#34; class=&#34;headerlink&#34; title=&#34;多媒体文件&#34;&gt;&lt;/a&gt;多媒体文件&lt;/h2&gt;&lt;p&gt;实际的文件，比如说说的配图文件、日志的配图文件、留言配图文件等等，语音说说的MP3文件，相册的相片JPEG&amp;#x2F;JPG&amp;#x2F;PNG&amp;#x2F;GIF文件，视频的MP4文件等&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/74zZz6&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/74zZz6.png&#34; alt=&#34;74zZz6.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;多媒体文件下载文件夹&#34;&gt;&lt;a href=&#34;#多媒体文件下载文件夹&#34; class=&#34;headerlink&#34; title=&#34;多媒体文件下载文件夹&#34;&gt;&lt;/a&gt;多媒体文件下载文件夹&lt;/h2&gt;&lt;p&gt;就是助手配置的&lt;a href=&#34;#%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7&#34;&gt;文件下载工具&lt;/a&gt;所设置的下载文件夹&lt;br&gt;如果你下载工具为浏览器，该文件夹与&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;文案内容下载文件夹&lt;/a&gt;为同一个文件夹&lt;br&gt;如果你下载工具为是迅雷，请查看迅雷设置的下载文件夹&lt;/p&gt;
+&lt;h2 id=&#34;多媒体文件下载文件夹&#34;&gt;&lt;a href=&#34;#多媒体文件下载文件夹&#34; class=&#34;headerlink&#34; title=&#34;多媒体文件下载文件夹&#34;&gt;&lt;/a&gt;多媒体文件下载文件夹&lt;/h2&gt;&lt;p&gt;就是助手配置的&lt;a href=&#34;#%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7&#34;&gt;文件下载工具&lt;/a&gt;所设置的下载文件夹，别再问为什么找不到助手的备份内容在哪了。&lt;br&gt;比如，助手下载工具为浏览器时，该文件夹与&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;文案内容下载文件夹&lt;/a&gt;为同一个文件夹&lt;br&gt;比如，助手下载工具为迅雷时，请查看迅雷设置的下载文件夹，以此类推，我也不知道Aria2&amp;#x2F;Motrix的文件夹在哪。&lt;/p&gt;
 &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;figcaption&gt;&lt;span&gt;举个栗子，仅供参考&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;D:\下载\Edge&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;D:\下载\Aria2下载&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;D:\下载\Chrome下载&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;D:\下载\迅雷下载&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;h2 id=&#34;多媒体文件备份文件夹&#34;&gt;&lt;a href=&#34;#多媒体文件备份文件夹&#34; class=&#34;headerlink&#34; title=&#34;多媒体文件备份文件夹&#34;&gt;&lt;/a&gt;多媒体文件备份文件夹&lt;/h2&gt;&lt;p&gt;也就是存放了&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;的文件夹，在&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;多媒体文件下载文件夹&lt;/a&gt;中，比如：&lt;strong&gt;QQ空间备份_QQ号&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;figcaption&gt;&lt;span&gt;举个栗子，仅供参考&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;D:\下载\Edge\QQ空间备份_QQ号&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;D:\下载\Aria2下载\QQ空间备份_QQ号&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;D:\下载\Chrome下载\QQ空间备份_QQ号&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;D:\下载\迅雷下载\QQ空间备份_QQ号&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
-&lt;h2 id=&#34;完整备份文件夹&#34;&gt;&lt;a href=&#34;#完整备份文件夹&#34; class=&#34;headerlink&#34; title=&#34;完整备份文件夹&#34;&gt;&lt;/a&gt;完整备份文件夹&lt;/h2&gt;&lt;p&gt;同时存放了&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9&#34;&gt;文案内容&lt;/a&gt;与&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;的文件夹，即已经进行&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%88%E5%B9%B6&#34;&gt;备份文件夹合并&lt;/a&gt;后的文件夹&lt;/p&gt;
-&lt;h1 id=&#34;安装说明&#34;&gt;&lt;a href=&#34;#安装说明&#34; class=&#34;headerlink&#34; title=&#34;安装说明&#34;&gt;&lt;/a&gt;安装说明&lt;/h1&gt;&lt;h2 id=&#34;版本要求&#34;&gt;&lt;a href=&#34;#版本要求&#34; class=&#34;headerlink&#34; title=&#34;版本要求&#34;&gt;&lt;/a&gt;版本要求&lt;/h2&gt;&lt;p&gt;Chromium内核版本70以上，&lt;a href=&#34;https://liulanmi.com/labs/core.html&#34;&gt;点击这里检测浏览器内核版本&lt;/a&gt;&lt;br&gt;理论上，基于Chromium内核版本的浏览器均可正常使用，不支持在线安装的浏览器，需要自行进行&lt;a href=&#34;#%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85&#34;&gt;离线安装&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;完整备份文件夹&#34;&gt;&lt;a href=&#34;#完整备份文件夹&#34; class=&#34;headerlink&#34; title=&#34;完整备份文件夹&#34;&gt;&lt;/a&gt;完整备份文件夹&lt;/h2&gt;&lt;p&gt;最终备份成功的备份文件夹，这里同时存放了&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9&#34;&gt;文案内容&lt;/a&gt;与&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;的文件夹，即已经进行&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%88%E5%B9%B6&#34;&gt;备份文件夹合并&lt;/a&gt;后的文件夹&lt;/p&gt;
+&lt;h1 id=&#34;安装说明&#34;&gt;&lt;a href=&#34;#安装说明&#34; class=&#34;headerlink&#34; title=&#34;安装说明&#34;&gt;&lt;/a&gt;安装说明&lt;/h1&gt;&lt;h2 id=&#34;版本要求&#34;&gt;&lt;a href=&#34;#版本要求&#34; class=&#34;headerlink&#34; title=&#34;版本要求&#34;&gt;&lt;/a&gt;版本要求&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;建议&lt;strong&gt;Chromium内核版本70&lt;/strong&gt;以上，&lt;a href=&#34;https://liulanmi.com/labs/core.html&#34;&gt;点击这里检测浏览器内核版本&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;理论上，&lt;strong&gt;基于Chromium内核版本的浏览器均可正常使用&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;其它&lt;strong&gt;不支持在线安装的Chromium浏览器&lt;/strong&gt;，请移步&lt;a href=&#34;#%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85&#34;&gt;离线安装&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;在线安装&#34;&gt;&lt;a href=&#34;#在线安装&#34; class=&#34;headerlink&#34; title=&#34;在线安装&#34;&gt;&lt;/a&gt;在线安装&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://microsoftedge.microsoft.com/addons/detail/djfalpkpjgpkfnkfmnegbalnicdoljcn&#34;&gt;Microsoft Edge&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/aofadimegphfgllgjblddapiaojbglhf&#34;&gt;Chrome浏览器&lt;/a&gt;&lt;/li&gt;
@@ -113,34 +120,55 @@
 &lt;li&gt;其他的&lt;a href=&#34;https://baidu.lvshuncai.com/?q=Q2hyb21pdW3lhoXmoLjmtY/op4jlmag=&#34;&gt;Chromium内核浏览器&lt;/a&gt;请移步&lt;a href=&#34;#%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85&#34;&gt;离线安装&lt;/a&gt;。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;离线安装&#34;&gt;&lt;a href=&#34;#离线安装&#34; class=&#34;headerlink&#34; title=&#34;离线安装&#34;&gt;&lt;/a&gt;离线安装&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ShunCai/QZoneExport/releases/latest&#34;&gt;下载源码Zip包&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ShunCai/QZoneExport/releases/latest&#34;&gt;下载助手源码Zip包&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;解压源码Zip包&lt;/li&gt;
-&lt;li&gt;打开【浏览器扩展管理】&lt;/li&gt;
-&lt;li&gt;打开【开发者模式】&lt;/li&gt;
-&lt;li&gt;点击【加载已解压的扩展程序】按钮&lt;/li&gt;
+&lt;li&gt;打开&lt;strong&gt;浏览器扩展管理&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;打开&lt;strong&gt;开发者模式&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;点击&lt;strong&gt;加载已解压的扩展程序&lt;/strong&gt;按钮&lt;/li&gt;
 &lt;li&gt;选择源码包(ZIP)的解压文件夹&lt;/li&gt;
 &lt;li&gt;安装完成&lt;/li&gt;
 &lt;li&gt;更多问题点击&lt;a href=&#34;https://baidu.lvshuncai.com/?q=Q2hyb21lIOWuieijhSDnprvnur/lronoo4Ug5omp5bGVIENSWA==&#34;&gt;这里&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;使用说明&#34;&gt;&lt;a href=&#34;#使用说明&#34; class=&#34;headerlink&#34; title=&#34;使用说明&#34;&gt;&lt;/a&gt;使用说明&lt;/h1&gt;&lt;h2 id=&#34;使用步骤&#34;&gt;&lt;a href=&#34;#使用步骤&#34; class=&#34;headerlink&#34; title=&#34;使用步骤&#34;&gt;&lt;/a&gt;使用步骤&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;先进行助手的安装，更多详情请移步&lt;a href=&#34;#%E5%9C%A8%E7%BA%BF%E5%AE%89%E8%A3%85&#34;&gt;在线安装&lt;/a&gt;或&lt;a href=&#34;#%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85&#34;&gt;离线安装&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;助手安装完成后，&lt;strong&gt;可以先根据&lt;/strong&gt;个人情况进行助手的配置，更多详情请移步&lt;a href=&#34;#%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E&#34;&gt;配置说明&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;一切准备就绪，接下来，请先&lt;strong&gt;登录QQ空间&lt;/strong&gt;，&lt;strong&gt;登录QQ空间&lt;/strong&gt;，&lt;strong&gt;登录QQ空间&lt;/strong&gt;，重要的事情说三遍。&lt;/li&gt;
-&lt;li&gt;然后，&lt;strong&gt;进入需要备份的QQ空间&lt;/strong&gt;，如果只是备份自己的QQ空间，该步骤&lt;em&gt;可跳过&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;备份前，&lt;strong&gt;刷新需要备份QQ空间页面使助手配置生效&lt;/strong&gt;，如果是保存配置后再打开的QQ空间页面，该步骤&lt;em&gt;可跳过&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;在需要备份的QQ空间页面，插件栏点击插件图标进行备份，如果点击图标无反映请移步&lt;a href=&#34;#%E7%82%B9%E5%87%BB%E5%8A%A9%E6%89%8B%E5%9B%BE%E6%A0%87%E6%97%A0%E5%8F%8D%E5%BA%94&#34;&gt;这里&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/75EXvj&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75EXvj.png&#34; alt=&#34;75EXvj.png&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;选择要备份的QQ空间内容，建议全部备份，点击&lt;strong&gt;开始备份&lt;/strong&gt;&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/7TIqG8&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/24/7TIqG8.png&#34; alt=&#34;7TIqG8.png&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;助手将开始收集QQ空间的数据，&lt;strong&gt;请耐心等待数据收集完成&lt;/strong&gt;&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/75eUC8&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75eUC8.png&#34; alt=&#34;75eUC8.png&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;QQ空间数据采集完成后，助手自行添加&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;的下载任务到&lt;a href=&#34;#%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7&#34;&gt;文件下载工具&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/75mZrj&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75mZrj.png&#34; alt=&#34;75mZrj.png&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;如若不涉及文案内容的下载，助手的备份任务到此已完成&lt;/strong&gt;，剩下的请耐心等待&lt;a href=&#34;#%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7&#34;&gt;文件下载工具&lt;/a&gt;把&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;的下载任务完成，然后&lt;a href=&#34;#%E6%9F%A5%E7%9C%8B%E5%A4%87%E4%BB%BD%E5%86%85%E5%AE%B9&#34;&gt;查看备份内容&lt;/a&gt;即可，更多内容移步&lt;a href=&#34;#%E6%89%93%E5%8C%85%E4%B8%8B%E8%BD%BD&#34;&gt;打包下载&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;如若涉及文案内容的下载&lt;/strong&gt;，&lt;a href=&#34;#%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7&#34;&gt;文件下载工具&lt;/a&gt;的下载任务添加完成后，备份界面下方将出现&lt;strong&gt;打包下载&lt;/strong&gt;按钮，更多内容移步&lt;a href=&#34;#%E6%89%93%E5%8C%85%E4%B8%8B%E8%BD%BD&#34;&gt;打包下载&lt;/a&gt;&lt;br&gt;   &lt;a href=&#34;https://imgtu.com/i/75mbes&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75mbes.png&#34; alt=&#34;75mbes.png&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;点击&lt;strong&gt;打包下载&lt;/strong&gt;按钮时，助手自动打包&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9&#34;&gt;文案内容&lt;/a&gt;到&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E5%8E%8B%E7%BC%A9%E5%8C%85&#34;&gt;备份压缩包&lt;/a&gt;并下载&lt;br&gt;   &lt;a href=&#34;https://imgtu.com/i/75nAFx&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75nAFx.png&#34; alt=&#34;75nAFx.png&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E5%8E%8B%E7%BC%A9%E5%8C%85&#34;&gt;备份压缩包&lt;/a&gt;下载完成后，点击&lt;strong&gt;查看备份&lt;/strong&gt;按钮查看&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E5%8E%8B%E7%BC%A9%E5%8C%85&#34;&gt;备份压缩包&lt;/a&gt;，点击&lt;strong&gt;查看备份&lt;/strong&gt;按钮无法查看是，可自行打开&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;文案内容下载文件夹&lt;/a&gt;查看&lt;br&gt;   &lt;a href=&#34;https://imgtu.com/i/75neSO&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75neSO.png&#34; alt=&#34;75neSO.png&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;解压压缩包，建议解压时，选择解压到当前文件夹，而不是解压到&lt;strong&gt;QQ空间备份_QQ号&lt;/strong&gt;，因为这样子，文件下载工具为浏览器下载时，则无需进行&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%88%E5%B9%B6&#34;&gt;备份文件夹合并&lt;/a&gt;，解压的动作就是合并的过程。&lt;/li&gt;
-&lt;li&gt;再进行&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;文案内容备份文件夹&lt;/a&gt;与&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;多媒体文件备份文件夹&lt;/a&gt;的合并，详情移步&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%88%E5%B9%B6&#34;&gt;备份文件夹合并&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;合并完成后，根据备份类型的不同，自行&lt;a href=&#34;#%E6%9F%A5%E7%9C%8B%E5%A4%87%E4%BB%BD%E5%86%85%E5%AE%B9&#34;&gt;查看备份内容&lt;/a&gt;&lt;br&gt;   &lt;a href=&#34;https://imgtu.com/i/7T4kxH&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/24/7T4kxH.png&#34; alt=&#34;7T4kxH.png&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;完整备份文件夹结构，如果结构不对，表示合并错误   &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;figcaption&gt;&lt;span&gt;QQ空间备份_QQ号&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;├─Albums         // 相册模块文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  ├─Images      // 主要放相册的预览图，来源于[多媒体文件备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  ├─js          // 助手展示内容专用，来源于[文案内容备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  ├─json        // 助手展示内容专用，来源于[文案内容备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  └─其它        // 相册分类文件夹，来源于[多媒体文件备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│      ├─相册A   // 相册文件夹，相册的相片就放这里面，来源于[多媒体文件备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Blogs      // 日志模块文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  ├─Images  // 配图，来源于[多媒体文件备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  ├─js      // 助手展示内容专用，来源于[文案内容备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  └─json    // 助手展示内容专用，来源于[文案内容备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Boards     // 留言模块文件夹，子文件夹可参考日志模块文件夹       &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Common     // 助手专用&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  ├─css     // 助手展示内容专用，来源于[文案内容备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  ├─Images  // 其它配图，来源于[多媒体文件备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  ├─js      // 助手展示内容专用，来源于[文案内容备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  └─json    // 助手展示内容专用，来源于[文案内容备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Diaries    // 私密日记模块文件夹，子文夹件可参考日志模块文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Favorites  // 收藏夹模块文件夹，子文件夹可参考日志模块文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Friends    // QQ好友模块文件夹，子文件夹可参考日志模块文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Messages   // 说说模块文件夹，子文件夹可参考日志模块文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Shares     // 分享模块文件夹，子文件夹可参考日志模块文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Videos     // 视频模块文件夹，子文件夹可参考日志模块文件夹与相册模块文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;└─Visitors   // 访客模块文件夹，子文件夹可参考日志模块文件夹&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;最后，你可以把&lt;a href=&#34;#%E5%AE%8C%E6%95%B4%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;完整备份文件夹&lt;/a&gt;复制或移动到其它地方进行再次备份、比如说U盘、网盘、或者电脑的其它位置、甚至部署到服务器，比如&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E9%A2%84%E8%A7%88&#34;&gt;备份预览&lt;/a&gt;就是基于备份内容部署到服务器的&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;先进行助手安装，更多详情请移步&lt;a href=&#34;#%E5%9C%A8%E7%BA%BF%E5%AE%89%E8%A3%85&#34;&gt;在线安装&lt;/a&gt;或&lt;a href=&#34;#%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85&#34;&gt;离线安装&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;安装完成后，&lt;strong&gt;可以先根据&lt;/strong&gt;个人情况进行助手的配置，更多详情请移步&lt;a href=&#34;#%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E&#34;&gt;配置说明&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;接下来，请先&lt;strong&gt;登录QQ空间&lt;/strong&gt;，&lt;strong&gt;登录QQ空间&lt;/strong&gt;，&lt;strong&gt;登录QQ空间&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;然后，&lt;strong&gt;进入需要备份的QQ空间&lt;/strong&gt;、&lt;strong&gt;进入需要备份的QQ空间&lt;/strong&gt;、&lt;strong&gt;进入需要备份的QQ空间&lt;/strong&gt;，若只备份自己的QQ空间，该步骤&lt;em&gt;可跳过&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;拜托，别再问我怎么备份QQ好友的空间内容了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;备份前，&lt;strong&gt;刷新备份的QQ空间页面&lt;/strong&gt;使助手的配置&lt;strong&gt;生效&lt;/strong&gt;，如果是保存配置后再打开的QQ空间页面，该步骤&lt;em&gt;可跳过&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在需要备份的QQ空间页面，插件栏点击插件图标进行备份，如果点击图标无反映请移步&lt;a href=&#34;#%E7%82%B9%E5%87%BB%E5%8A%A9%E6%89%8B%E5%9B%BE%E6%A0%87%E6%97%A0%E5%8F%8D%E5%BA%94&#34;&gt;这里&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/75EXvj&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75EXvj.png&#34; alt=&#34;75EXvj.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;选择要备份的QQ空间内容，建议全部备份，点击&lt;strong&gt;开始备份&lt;/strong&gt;&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/7TIqG8&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/24/7TIqG8.png&#34; alt=&#34;7TIqG8.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;助手将开始收集QQ空间的数据，&lt;strong&gt;请耐心等待数据收集完成&lt;/strong&gt;&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/75eUC8&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75eUC8.png&#34; alt=&#34;75eUC8.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;QQ空间数据采集完成后，助手自行添加&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;的下载任务到&lt;a href=&#34;#%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7&#34;&gt;文件下载工具&lt;/a&gt;&lt;br&gt;   &lt;a href=&#34;https://imgtu.com/i/75mZrj&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75mZrj.png&#34; alt=&#34;75mZrj.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;如若不涉及文案内容的下载，助手的备份任务到此已完成&lt;/strong&gt;，剩下的请耐心等待&lt;a href=&#34;#%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7&#34;&gt;文件下载工具&lt;/a&gt;把&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;的下载任务完成，然后&lt;a href=&#34;#%E6%9F%A5%E7%9C%8B%E5%A4%87%E4%BB%BD%E5%86%85%E5%AE%B9&#34;&gt;查看备份内容&lt;/a&gt;即可，更多内容移步&lt;a href=&#34;#%E6%89%93%E5%8C%85%E4%B8%8B%E8%BD%BD&#34;&gt;打包下载&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;如若涉及文案内容的下载&lt;/strong&gt;，&lt;a href=&#34;#%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7&#34;&gt;文件下载工具&lt;/a&gt;的下载任务添加完成后，备份界面下方将出现&lt;strong&gt;打包下载&lt;/strong&gt;按钮，更多内容移步&lt;a href=&#34;#%E6%89%93%E5%8C%85%E4%B8%8B%E8%BD%BD&#34;&gt;打包下载&lt;/a&gt;&lt;br&gt;  &lt;a href=&#34;https://imgtu.com/i/75mbes&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75mbes.png&#34; alt=&#34;75mbes.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;点击&lt;strong&gt;打包下载&lt;/strong&gt;按钮时，助手自动打包&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9&#34;&gt;文案内容&lt;/a&gt;到&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E5%8E%8B%E7%BC%A9%E5%8C%85&#34;&gt;备份压缩包&lt;/a&gt;并下载&lt;br&gt;  &lt;a href=&#34;https://imgtu.com/i/75nAFx&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75nAFx.png&#34; alt=&#34;75nAFx.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E5%8E%8B%E7%BC%A9%E5%8C%85&#34;&gt;备份压缩包&lt;/a&gt;下载完成后，点击&lt;strong&gt;查看备份&lt;/strong&gt;按钮查看&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E5%8E%8B%E7%BC%A9%E5%8C%85&#34;&gt;备份压缩包&lt;/a&gt;，点击&lt;strong&gt;查看备份&lt;/strong&gt;按钮无法查看时，可自行打开&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;文案内容下载文件夹&lt;/a&gt;查看&lt;br&gt;  &lt;a href=&#34;https://imgtu.com/i/75neSO&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75neSO.png&#34; alt=&#34;75neSO.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;解压压缩包，建议解压时，选择解压到当前文件夹，而不是解压到&lt;strong&gt;QQ空间备份_QQ号&lt;/strong&gt;，这样的话，当文件下载工具为浏览器下载时，则无需进行额外的&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%88%E5%B9%B6&#34;&gt;备份文件夹合并&lt;/a&gt;，解压的动作就是合并的过程。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;再进行&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;文案内容备份文件夹&lt;/a&gt;与&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;多媒体文件备份文件夹&lt;/a&gt;的合并，详情移步&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%88%E5%B9%B6&#34;&gt;备份文件夹合并&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;合并完成后，根据备份类型的不同，自行&lt;a href=&#34;#%E6%9F%A5%E7%9C%8B%E5%A4%87%E4%BB%BD%E5%86%85%E5%AE%B9&#34;&gt;查看备份内容&lt;/a&gt;&lt;br&gt;  &lt;a href=&#34;https://imgtu.com/i/7T4kxH&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/24/7T4kxH.png&#34; alt=&#34;7T4kxH.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;完整备份文件夹结构，如果结构不对，表示合并错误，比如会导致备份内容无法查看配图&lt;/p&gt;
+   &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;figcaption&gt;&lt;span&gt;QQ空间备份_QQ号&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;├─Albums         // 相册模块文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  ├─Images      // 主要放相册的预览图，来源于[多媒体文件备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  ├─js          // 助手展示内容专用，来源于[文案内容备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  ├─json        // 助手展示内容专用，来源于[文案内容备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  └─其它        // 相册分类文件夹，来源于[多媒体文件备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│      ├─相册A   // 相册文件夹，相册的相片就放这里面，来源于[多媒体文件备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Blogs      // 日志模块文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  ├─Images  // 配图，来源于[多媒体文件备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  ├─js      // 助手展示内容专用，来源于[文案内容备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  └─json    // 助手展示内容专用，来源于[文案内容备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Boards     // 留言模块文件夹，子文件夹可参考日志模块文件夹       &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Common     // 助手专用&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  ├─css     // 助手展示内容专用，来源于[文案内容备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  ├─Images  // 其它配图，来源于[多媒体文件备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  ├─js      // 助手展示内容专用，来源于[文案内容备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  └─json    // 助手展示内容专用，来源于[文案内容备份文件夹]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Diaries    // 私密日记模块文件夹，子文夹件可参考日志模块文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Favorites  // 收藏夹模块文件夹，子文件夹可参考日志模块文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Friends    // QQ好友模块文件夹，子文件夹可参考日志模块文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Messages   // 说说模块文件夹，子文件夹可参考日志模块文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Shares     // 分享模块文件夹，子文件夹可参考日志模块文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─Videos     // 视频模块文件夹，子文件夹可参考日志模块文件夹与相册模块文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;└─Visitors   // 访客模块文件夹，子文件夹可参考日志模块文件夹&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;最后，你可以把&lt;a href=&#34;#%E5%AE%8C%E6%95%B4%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;完整备份文件夹&lt;/a&gt;复制或移动到其它地方进行再次备份、比如说U盘、网盘、或者电脑的其它位置、甚至部署到服务器，比如&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E9%A2%84%E8%A7%88&#34;&gt;备份预览&lt;/a&gt;就是基于备份内容部署到服务器的&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;打包下载&#34;&gt;&lt;a href=&#34;#打包下载&#34; class=&#34;headerlink&#34; title=&#34;打包下载&#34;&gt;&lt;/a&gt;打包下载&lt;/h2&gt;&lt;p&gt;如果只备份相册&amp;#x2F;视频模块，且&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E7%B1%BB%E5%9E%8B&#34;&gt;备份类型&lt;/a&gt;为文件&amp;#x2F;MP4文件时，可能不涉及文案内容下载&lt;/p&gt;
 &lt;p&gt;一般有以下两个场景：&lt;/p&gt;
@@ -167,7 +195,10 @@
 &lt;li&gt;弹窗提示选择&lt;strong&gt;保存更改&lt;/strong&gt;&lt;br&gt;   &lt;img src=&#34;https://s4.ax1x.com/2022/02/27/bm8pkR.png&#34; alt=&#34;bm8pkR.png&#34;&gt;&lt;/li&gt;
 &lt;li&gt;查看备份内容，发现&lt;strong&gt;情侣生活&lt;/strong&gt;已添加到备份内容中&lt;br&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/03/05/b0vftH.png&#34; alt=&#34;b0vftH.png&#34;&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;PS：&lt;strong&gt;V1.1.5版本目前该功能无法使用，V1.1.6版本修复&lt;/strong&gt;  &lt;/p&gt;
+&lt;h2 id=&#34;备份管理&#34;&gt;&lt;a href=&#34;#备份管理&#34; class=&#34;headerlink&#34; title=&#34;备份管理&#34;&gt;&lt;/a&gt;备份管理&lt;/h2&gt;&lt;p&gt;查看与管理已备份的数据，仅适用于增量备份&lt;br&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/05/05/OmhDXT.png&#34; alt=&#34;备份管理&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;导入&#34;&gt;&lt;a href=&#34;#导入&#34; class=&#34;headerlink&#34; title=&#34;导入&#34;&gt;&lt;/a&gt;导入&lt;/h3&gt;&lt;p&gt;导入已备份的数据到浏览器中，比如，压缩包中的&lt;strong&gt;QQ空间备份_QQ号&amp;#x2F;Common&amp;#x2F;json&amp;#x2F;助手手备份数据_QQ号.json&lt;/strong&gt;&lt;br&gt;没有选择模块时，导入所有模块数据，选择了模块时，只导入指定模块数据&lt;/p&gt;
+&lt;h3 id=&#34;导出&#34;&gt;&lt;a href=&#34;#导出&#34; class=&#34;headerlink&#34; title=&#34;导出&#34;&gt;&lt;/a&gt;导出&lt;/h3&gt;&lt;p&gt;导出浏览器中已备份的数据到本地，避免浏览器清除数据后导致数据丢失&lt;br&gt;没有选择模块时，导出所有模块数据，选择了模块时，只导出指定模块数据&lt;/p&gt;
+&lt;h3 id=&#34;删除&#34;&gt;&lt;a href=&#34;#删除&#34; class=&#34;headerlink&#34; title=&#34;删除&#34;&gt;&lt;/a&gt;删除&lt;/h3&gt;&lt;p&gt;删除浏览器中已备份的数据，删除后，将全量备份数据&lt;br&gt;没有选择模块时，删除所有模块数据，选择了模块时，只删除指定模块数据，相册模块，可单独删除指定相册，删除后，可重新备份该相册，不支持导出指定相册。&lt;/p&gt;
 &lt;h2 id=&#34;备份文件夹合并&#34;&gt;&lt;a href=&#34;#备份文件夹合并&#34; class=&#34;headerlink&#34; title=&#34;备份文件夹合并&#34;&gt;&lt;/a&gt;备份文件夹合并&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;合并前，请先回顾&lt;a href=&#34;#%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD&#34;&gt;助手的相关术语&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;等待&lt;a href=&#34;#%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7&#34;&gt;文件下载工具&lt;/a&gt;中的&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;的下载任务完成&lt;ol&gt;
@@ -215,19 +246,19 @@
 &lt;li&gt;场景③：第一次备份时，只勾选了相册模块的A相册，后续想要备份相册模块的B相册，备份前，把相册模块的增量备份改为&lt;strong&gt;上次备份&lt;/strong&gt;，然后备份时，勾选相册模块，然后勾选B相册即可，如果A相册需要增量，把A相册同时勾选，A相册不勾选也会默认保留，但是不会增量备份A相册新增的相片&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;注意事项&lt;/strong&gt;：目前增量备份使用时，不能清除浏览器数据或缓存，不然增量备份或将失效，没实际验证过，或许或会优化&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;注意事项&lt;/strong&gt;：增量备份数据存放到&lt;strong&gt;QQ空间备份_QQ号&amp;#x2F;Common&amp;#x2F;json&amp;#x2F;助手手备份数据_QQ号.json&lt;/strong&gt;文件中，可基于&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E7%AE%A1%E7%90%86&#34;&gt;备份管理&lt;/a&gt;来管理增量备份数据&lt;/li&gt;
 &lt;li&gt;更多注意事项，请查看&lt;a href=&#34;#%E9%85%8D%E7%BD%AE-%E5%A2%9E%E9%87%8F%E5%A4%87%E4%BB%BD&#34;&gt;配置说明-增量备份&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;配置说明&#34;&gt;&lt;a href=&#34;#配置说明&#34; class=&#34;headerlink&#34; title=&#34;配置说明&#34;&gt;&lt;/a&gt;配置说明&lt;/h1&gt;&lt;h2 id=&#34;如何配置&#34;&gt;&lt;a href=&#34;#如何配置&#34; class=&#34;headerlink&#34; title=&#34;如何配置&#34;&gt;&lt;/a&gt;如何配置&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;浏览器插件栏右键助手图标，选择&lt;strong&gt;选项&lt;/strong&gt;&amp;#x2F;&lt;strong&gt;扩展选项&lt;/strong&gt;菜单后，将进入助手配置页&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/75Fc4g&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75Fc4g.png&#34; alt=&#34;75Fc4g.png&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;浏览器插件栏右键助手图标，选择&lt;strong&gt;选项&lt;/strong&gt;&amp;#x2F;&lt;strong&gt;扩展选项&lt;/strong&gt;菜单后，将进入助手配置页&lt;br&gt; &lt;a href=&#34;https://imgtu.com/i/75Fc4g&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75Fc4g.png&#34; alt=&#34;75Fc4g.png&#34;&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;助手配置页顶部分为&lt;strong&gt;设置&lt;/strong&gt;、&lt;strong&gt;工具&lt;/strong&gt;以及&lt;strong&gt;关于&lt;/strong&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;设置&lt;/strong&gt;：助手配置页的核心页面，在这里进行助手的配置&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;工具&lt;/strong&gt;：一个额外添加本地相册到备份内容中的工具，可忽略&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;关于&lt;/strong&gt;：助手的一些简介与说明&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/75kAxA&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75kAxA.png&#34; alt=&#34;75kAxA.png&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;工具&lt;/strong&gt;：一些额外的辅助&amp;#x2F;增强工具，主要是&lt;a href=&#34;#%E6%9C%AC%E5%9C%B0%E7%9B%B8%E5%86%8C&#34;&gt;本地相册&lt;/a&gt;以及&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E7%AE%A1%E7%90%86&#34;&gt;备份管理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;关于&lt;/strong&gt;：助手的一些简介与说明&lt;br&gt; &lt;a href=&#34;https://imgtu.com/i/75kAxA&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75kAxA.png&#34; alt=&#34;75kAxA.png&#34;&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;注意事项&lt;/strong&gt;：助手更新配置后，需要点击下方配置页的保存按钮&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;注意事项&lt;/strong&gt;：保存后，需要刷新QQ空间页面才能使最新的配置在备份页面生效。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;注意事项&lt;/strong&gt;：保存后，&lt;strong&gt;需要刷新QQ空间页面才能使最新的配置在备份页面生效&lt;/strong&gt;。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;通用配置&#34;&gt;&lt;a href=&#34;#通用配置&#34; class=&#34;headerlink&#34; title=&#34;通用配置&#34;&gt;&lt;/a&gt;通用配置&lt;/h2&gt;&lt;h3 id=&#34;备份类型&#34;&gt;&lt;a href=&#34;#备份类型&#34; class=&#34;headerlink&#34; title=&#34;备份类型&#34;&gt;&lt;/a&gt;备份类型&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;助手选项-&amp;gt;设置-&amp;gt;模块-&amp;gt;公共选项-&amp;gt;备份类型&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;将QQ空间的&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9&#34;&gt;文案内容&lt;/a&gt;备份到什么类型的&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9%E6%96%87%E4%BB%B6&#34;&gt;文案内容文件&lt;/a&gt;，每个模块可单独配置，建议每个模块保持一样的备份类型，比如都为HTML&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/75k2dK&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75k2dK.png&#34; alt=&#34;75k2dK.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -271,7 +302,7 @@
 &lt;p&gt;&lt;strong&gt;全量（推荐）&lt;/strong&gt;&lt;br&gt;顾名思义，就是全量备份，&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9&#34;&gt;文案内容&lt;/a&gt;与&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;均全量备份&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;上次备份&lt;/strong&gt;&lt;br&gt;基于上次备份数据数据，增量备份&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9&#34;&gt;文案内容&lt;/a&gt;与&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;上次备份的&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9&#34;&gt;文案内容&lt;/a&gt;将保留在浏览器中，&lt;strong&gt;如果清除了浏览器数据，可能会导致备份数据缺失&lt;/strong&gt;&lt;br&gt;上次备份的&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;需要保留，也就是&lt;a href=&#34;#%E5%AE%8C%E6%95%B4%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;完整备份文件夹&lt;/a&gt;或&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;多媒体文件备份文件夹&lt;/a&gt;&lt;br&gt;增量备份时，只会备份上次备份后QQ空间新增的内容，不会更新与删除内容，比如&lt;/p&gt;
+&lt;p&gt;上次备份的&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9&#34;&gt;文案内容&lt;/a&gt;将保留在浏览器中，&lt;strong&gt;如果清除了浏览器数据&lt;/strong&gt;可基于&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E7%AE%A1%E7%90%86&#34;&gt;备份管理&lt;/a&gt;重新导入助手备份数据&lt;br&gt;上次备份的&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;需要保留，也就是上一次备份的&lt;a href=&#34;#%E5%AE%8C%E6%95%B4%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;完整备份文件夹&lt;/a&gt;或&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;多媒体文件备份文件夹&lt;/a&gt;&lt;br&gt;增量备份时，只会备份上次备份后QQ空间新增的内容，不会更新与删除内容，比如&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;发表了&lt;/strong&gt;说说，将会备份新发表的说说&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;删除了&lt;/strong&gt;说说，增量备份完成后，说说依然在&lt;a href=&#34;#%E5%AE%8C%E6%95%B4%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;完整备份文件夹&lt;/a&gt;中&lt;/li&gt;
@@ -281,8 +312,10 @@
 &lt;/ul&gt;
 &lt;p&gt;更多内容，参考：&lt;a href=&#34;#%E5%A2%9E%E9%87%8F%E5%A4%87%E4%BB%BD&#34;&gt;使用说明-增量备份&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;自定义备份（不推荐）&lt;/strong&gt;：&lt;br&gt;基于指定之间后的数据增量备份，比如重新增量备份2022年后的QQ空间&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9&#34;&gt;文案内容&lt;/a&gt;与&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;上次备份的&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9&#34;&gt;文案内容&lt;/a&gt;将保留在浏览器中，如果清除了浏览器数据，可能会导致备份数据丢失&lt;br&gt;上次备份的&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;需要保留，也就是&lt;a href=&#34;#%E5%AE%8C%E6%95%B4%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;完整备份文件夹&lt;/a&gt;或&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;多媒体文件备份文件夹&lt;/a&gt;&lt;br&gt;可配合增量备份使用：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;自定义&lt;/strong&gt;：&lt;br&gt;基于指定之间后的数据增量备份，比如重新增量备份2022年后的QQ空间&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9&#34;&gt;文案内容&lt;/a&gt;与&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上次备份的&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9&#34;&gt;文案内容&lt;/a&gt;将保留在浏览器中，&lt;strong&gt;如果清除了浏览器数据&lt;/strong&gt;可基于&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E7%AE%A1%E7%90%86&#34;&gt;备份管理&lt;/a&gt;重新导入助手备份数据&lt;br&gt;上次备份的&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;需要保留，也就是上一次备份的&lt;a href=&#34;#%E5%AE%8C%E6%95%B4%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;完整备份文件夹&lt;/a&gt;或&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;多媒体文件备份文件夹&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;可直接备份指定时间后的全部内容，比如我只需要今年发表的时候，则指定时间为2022-1-1然后备份即可&lt;/p&gt;
+&lt;p&gt;也可配合&lt;strong&gt;上次备份&lt;/strong&gt;使用从而达到增量备份指定时间后的空间内容，比如：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;2022-1-2，我发表了&lt;strong&gt;说说A&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;2022-1-2，我全量备份了说说，即同时备份了&lt;strong&gt;说说A&lt;/strong&gt;&lt;/li&gt;
@@ -292,7 +325,7 @@
 &lt;/ul&gt;
 &lt;p&gt;更多内容，参考：&lt;a href=&#34;#%E5%A2%9E%E9%87%8F%E5%A4%87%E4%BB%BD&#34;&gt;使用说明-增量备份&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;说说配置&#34;&gt;&lt;a href=&#34;#说说配置&#34; class=&#34;headerlink&#34; title=&#34;说说配置&#34;&gt;&lt;/a&gt;说说配置&lt;/h2&gt;&lt;h3 id=&#34;关键词屏蔽&#34;&gt;&lt;a href=&#34;#关键词屏蔽&#34; class=&#34;headerlink&#34; title=&#34;关键词屏蔽&#34;&gt;&lt;/a&gt;关键词屏蔽&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;助手选项-&amp;gt;设置-&amp;gt;说说-&amp;gt;说说选项-&amp;gt;屏蔽开关&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;根据关键字过滤掉说说，即不备份含指定关键字的说说，&lt;strong&gt;谨慎使用，避免屏蔽正常说说。&lt;/strong&gt;&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/bmmX9g&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/02/27/bmmX9g.png&#34; alt=&#34;bmmX9g.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;根据关键字过滤掉说说，即不备份含指定关键字的说说，&lt;strong&gt;谨慎使用，避免屏蔽正常说说。&lt;/strong&gt;&lt;br&gt;一般不建议使用，除非你不需要备份你的或TA人发表的&lt;strong&gt;微商式&lt;/strong&gt;的说说&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/bmmX9g&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/02/27/bmmX9g.png&#34; alt=&#34;bmmX9g.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;日志配置&#34;&gt;&lt;a href=&#34;#日志配置&#34; class=&#34;headerlink&#34; title=&#34;日志配置&#34;&gt;&lt;/a&gt;日志配置&lt;/h2&gt;&lt;h3 id=&#34;展示方式&#34;&gt;&lt;a href=&#34;#展示方式&#34; class=&#34;headerlink&#34; title=&#34;展示方式&#34;&gt;&lt;/a&gt;展示方式&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;助手选项-&amp;gt;设置-&amp;gt;日志-&amp;gt;日志选项-&amp;gt;展示方式&lt;/strong&gt;&lt;br&gt;日志列表的展示方式，表格或列表&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;表格&lt;/strong&gt;&lt;br&gt;日志列表以表格的方式展示&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/75MAkn&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75MAkn.png&#34; alt=&#34;75MAkn.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;列表（默认）&lt;/strong&gt;&lt;br&gt;日志列表以列表的方式展示&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/75KzSf&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75KzSf.png&#34; alt=&#34;75KzSf.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -339,16 +372,30 @@
 &lt;p&gt;&lt;strong&gt;表格&lt;/strong&gt;&lt;br&gt;好友列表以表格的方式展示&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/75Gqjx&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75Gqjx.png&#34; alt=&#34;75Gqjx.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;列表（默认）&lt;/strong&gt;&lt;br&gt;好友列表以列表的方式展示&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/758YLT&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/758YLT.png&#34; alt=&#34;758YLT.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;互动信息&#34;&gt;&lt;a href=&#34;#互动信息&#34; class=&#34;headerlink&#34; title=&#34;互动信息&#34;&gt;&lt;/a&gt;互动信息&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;助手选项-&amp;gt;设置-&amp;gt;好友-&amp;gt;好友选项-&amp;gt;互动信息&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;勾选后，将备份以下内容&lt;/p&gt;
+&lt;p&gt;互动信息，来源于QQ空间的好友亲密度页面，勾选后，将备份以下内容&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;好友添加时间&lt;/li&gt;
-&lt;li&gt;单向好友检测，即你好友列表中有他，他好友列表中没有你&lt;/li&gt;
-&lt;li&gt;亲密度&lt;/li&gt;
-&lt;li&gt;共同好友个数&lt;/li&gt;
-&lt;li&gt;共同群组&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;好友添加时间，数据来源QQ空间，非来源QQ，时间仅供参考，具体的以QQ的为准。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;显示为老朋友，原因可能如下：&lt;br&gt;或是因为TA曾经删除过你，后面加回来的，别问我为啥知道。&lt;br&gt;或是因为TA是你的单向好友，猜的，我也不知道对不对。&lt;br&gt;或是没有TA的空间访问权限，猜的，我也不知道对不对。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;单向好友检测，即检测你QQ好友列表中有TA，TA好友列表中没有你的TA&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可参考微信的单向好友删除功能，没错，以前QQ是支持单向删除的，现在似乎不支持了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;亲密度，数据来源QQ空间，仅供参考&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;显示为老朋友，原因可能如下：&lt;br&gt;或是因为TA曾经删除过你，后面加回来的，别问我为啥知道。&lt;br&gt;或是因为TA是你的单向好友，猜的，我也不知道对不对。&lt;br&gt;或是没有TA的空间访问权限，猜的，我也不知道对不对。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;共同好友个数，仅支持检测QQ共同好友的个数，不支持检测具体的共同好友&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;共同QQ群组，就是两者的共同所在的QQ群&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;空间权限&#34;&gt;&lt;a href=&#34;#空间权限&#34; class=&#34;headerlink&#34; title=&#34;空间权限&#34;&gt;&lt;/a&gt;空间权限&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;助手选项-&amp;gt;设置-&amp;gt;好友-&amp;gt;好友选项-&amp;gt;空间权限&lt;/strong&gt;&lt;br&gt;勾选后，助手将检测是否有权限访问好友的空间&lt;/p&gt;
-&lt;h3 id=&#34;特别关心&#34;&gt;&lt;a href=&#34;#特别关心&#34; class=&#34;headerlink&#34; title=&#34;特别关心&#34;&gt;&lt;/a&gt;特别关心&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;助手选项-&amp;gt;设置-&amp;gt;好友-&amp;gt;好友选项-&amp;gt;特别关心&lt;/strong&gt;&lt;br&gt;勾选后，将检测好友是否为特别关心好友&lt;/p&gt;
+&lt;h3 id=&#34;空间权限&#34;&gt;&lt;a href=&#34;#空间权限&#34; class=&#34;headerlink&#34; title=&#34;空间权限&#34;&gt;&lt;/a&gt;空间权限&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;助手选项-&amp;gt;设置-&amp;gt;好友-&amp;gt;好友选项-&amp;gt;空间权限&lt;/strong&gt;&lt;br&gt;勾选后，助手将检测是否有权限访问好友的空间，仅供参考&lt;/p&gt;
+&lt;h3 id=&#34;特别关心&#34;&gt;&lt;a href=&#34;#特别关心&#34; class=&#34;headerlink&#34; title=&#34;特别关心&#34;&gt;&lt;/a&gt;特别关心&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;助手选项-&amp;gt;设置-&amp;gt;好友-&amp;gt;好友选项-&amp;gt;特别关心&lt;/strong&gt;&lt;br&gt;勾选后，将检测好友是否为特别关心好友，&lt;strong&gt;不是检测哪个好友特别关心了自己&lt;/strong&gt;，仅供参考&lt;/p&gt;
 &lt;h2 id=&#34;分享配置&#34;&gt;&lt;a href=&#34;#分享配置&#34; class=&#34;headerlink&#34; title=&#34;分享配置&#34;&gt;&lt;/a&gt;分享配置&lt;/h2&gt;&lt;h3 id=&#34;来源管理&#34;&gt;&lt;a href=&#34;#来源管理&#34; class=&#34;headerlink&#34; title=&#34;来源管理&#34;&gt;&lt;/a&gt;来源管理&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;助手选项-&amp;gt;设置-&amp;gt;分享-&amp;gt;分享选项-&amp;gt;来源管理&lt;/strong&gt;&lt;br&gt;自定义来源后，分享下方的来源将不显示来源URL地址，而是显示你自定义的来源别名&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;配置别名&lt;br&gt;&lt;a href=&#34;https://imgtu.com/i/75NtIS&#34;&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75NtIS.png&#34; alt=&#34;75NtIS.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -367,13 +414,15 @@
 &lt;li&gt;其它浏览器：请自行摸索&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h4 id=&#34;Aria2&#34;&gt;&lt;a href=&#34;#Aria2&#34; class=&#34;headerlink&#34; title=&#34;Aria2&#34;&gt;&lt;/a&gt;Aria2&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;适用工具&lt;/strong&gt;：基于&lt;a href=&#34;https://baidu.lvshuncai.com/?q=QXJpYTI=&#34;&gt;Aria2&lt;/a&gt;的工具理论上均可使用，比如&lt;a href=&#34;#Motrix&#34;&gt;Motrix&lt;/a&gt;&lt;br&gt;&lt;strong&gt;使用前提&lt;/strong&gt;：需下载与安装&lt;a href=&#34;https://baidu.lvshuncai.com/?q=QXJpYTI=&#34;&gt;Aria2&lt;/a&gt;&lt;br&gt;&lt;strong&gt;适用人群&lt;/strong&gt;：需要备份视频、懂Aria2的用户&lt;br&gt;&lt;strong&gt;优点&lt;/strong&gt;：下载速度快，不限速，可无人值守备份，比如说晚上睡觉前点击开始备份，早上醒来发现备份完成了，然后点击打包下载即可&lt;br&gt;&lt;strong&gt;缺点&lt;/strong&gt;：命令行工具，配置复杂，使用复杂&lt;br&gt;&lt;strong&gt;相关工具&lt;/strong&gt;：&lt;a href=&#34;https://baidu.lvshuncai.com/?q=TW90cml4&#34;&gt;Motrix&lt;/a&gt;、&lt;a href=&#34;https://baidu.lvshuncai.com/?q=QXJpYTIg5oeS5Lq65YyF&#34;&gt;Aria2 懒人包&lt;/a&gt;、&lt;a href=&#34;https://baidu.lvshuncai.com/?q=QXJpYTIg5Y+v6KeG5YyW&#34;&gt;Aria2 可视化&lt;/a&gt;、&lt;a href=&#34;https://baidu.lvshuncai.com/?q=QXJpYTIgZm9yIEVkZ2U=&#34;&gt;Aria2 for Edge&lt;/a&gt;、&lt;a href=&#34;https://baidu.lvshuncai.com/?q=QXJpYTIgZm9yIENocm9tZQ==&#34;&gt;Aria2 for Chrome&lt;/a&gt;&lt;br&gt;&lt;strong&gt;其它&lt;/strong&gt;：可加&lt;a href=&#34;#%E4%BA%A4%E6%B5%81%E7%BE%A4&#34;&gt;交流群&lt;/a&gt;获取&lt;a href=&#34;https://baidu.lvshuncai.com/?q=QXJpYTIg5oeS5Lq65YyF&#34;&gt;Aria2 懒人包&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;Aria2&#34;&gt;&lt;a href=&#34;#Aria2&#34; class=&#34;headerlink&#34; title=&#34;Aria2&#34;&gt;&lt;/a&gt;Aria2&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;适用工具&lt;/strong&gt;：基于&lt;a href=&#34;https://baidu.lvshuncai.com/?q=QXJpYTI=&#34;&gt;Aria2&lt;/a&gt;的工具理论上均可使用，包括但不限于&lt;a href=&#34;#Motrix&#34;&gt;Motrix&lt;/a&gt;、&lt;a href=&#34;#https://baidu.lvshuncai.com/?q=UWRvd24=&#34;&gt;Qdown&lt;/a&gt;、&lt;a href=&#34;#https://baidu.lvshuncai.com/?q=UGhvdG9u5LiL6L295Zmo&#34;&gt;Photon&lt;/a&gt;等等，而且基本都是开源的&lt;br&gt;&lt;strong&gt;使用前提&lt;/strong&gt;：需下载与安装&lt;a href=&#34;https://baidu.lvshuncai.com/?q=QXJpYTI=&#34;&gt;Aria2&lt;/a&gt;&lt;br&gt;&lt;strong&gt;适用人群&lt;/strong&gt;：需要备份视频&lt;br&gt;&lt;strong&gt;优点&lt;/strong&gt;：下载速度快，不限速，可无人值守备份，比如说晚上睡觉前点击开始备份，早上醒来发现备份完成了，然后点击打包下载即可&lt;br&gt;&lt;strong&gt;缺点&lt;/strong&gt;：命令行工具，配置复杂，使用复杂，可使用第三方客户端解决该缺点&lt;br&gt;&lt;strong&gt;相关工具&lt;/strong&gt;：&lt;a href=&#34;https://baidu.lvshuncai.com/?q=TW90cml4&#34;&gt;Motrix&lt;/a&gt;、&lt;a href=&#34;https://baidu.lvshuncai.com/?q=QXJpYTIg5oeS5Lq65YyF&#34;&gt;Aria2 懒人包&lt;/a&gt;、&lt;a href=&#34;https://baidu.lvshuncai.com/?q=QXJpYTIg5Y+v6KeG5YyW&#34;&gt;Aria2 可视化&lt;/a&gt;、&lt;a href=&#34;https://baidu.lvshuncai.com/?q=QXJpYTIgZm9yIEVkZ2U=&#34;&gt;Aria2 for Edge&lt;/a&gt;、&lt;a href=&#34;https://baidu.lvshuncai.com/?q=QXJpYTIgZm9yIENocm9tZQ==&#34;&gt;Aria2 for Chrome&lt;/a&gt;&lt;br&gt;&lt;strong&gt;其它&lt;/strong&gt;：可加&lt;a href=&#34;#%E4%BA%A4%E6%B5%81%E7%BE%A4&#34;&gt;交流群&lt;/a&gt;获取&lt;a href=&#34;https://baidu.lvshuncai.com/?q=QXJpYTIg5oeS5Lq65YyF&#34;&gt;Aria2 懒人包&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id=&#34;Motrix&#34;&gt;&lt;a href=&#34;#Motrix&#34; class=&#34;headerlink&#34; title=&#34;Motrix&#34;&gt;&lt;/a&gt;Motrix&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;适用人群&lt;/strong&gt;：需要备份视频，又不想折腾Aria2的用户&lt;br&gt;&lt;strong&gt;使用前提&lt;/strong&gt;：需下载与安装&lt;a href=&#34;https://baidu.lvshuncai.com/?q=TW90cml4&#34;&gt;Motrix&lt;/a&gt;&lt;br&gt;&lt;strong&gt;助手配置&lt;/strong&gt;：把Aria2 RPC地址中的6800改成16800即可&lt;br&gt;&lt;strong&gt;优点&lt;/strong&gt;：下载速度快，不限速，可无人值守备份，比如说晚上睡觉前点击开始备份，早上醒来发现备份完成了，然后点击打包下载即可&lt;br&gt;&lt;strong&gt;缺点&lt;/strong&gt;：好像没有&lt;/p&gt;
+&lt;h4 id=&#34;Motrix&#34;&gt;&lt;a href=&#34;#Motrix&#34; class=&#34;headerlink&#34; title=&#34;Motrix&#34;&gt;&lt;/a&gt;Motrix&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;适用人群&lt;/strong&gt;：需要备份视频，又不想折腾Aria2的用户，至于为啥推荐这个，纯属顺手而已，更多第三方客户端请自行百度，不直接推荐，因为大把，而且基本都是开源的&lt;br&gt;&lt;strong&gt;使用前提&lt;/strong&gt;：需下载与安装&lt;a href=&#34;https://baidu.lvshuncai.com/?q=TW90cml4&#34;&gt;Motrix&lt;/a&gt;&lt;br&gt;&lt;strong&gt;助手配置&lt;/strong&gt;：把Aria2 RPC地址中的6800改成16800即可&lt;br&gt;&lt;strong&gt;优点&lt;/strong&gt;：下载速度快，不限速，可无人值守备份，比如说晚上睡觉前点击开始备份，早上醒来发现备份完成了，然后点击打包下载即可&lt;br&gt;&lt;strong&gt;缺点&lt;/strong&gt;：对于助手来说，没有，其它的就不知道了。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id=&#34;迅雷&#34;&gt;&lt;a href=&#34;#迅雷&#34; class=&#34;headerlink&#34; title=&#34;迅雷&#34;&gt;&lt;/a&gt;迅雷&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;适用版本&lt;/strong&gt;：迅雷10+（Windows）&lt;br&gt;&lt;strong&gt;适用人群&lt;/strong&gt;：需要备份视频、且已安装迅雷的用户&lt;br&gt;&lt;strong&gt;注意事项&lt;/strong&gt;：可能无法自动唤起迅雷进行下载，可更换为&lt;a href=&#34;#%E8%BF%85%E9%9B%B7%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5&#34;&gt;迅雷下载链接&lt;/a&gt;，人工添加下载任务&lt;br&gt;&lt;strong&gt;注意事项&lt;/strong&gt;：唤起迅雷时，当数据量过大时，只能分批次唤起，参考&lt;a href=&#34;#%E8%BF%85%E9%9B%B7%E6%9C%80%E5%A4%A7%E4%BB%BB%E5%8A%A1&#34;&gt;迅雷最大任务&lt;/a&gt;，人工添加下载任务&lt;br&gt;&lt;strong&gt;优点&lt;/strong&gt;：应该没人不会用吧&lt;br&gt;&lt;strong&gt;缺点&lt;/strong&gt;：无法进行无人值守备份，因为唤起迅雷后，添加任务需要人工点击确认才能添加成功&lt;/p&gt;
+&lt;h4 id=&#34;迅雷（助手唤醒）&#34;&gt;&lt;a href=&#34;#迅雷（助手唤醒）&#34; class=&#34;headerlink&#34; title=&#34;迅雷（助手唤醒）&#34;&gt;&lt;/a&gt;迅雷（助手唤醒）&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;适用版本&lt;/strong&gt;：迅雷10+，仅在Windows测试通过&lt;br&gt;&lt;strong&gt;适用人群&lt;/strong&gt;：需要备份视频、且已安装迅雷的用户&lt;br&gt;&lt;strong&gt;注意事项&lt;/strong&gt;：不推荐使用，可能无法正常自动唤起迅雷进行下载，可更换为&lt;a href=&#34;#%E8%BF%85%E9%9B%B7%EF%BC%88%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5%EF%BC%89&#34;&gt;迅雷（下载链接）&lt;/a&gt;，人工添加下载任务&lt;br&gt;&lt;strong&gt;注意事项&lt;/strong&gt;：唤起迅雷时，当数据量过大时，只能分批次唤起，参考&lt;a href=&#34;#%E8%BF%85%E9%9B%B7%E6%9C%80%E5%A4%A7%E4%BB%BB%E5%8A%A1&#34;&gt;迅雷最大任务&lt;/a&gt;，人工添加下载任务&lt;br&gt;&lt;strong&gt;优点&lt;/strong&gt;：应该没人不会用吧&lt;br&gt;&lt;strong&gt;缺点&lt;/strong&gt;：无法进行无人值守备份，因为唤起迅雷后，添加任务需要人工点击确认才能添加成功&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id=&#34;迅雷下载链接&#34;&gt;&lt;a href=&#34;#迅雷下载链接&#34; class=&#34;headerlink&#34; title=&#34;迅雷下载链接&#34;&gt;&lt;/a&gt;迅雷下载链接&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;适用版本&lt;/strong&gt;：迅雷10+（Windows）&lt;br&gt;&lt;strong&gt;适用人群&lt;/strong&gt;：需要备份视频、且已安装迅雷但无法正常唤起迅雷的用户&lt;br&gt;&lt;strong&gt;注意事项&lt;/strong&gt;：需要尽早下载，视频链接存在有效期&lt;br&gt;使用方式：&lt;/p&gt;
+&lt;h4 id=&#34;迅雷（剪切板唤醒）&#34;&gt;&lt;a href=&#34;#迅雷（剪切板唤醒）&#34; class=&#34;headerlink&#34; title=&#34;迅雷（剪切板唤醒）&#34;&gt;&lt;/a&gt;迅雷（剪切板唤醒）&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;适用版本&lt;/strong&gt;：迅雷10+，仅在Windows测试通过&lt;br&gt;&lt;strong&gt;使用前提&lt;/strong&gt;：已安装迅雷，且打开迅雷设置中的剪切板监听&lt;br&gt;&lt;strong&gt;适用人群&lt;/strong&gt;：需要备份视频的用户&lt;br&gt;&lt;strong&gt;注意事项&lt;/strong&gt;：唤起迅雷时，当数据量过大时，可能无法正常唤醒，只能分批次唤起，参考&lt;a href=&#34;#%E8%BF%85%E9%9B%B7%E6%9C%80%E5%A4%A7%E4%BB%BB%E5%8A%A1&#34;&gt;迅雷最大任务&lt;/a&gt;，人工添加下载任务&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;迅雷（下载链接）&#34;&gt;&lt;a href=&#34;#迅雷（下载链接）&#34; class=&#34;headerlink&#34; title=&#34;迅雷（下载链接）&#34;&gt;&lt;/a&gt;迅雷（下载链接）&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;适用版本&lt;/strong&gt;：迅雷10+，仅在Windows测试通过&lt;br&gt;&lt;strong&gt;适用人群&lt;/strong&gt;：需要备份视频、且已安装迅雷但无法正常唤起迅雷的用户&lt;br&gt;&lt;strong&gt;注意事项&lt;/strong&gt;：唤起迅雷时，当数据量过大时，可能无法正常唤醒，只能分批次唤起，参考&lt;a href=&#34;#%E8%BF%85%E9%9B%B7%E6%9C%80%E5%A4%A7%E4%BB%BB%E5%8A%A1&#34;&gt;迅雷最大任务&lt;/a&gt;，人工添加下载任务&lt;br&gt;&lt;strong&gt;使用方式&lt;/strong&gt;：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;QQ空间备份完成后，点击打包下载，详情可参考&lt;a href=&#34;#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E&#34;&gt;使用说明&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;打开解压后的根目录文件夹的【迅雷下载链接.txt】文件&lt;/li&gt;
@@ -382,10 +431,19 @@
 &lt;li&gt;如果迅雷已打开剪切板监听，将会自动添加任务&lt;/li&gt;
 &lt;li&gt;如果没有打开剪切板监听，则自行新建下载任务，然后粘贴复制的内容到下载链接然后添加任务即可&lt;/li&gt;
 &lt;li&gt;再进行&lt;a href=&#34;#%E6%96%87%E6%A1%88%E5%86%85%E5%AE%B9%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;文案内容备份文件夹&lt;/a&gt;与&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9&#34;&gt;多媒体文件备份文件夹&lt;/a&gt;合并，详情参考：&lt;a href=&#34;#%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%88%E5%B9%B6&#34;&gt;备份文件夹合并&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;合并完成后，根据备份类型的不同，自行&lt;a href=&#34;#%E6%9F%A5%E7%9C%8B%E5%A4%87%E4%BB%BD%E5%86%85%E5%AE%B9&#34;&gt;查看备份内容&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;合并完成后，根据备份类型的不同，自行[查看备份内容](&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
 &lt;h4 id=&#34;QQ空间外链&#34;&gt;&lt;a href=&#34;#QQ空间外链&#34; class=&#34;headerlink&#34; title=&#34;QQ空间外链&#34;&gt;&lt;/a&gt;QQ空间外链&lt;/h4&gt;&lt;p&gt;不下载任何的&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;，只下载&lt;a href=&#34;#%E5%8A%A9%E6%89%8B%E6%9C%AF%E8%AF%AD&#34;&gt;文案内容&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;#%E5%8A%A9%E6%89%8B%E6%9C%AF%E8%AF%AD&#34;&gt;文案内容&lt;/a&gt;中的&lt;a href=&#34;#%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6&#34;&gt;多媒体文件&lt;/a&gt;使用QQ空间的在线地址&lt;br&gt;&lt;strong&gt;适用人群&lt;/strong&gt;：QQ空间内容迁移到其它社区或博客&lt;br&gt;&lt;strong&gt;缺点&lt;/strong&gt;：链接可能存在有效期，不建议使用，特别是视频链接&lt;/p&gt;
+&lt;h3 id=&#34;列表重试次数&#34;&gt;&lt;a href=&#34;#列表重试次数&#34; class=&#34;headerlink&#34; title=&#34;列表重试次数&#34;&gt;&lt;/a&gt;列表重试次数&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;助手选项-&amp;gt;设置-&amp;gt;公共-&amp;gt;文件下载-&amp;gt;列表重试次数&lt;/strong&gt;&lt;br&gt;部分QQ空间接口不稳定，从而导致获取数据时失败，失败后，助手将进行重试，直到重试成功或重试次数用完。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;重试场景：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;网络问题&lt;/li&gt;
+&lt;li&gt;非网络问题，QQ空间内部错误&lt;/li&gt;
+&lt;li&gt;比如，访问第1页说说时，成功，第2页说说时，QQ空间内部错误，然后将重新查询第2页说说&lt;/li&gt;
+&lt;li&gt;访问成功，已登录的情况下&lt;strong&gt;QQ空间返回未登录&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;QQ空间服务不稳定，比如**出了点小问题，请稍后再试&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;图片类型识别&#34;&gt;&lt;a href=&#34;#图片类型识别&#34; class=&#34;headerlink&#34; title=&#34;图片类型识别&#34;&gt;&lt;/a&gt;图片类型识别&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;助手选项-&amp;gt;设置-&amp;gt;公共-&amp;gt;文件下载-&amp;gt;图片类型识别&lt;/strong&gt;&lt;br&gt;开启后，将识别说说、日志、日记、留言板收藏夹、分享、访客中的图片类型，即生成图片后缀名&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;默认关闭，为什么默认关闭，是因为之前常出问题，关闭时，出相册与视频模块外的模块的配图不识别图片类型，不生成图片后缀名，无法直接查看，可在浏览器或MD编辑器中查看&lt;/li&gt;
@@ -396,6 +454,7 @@
 &lt;ul&gt;
 &lt;li&gt;Aria2：本地Aria2的默认端口为6800&lt;/li&gt;
 &lt;li&gt;Motrix：本地Motrix的默认端口为16800&lt;/li&gt;
+&lt;li&gt;其它的第三方Aria2客户端，请自行查询RPC地址&lt;/li&gt;
 &lt;li&gt;更多详情，请参考：&lt;a href=&#34;https://baidu.lvshuncai.com/?q=QXJpYTLmmK/ku4DkuYg=&#34;&gt;Aria2是什么&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;更多详情，请参考：&lt;a href=&#34;https://baidu.lvshuncai.com/?q=TW90cml4&#34;&gt;Motrix是什么&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -420,7 +479,7 @@
 &lt;h3 id=&#34;是否会导致QQ空间账号被冻结&#34;&gt;&lt;a href=&#34;#是否会导致QQ空间账号被冻结&#34; class=&#34;headerlink&#34; title=&#34;是否会导致QQ空间账号被冻结&#34;&gt;&lt;/a&gt;是否会导致QQ空间账号被冻结&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;一般情况下不会，但如果助手采集速度过快时，偶尔会造成QQ空间短暂的冻结，如造成相册访问空白等。&lt;/li&gt;
 &lt;li&gt;过段时间会自动解冻，如若介意，请勿使用，否则，后果自负。&lt;/li&gt;
-&lt;li&gt;如遇冻结，建议上调相应模块的数据采集时间&lt;/li&gt;
+&lt;li&gt;如遇冻结，建议上调相应模块的数据采集时间，然后解冻后继续备份&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;是否会导致QQ空间账号被封号&#34;&gt;&lt;a href=&#34;#是否会导致QQ空间账号被封号&#34; class=&#34;headerlink&#34; title=&#34;是否会导致QQ空间账号被封号&#34;&gt;&lt;/a&gt;是否会导致QQ空间账号被封号&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;理论上不会，但不承诺一定不会封号&lt;/li&gt;
@@ -429,7 +488,7 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;是否会导致个人隐私的泄露&#34;&gt;&lt;a href=&#34;#是否会导致个人隐私的泄露&#34; class=&#34;headerlink&#34; title=&#34;是否会导致个人隐私的泄露&#34;&gt;&lt;/a&gt;是否会导致个人隐私的泄露&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;助手承诺不泄露个人隐私，第三方修改版除外&lt;/li&gt;
-&lt;li&gt;如因个人原因导致备份文件丢失与泄露，本助手概不负责。&lt;/li&gt;
+&lt;li&gt;如因个人原因导致备份文件丢失与泄露，比如备份到U盘后，U盘丢失，或者备份到服务器导致自己或他人信息泄露，本助手概不负责。&lt;/li&gt;
 &lt;li&gt;更多详情请访问&lt;a href=&#34;https://github.com/ShunCai/QZoneExport/wiki/Privacy-Policy&#34;&gt;隐私政策&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;助手相关&#34;&gt;&lt;a href=&#34;#助手相关&#34; class=&#34;headerlink&#34; title=&#34;助手相关&#34;&gt;&lt;/a&gt;助手相关&lt;/h2&gt;&lt;h3 id=&#34;助手使用&#34;&gt;&lt;a href=&#34;#助手使用&#34; class=&#34;headerlink&#34; title=&#34;助手使用&#34;&gt;&lt;/a&gt;助手使用&lt;/h3&gt;&lt;h4 id=&#34;如何备份别人的QQ空间&#34;&gt;&lt;a href=&#34;#如何备份别人的QQ空间&#34; class=&#34;headerlink&#34; title=&#34;如何备份别人的QQ空间&#34;&gt;&lt;/a&gt;如何备份别人的QQ空间&lt;/h4&gt;&lt;ol&gt;
@@ -457,6 +516,19 @@
 &lt;h4 id=&#34;无法进入QQ空间能否备份QQ空间内容&#34;&gt;&lt;a href=&#34;#无法进入QQ空间能否备份QQ空间内容&#34; class=&#34;headerlink&#34; title=&#34;无法进入QQ空间能否备份QQ空间内容&#34;&gt;&lt;/a&gt;无法进入QQ空间能否备份QQ空间内容&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;不能，助手是模拟用户访问QQ空间进行备份，无法进入时无法备份。&lt;/li&gt;
 &lt;li&gt;比如QQ被封号、没有权限访问他人空间等等&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;QQ空间被封是否能正常备份&#34;&gt;&lt;a href=&#34;#QQ空间被封是否能正常备份&#34; class=&#34;headerlink&#34; title=&#34;QQ空间被封是否能正常备份&#34;&gt;&lt;/a&gt;QQ空间被封是否能正常备份&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;理论上可以，登录QQ空间后，在提示被封的界面，点击助手备份即可&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/05/05/OmWA9x.jpg&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;仅支持备份导出说说、视频、留言板、收藏夹、访客以及QQ好友模块的内容，但不保证能正常备份所有内容&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;不支持备份日志、私密日记、相册、分享模块的内容&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;助手是否有手机版？&#34;&gt;&lt;a href=&#34;#助手是否有手机版？&#34; class=&#34;headerlink&#34; title=&#34;助手是否有手机版？&#34;&gt;&lt;/a&gt;助手是否有手机版？&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;没有，其它一切的手机版本，均非官方版本，不保证安全可靠&lt;/li&gt;
+&lt;li&gt;可以通过其它方式在移动端或平板端进行备份，比如，你仅仅需要一个可以装&lt;a href=&#34;https://www.chromium.org/&#34;&gt;Chromium&lt;/a&gt;扩展的手机浏览器，然后再搭配一个Aria2或第三方的Aria2的移动端版本，当前你也可以仅用浏览器来下载多媒体内容，只是无法正常下载视频而已&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;是否可以备份私密日记&#34;&gt;&lt;a href=&#34;#是否可以备份私密日记&#34; class=&#34;headerlink&#34; title=&#34;是否可以备份私密日记&#34;&gt;&lt;/a&gt;是否可以备份私密日记&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;可以，但需要先关闭私密日记的【独立密码认证】，可在备份完成后重新打开&lt;/li&gt;
@@ -536,7 +608,12 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;日志下载的视频不是原画&#34;&gt;&lt;a href=&#34;#日志下载的视频不是原画&#34; class=&#34;headerlink&#34; title=&#34;日志下载的视频不是原画&#34;&gt;&lt;/a&gt;日志下载的视频不是原画&lt;/h4&gt;&lt;p&gt;似乎是的，因为QQ空间页面上，不存在原画视频下载&lt;/p&gt;
 &lt;h4 id=&#34;说说、日志等的配图、浏览器可以正常查看，但是文件管理器显示文件无后缀名，打开时要指定打开方式&#34;&gt;&lt;a href=&#34;#说说、日志等的配图、浏览器可以正常查看，但是文件管理器显示文件无后缀名，打开时要指定打开方式&#34; class=&#34;headerlink&#34; title=&#34;说说、日志等的配图、浏览器可以正常查看，但是文件管理器显示文件无后缀名，打开时要指定打开方式&#34;&gt;&lt;/a&gt;说说、日志等的配图、浏览器可以正常查看，但是文件管理器显示文件无后缀名，打开时要指定打开方式&lt;/h4&gt;&lt;p&gt;请移步：&lt;a href=&#34;#%E5%9B%BE%E7%89%87%E7%B1%BB%E5%9E%8B%E8%AF%86%E5%88%AB&#34;&gt;图片类型识别&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;助手配置页面错乱，无法正常配置&#34;&gt;&lt;a href=&#34;#助手配置页面错乱，无法正常配置&#34; class=&#34;headerlink&#34; title=&#34;助手配置页面错乱，无法正常配置&#34;&gt;&lt;/a&gt;助手配置页面错乱，无法正常配置&lt;/h4&gt;&lt;p&gt;助手使用了在线访问的第三方库，部分时间或会网络不稳定，可稍后再试&lt;/p&gt;
+&lt;h4 id=&#34;助手配置页面错乱，无法正常进行配置&#34;&gt;&lt;a href=&#34;#助手配置页面错乱，无法正常进行配置&#34; class=&#34;headerlink&#34; title=&#34;助手配置页面错乱，无法正常进行配置&#34;&gt;&lt;/a&gt;助手配置页面错乱，无法正常进行配置&lt;/h4&gt;&lt;p&gt;助手使用了在线访问的第三方库，部分时间或会网络不稳定，可稍后再试&lt;/p&gt;
+&lt;h4 id=&#34;备份内容丢失或缺失&#34;&gt;&lt;a href=&#34;#备份内容丢失或缺失&#34; class=&#34;headerlink&#34; title=&#34;备份内容丢失或缺失&#34;&gt;&lt;/a&gt;备份内容丢失或缺失&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;确认QQ空间本身是否能正常访问，比如相册模块或视频模块遭遇冻结的时候，助手将无法正常查询数据。&lt;/li&gt;
+&lt;li&gt;如果QQ空间备份能正常备份，可能是遭遇冻结，可上调备份时间间隔或者重试次数、重试间隔&lt;/li&gt;
+&lt;li&gt;参考&lt;a href=&#34;#%E5%88%97%E8%A1%A8%E9%87%8D%E8%AF%95%E6%AC%A1%E6%95%B0&#34;&gt;列表重试次数&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;下载工具&#34;&gt;&lt;a href=&#34;#下载工具&#34; class=&#34;headerlink&#34; title=&#34;下载工具&#34;&gt;&lt;/a&gt;下载工具&lt;/h3&gt;&lt;h4 id=&#34;浏览器下载&#34;&gt;&lt;a href=&#34;#浏览器下载&#34; class=&#34;headerlink&#34; title=&#34;浏览器下载&#34;&gt;&lt;/a&gt;浏览器下载&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;文件下载工具为【浏览器】下载时，不停弹窗提示保存文件，需要一个个的点击保存&lt;/strong&gt;&lt;br&gt;请确保已关闭浏览器设置中的下载前询问每个文件的保存位置&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Edge：设置-&amp;gt;下载-&amp;gt;每次下载都询问我该做些什么，参考：&lt;a href=&#34;https://baidu.lvshuncai.com/?q=RWRnZea1j+iniOWZqOS4i+i9veiuvue9rg==&#34;&gt;Edge如何设置下载文件夹&lt;/a&gt;&lt;/li&gt;
@@ -579,13 +656,18 @@
 &lt;li&gt;暂不支持其他下载工具，因为其他下载工具添加任务时，不支持指定目录的方式添加，而助手的备份内容的设计是含目录结构的&lt;/li&gt;
 &lt;li&gt;如果有其他支持指定保存文件夹方式（含目录结构）添加任务的下载工具，可联系我&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;彩蛋问题&#34;&gt;&lt;a href=&#34;#彩蛋问题&#34; class=&#34;headerlink&#34; title=&#34;彩蛋问题&#34;&gt;&lt;/a&gt;彩蛋问题&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;是否支持一键删除QQ空间内容&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;彩蛋问题&#34;&gt;&lt;a href=&#34;#彩蛋问题&#34; class=&#34;headerlink&#34; title=&#34;彩蛋问题&#34;&gt;&lt;/a&gt;彩蛋问题&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;是否支持删除QQ空间内容，比如删除说说，删除留言等&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;不支持，也没有支持的打算，本助手只是备份数据&lt;/li&gt;
+&lt;li&gt;不支持，也没有支持的打算，本助手只是备份数据&lt;blockquote&gt;
+&lt;p&gt;不建议删除，毕竟，都适合属于自己的青春，哪怕内容是没意义的，哪怕是曾经的非主流黑历史。&lt;br&gt;可采取通过空间权限屏蔽他人访问从而达到黑历史的屏蔽&lt;br&gt;或者&lt;a href=&#34;https://baidu.lvshuncai.com/?q=UVHnqbrpl7Tms6jplIAg5YWz6Zet&#34;&gt;注销QQ空间&lt;/a&gt;，注销后，QQ空间内容仍保留，只是除自己外其它人均无法访问&lt;br&gt;甚至&lt;a href=&#34;https://baidu.lvshuncai.com/?q=UVHms6jplIA=&#34;&gt;QQ注销&lt;/a&gt;，&lt;strong&gt;慎重选择&lt;/strong&gt;，该操作将会删除所有与QQ相关的任务内容，包括QQ空间内容，聊天记录等&lt;br&gt;如需删除或注销，建议先进行相关内容备份，比如QQ空间内容，QQ聊天记录备份等等&lt;br&gt;助手不推荐用户备份QQ空间内容后、从而进行删除或注销QQ等后续操作&lt;br&gt;助手只是一个预防QQ盗号，QQ封号等不可抗力因素从而导致QQ空间内容丢失的工具。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
 &lt;li&gt;不过我知道谁有，比如&lt;a href=&#34;https://baidu.lvshuncai.com/?q=UVHnqbrpl7Qg5YaF5a65IOWIoOmZpCDmuIXpmaQg5bel5YW3IOiEmuacrCDmianlsZUgR2l0SHVi&#34;&gt;它&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;有没有朋友圈备份工具&lt;/strong&gt;&lt;br&gt;我没有，也不会写，不过我知道谁有，比如&lt;a href=&#34;https://baidu.lvshuncai.com/?q=5pyL5Y+L5ZyIIOWkh+S7vSDlr7zlh7ogIOmHh+mbhg==&#34;&gt;它&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;有没有微信单向好友检测工具&lt;/strong&gt;&lt;br&gt;我没有，也不会写，不过我知道谁有，比如&lt;a href=&#34;https://baidu.lvshuncai.com/?q=5b6u5L+hIOWNleWQkeWlveWPiw==&#34;&gt;它&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;有没有微博备份工具&lt;/strong&gt;&lt;br&gt;我没有，也不会写，不过我知道谁有，比如&lt;a href=&#34;https://baidu.lvshuncai.com/?q=5b6u5Y2aIOWkh+S7vSDlr7zlh7og6YeH6ZuGIOiEmuacrCDlt6Xlhbcg5omp5bGV&#34;&gt;它&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -594,9 +676,13 @@
 &lt;p&gt;&lt;strong&gt;其它未知的、乱七八糟的备份中遇到的问题&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;先自行确认下QQ空间的情况，看看QQ空间本身行不行？&lt;/li&gt;
-&lt;li&gt;或者？先刷新或重启浏览器再试试看？&lt;/li&gt;
-&lt;li&gt;又或者，网络问题，稍后再试试看？&lt;/li&gt;
-&lt;li&gt;有或者，卸载助手重装后再试试看？&lt;/li&gt;
+&lt;li&gt;或者，刷新QQ空间页面再重试看看？&lt;/li&gt;
+&lt;li&gt;或者，重启浏览器再重试看看？&lt;/li&gt;
+&lt;li&gt;或者，网络问题，稍后再试试看？&lt;/li&gt;
+&lt;li&gt;或者，卸载助手重装后再试试看？&lt;/li&gt;
+&lt;li&gt;或者，重启电脑试试？&lt;/li&gt;
+&lt;li&gt;或者，重启路由器试试？&lt;/li&gt;
+&lt;li&gt;毕竟，关机重启、卸载重装，可以解决90%的问题。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;一些不是问题也是问题的问题&lt;/strong&gt;&lt;/p&gt;
@@ -604,9 +690,14 @@
 &lt;li&gt;语音说说的语音忽然备份不了，进入到QQ空间试了试，发现QQ空间的语音也播放不了。&lt;/li&gt;
 &lt;li&gt;收藏夹忽然备份不了，然后我一进入QQ空间的收藏夹，一直提示要我登录&lt;/li&gt;
 &lt;li&gt;收藏夹中视频忽然备份不了了，一看QQ空间的收藏夹播放视频，发现也播放不了&lt;/li&gt;
-&lt;li&gt;说说的配图没法下载，进去QQ空间一看，发现该条说说的配图已经丢失了。&lt;br&gt;如果QQ空间本身没有问题的，再进行&lt;a href=&#34;#%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88&#34;&gt;问题反馈&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;说说的配图没法下载，进去QQ空间一看，发现该条说说的配图已经丢失了。&lt;/li&gt;
+&lt;li&gt;QQ空间本身没有问题的，再进行&lt;a href=&#34;#%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88&#34;&gt;问题反馈&lt;/a&gt;，毕竟有可能助手除了BUG，也有可能QQ空间做了调整。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;备份预览&#34;&gt;&lt;a href=&#34;#备份预览&#34; class=&#34;headerlink&#34; title=&#34;备份预览&#34;&gt;&lt;/a&gt;备份预览&lt;/h1&gt;&lt;p&gt;请访问：&lt;a href=&#34;https://demo.lvshuncai.com/qzone-export/index.html&#34;&gt;在线预览&lt;/a&gt;&lt;br&gt;PS：在线预览的内容是基于助手备份内容部署到服务器的&lt;/p&gt;
+&lt;h1 id=&#34;备份预览&#34;&gt;&lt;a href=&#34;#备份预览&#34; class=&#34;headerlink&#34; title=&#34;备份预览&#34;&gt;&lt;/a&gt;备份预览&lt;/h1&gt;&lt;p&gt;&lt;a href=&#34;https://demo.lvshuncai.com/qzone-export/index.html&#34;&gt;点击这里在线预览&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在线预览的内容，是基于助手备份内容部署到服务器的，也就是HTML备份方式备份后的内容&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不推荐普通用户进行服务器部署，避免泄露个人或TA人信息&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h1 id=&#34;开源地址&#34;&gt;&lt;a href=&#34;#开源地址&#34; class=&#34;headerlink&#34; title=&#34;开源地址&#34;&gt;&lt;/a&gt;开源地址&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/ShunCai/QZoneExport&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -619,7 +710,41 @@
 &lt;h1 id=&#34;交流群&#34;&gt;&lt;a href=&#34;#交流群&#34; class=&#34;headerlink&#34; title=&#34;交流群&#34;&gt;&lt;/a&gt;交流群&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;QQ群：959828088&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;更新日志&#34;&gt;&lt;a href=&#34;#更新日志&#34; class=&#34;headerlink&#34; title=&#34;更新日志&#34;&gt;&lt;/a&gt;更新日志&lt;/h1&gt;&lt;h2 id=&#34;V1-1-5&#34;&gt;&lt;a href=&#34;#V1-1-5&#34; class=&#34;headerlink&#34; title=&#34;V1.1.5&#34;&gt;&lt;/a&gt;V1.1.5&lt;/h2&gt;&lt;ul&gt;
+&lt;h1 id=&#34;更新日志&#34;&gt;&lt;a href=&#34;#更新日志&#34; class=&#34;headerlink&#34; title=&#34;更新日志&#34;&gt;&lt;/a&gt;更新日志&lt;/h1&gt;&lt;h2 id=&#34;V1-1-6&#34;&gt;&lt;a href=&#34;#V1-1-6&#34; class=&#34;headerlink&#34; title=&#34;V1.1.6&#34;&gt;&lt;/a&gt;V1.1.6&lt;/h2&gt;&lt;h3 id=&#34;注意事项&#34;&gt;&lt;a href=&#34;#注意事项&#34; class=&#34;headerlink&#34; title=&#34;注意事项&#34;&gt;&lt;/a&gt;注意事项&lt;/h3&gt;&lt;p&gt;该版本将重置所有配置项以及增量备份数据&lt;/p&gt;
+&lt;h3 id=&#34;功能增强&#34;&gt;&lt;a href=&#34;#功能增强&#34; class=&#34;headerlink&#34; title=&#34;功能增强&#34;&gt;&lt;/a&gt;功能增强&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;下载工具支持迅雷剪切板唤醒，无法自动唤醒迅雷的福音，当然，建议使用Aria2或Motrix，快速方便&lt;/li&gt;
+&lt;li&gt;模块内容、评论内容适配移动端、含相册画廊&lt;/li&gt;
+&lt;li&gt;新增备份管理，可简单的管理增量备份数据，可导入、删除指定QQ的已备份的模块数据或相册模块的某个相册从而增量或重新备份。&lt;/li&gt;
+&lt;li&gt;相册相片支持按原图拍摄时间或上传时间归类存放&lt;/li&gt;
+&lt;li&gt;视频支持按原图拍摄时间或上传时间归类存放&lt;/li&gt;
+&lt;li&gt;浏览器下载工具，支持配置同时下载任务数，避免同时下载多个任务导致浏览器崩溃或系统卡顿。&lt;/li&gt;
+&lt;li&gt;相册支持指定排序方式&lt;/li&gt;
+&lt;li&gt;相册备份文件夹支持命名方式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;问题修复&#34;&gt;&lt;a href=&#34;#问题修复&#34; class=&#34;headerlink&#34; title=&#34;问题修复&#34;&gt;&lt;/a&gt;问题修复&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;修复空间获取个人详情接口不稳定时，导致备份内容无法正常查看问题&lt;/li&gt;
+&lt;li&gt;修复模块文案内容存在HTML特殊字符没转义问题&lt;/li&gt;
+&lt;li&gt;修复相册定义分类名称时，备份的相册分类没使用自定义分类名称问题&lt;/li&gt;
+&lt;li&gt;本地相册工具问题修复与优化，支持多个分类文件夹的相册，而不是特定的本地分类&lt;/li&gt;
+&lt;li&gt;修复查看大图模式，图片描述文字过长问题&lt;/li&gt;
+&lt;li&gt;多个增量备份逻辑调整与修复，这回应该真正能用了，不能用的话，还是直接全量备份吧。&lt;/li&gt;
+&lt;li&gt;修复部分日志视频没有下载或无法正常查看问题&lt;/li&gt;
+&lt;li&gt;修复好友头像开启增量备份仍重复下载问题&lt;/li&gt;
+&lt;li&gt;修复视频HTML年份文件存在特殊文案字符内容时无法正常查看问题&lt;/li&gt;
+&lt;li&gt;修复自动勾选上次备份模块时，他人模式下，也勾选了无法备份模块的问题&lt;/li&gt;
+&lt;li&gt;修复启动浏览器时，自动打开更新日志问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;易用性优化&#34;&gt;&lt;a href=&#34;#易用性优化&#34; class=&#34;headerlink&#34; title=&#34;易用性优化&#34;&gt;&lt;/a&gt;易用性优化&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;相册列表类型默认值调整为列表详情&lt;/li&gt;
+&lt;li&gt;优化模块内容、评论内容的布局展示&lt;/li&gt;
+&lt;li&gt;好友模块特殊分组移动到前面&lt;/li&gt;
+&lt;li&gt;备份进度优化&lt;/li&gt;
+&lt;li&gt;视频文件名优化、按列表排序添加排序号，便于排序&lt;/li&gt;
+&lt;li&gt;【启用状态栏】更名为【隐藏状态栏】&lt;/li&gt;
+&lt;li&gt;相册中的视频预览图存在位置调整到相册&amp;#x2F;Images下&lt;/li&gt;
+&lt;li&gt;扩展图标备份界面引用第三方方式由在线调整为离线，避免无法正常备份。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;V1-1-5&#34;&gt;&lt;a href=&#34;#V1-1-5&#34; class=&#34;headerlink&#34; title=&#34;V1.1.5&#34;&gt;&lt;/a&gt;V1.1.5&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;新增&lt;/strong&gt;日志、日记、好友列表支持列表展示方式，同时保留表格展示方式，默认为列表展示&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;新增&lt;/strong&gt;日志列表支持简要与摘要视图展示方式，默认为摘要视图&lt;br&gt;  &lt;img src=&#34;https://s4.ax1x.com/2022/01/23/75KzSf.png&#34; alt=&#34;日志列表&#34;&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;新增&lt;/strong&gt;好友模块支持空间权限检测，即检测是否对好友QQ空间有访问权限&lt;/li&gt;
@@ -629,7 +754,7 @@
 &lt;li&gt;&lt;strong&gt;优化&lt;/strong&gt;部分模块的左侧时间导航栏，支持显示条目数&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;优化&lt;/strong&gt;那年今日添加结束语&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;修复&lt;/strong&gt;相册备份时，某些场景备份的不是原图的问题，啥场景我也给忘了&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;修复&lt;/strong&gt;文案内容存在特殊字符反斜杠\时，导致JSON转换错误从而无法备份问题&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修复&lt;/strong&gt;文案内容存在特殊字符反斜杠【\】时，导致JSON转换错误从而无法备份问题&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;修复&lt;/strong&gt;无法备份模板日志问题，仅支持备份模板日志到普通图片日志&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;修复&lt;/strong&gt;日志详情、图片溢出日志正文区域问题&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;修复&lt;/strong&gt;修复日志&amp;#x2F;私密日记不备份评论时，详情底部显示错误问题&lt;/li&gt;
@@ -644,14 +769,11 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;赞赏捐赠&#34;&gt;&lt;a href=&#34;#赞赏捐赠&#34; class=&#34;headerlink&#34; title=&#34;赞赏捐赠&#34;&gt;&lt;/a&gt;赞赏捐赠&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2020/05/16/YcePUI.png&#34; alt=&#34;赞赏码-微信&#34;&gt;&lt;/p&gt;
 &lt;p&gt;如果你觉得助手帮助到你，有能力的，你可以捐赠请俺喝瓶矿泉水，没能力的，给个&lt;a href=&#34;#%E5%9C%A8%E7%BA%BF%E8%AF%84%E4%BB%B7&#34;&gt;好评&lt;/a&gt;吧^_^&lt;/p&gt;
-&lt;p&gt;助手是为了情怀而上架的，并没有任何的盈利行为，老用户应该都知道，助手之前连个赞赏码都没有。&lt;br&gt;后来、有人联系到我，叫我放个捐赠码之类的才放加上的。&lt;/p&gt;
-&lt;p&gt;啰嗦这么多，是因为有时候收到一些捐赠，捐赠的备注出现&lt;strong&gt;我是学生，小小心意，上班后再捐赠&lt;/strong&gt;诸如此类的字眼.&lt;br&gt;所以说，请大家量力而行，不捐赠的话去给个&lt;a href=&#34;#%E5%9C%A8%E7%BA%BF%E8%AF%84%E4%BB%B7&#34;&gt;好评&lt;/a&gt;就好^_^&lt;/p&gt;
-&lt;h1 id=&#34;注意事项&#34;&gt;&lt;a href=&#34;#注意事项&#34; class=&#34;headerlink&#34; title=&#34;注意事项&#34;&gt;&lt;/a&gt;注意事项&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;本项目只做个人学习研究之用，不是官话，就是为了学习Chrome扩展开发写的工具，随时会因不可抗力因素下架。&lt;/li&gt;
+&lt;h1 id=&#34;注意事项-1&#34;&gt;&lt;a href=&#34;#注意事项-1&#34; class=&#34;headerlink&#34; title=&#34;注意事项&#34;&gt;&lt;/a&gt;注意事项&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;本项目只做个人学习研究之用，不是官话，当初就是为了学习Chrome扩展开发写的工具，随时会因不可抗力因素下架，且用且珍惜。&lt;/li&gt;
 &lt;li&gt;本助手开源免费，请勿从第三方购买或第三方下载，助手不保证第三方安全可靠。&lt;/li&gt;
 &lt;li&gt;本助手基于&lt;a href=&#34;https://qzone.qq.com/index.html&#34;&gt;QQ空间官方网站&lt;/a&gt;备份个人空间数据，与QQ空间不存在任何联系。&lt;/li&gt;
-&lt;li&gt;使用本助手即同意助手收集QQ空间网站的Cookie信息，用于获取QQ空间数据。&lt;/li&gt;
-&lt;li&gt;本助手仅使用Cookie获取QQ空间数据，不传输任何数据到后台服务器，仅保存到浏览器客户端&lt;/li&gt;
+&lt;li&gt;使用本助手即同意助手收集QQ空间网站的Cookie信息，仅用于获取QQ空间数据，不传输任何数据到后台服务器，仅保存到浏览器客户端&lt;/li&gt;
 &lt;li&gt;更多请查看&lt;a href=&#34;https://github.com/ShunCai/QZoneExport/wiki/Privacy-Policy&#34;&gt;隐私政策&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
  ]]></description>

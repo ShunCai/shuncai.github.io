@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.lvshuncai.com</id>
-    <title>芷炫博客 • Posts by &#34;aria2下载&#34; tag</title>
+    <title>芷炫博客 • Posts by &#34;qq&#34; tag</title>
     <link href="https://github.lvshuncai.com" />
-    <updated>2022-01-27T12:08:02.486Z</updated>
+    <updated>2022-03-05T16:50:35.056Z</updated>
     <category term="QQ" />
     <category term="QQ空间" />
     <category term="QQ相册" />
@@ -18,6 +18,42 @@
     <category term="360扩展" />
     <category term="Aria2下载" />
     <category term="Motrix下载" />
+    <entry>
+        <id>https://github.lvshuncai.com/archives/qq-group-ablums-downloader.html</id>
+        <title>QQ群相册批量下载，一键下载你的QQ群相册</title>
+        <link rel="alternate" href="https://github.lvshuncai.com/archives/qq-group-ablums-downloader.html"/>
+        <content type="html">&lt;p&gt;QQ群相册自带一个打包下载相册的功能，对于想要下载或备份群相册的人来说是件好事，然而，当相册过多时，这是个坑爹的事情。&lt;/p&gt;
+&lt;p&gt;于是乎，本脚本，通过模拟用户自动点击下载，从而实现，用户无需多次点击，一键下载备份QQ群的所有相册&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/03/05/b0Fnq1.png&#34; alt=&#34;b0Fnq1.png&#34;&gt;&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+
+&lt;p&gt;&lt;strong&gt;本站惯例：本文假定你知道&lt;a href=&#34;https://baidu.lvshuncai.com/?q=VGFtcGVybW9ua2V5&#34;&gt;Tampermonkey&lt;/a&gt;或&lt;a href=&#34;https://baidu.lvshuncai.com/?q=5rK554y06ISa5pys&#34;&gt;油猴脚本&lt;/a&gt;。不知道可以问问搜索引擎。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;使用说明&#34;&gt;&lt;a href=&#34;#使用说明&#34; class=&#34;headerlink&#34; title=&#34;使用说明&#34;&gt;&lt;/a&gt;使用说明&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;安装&lt;a href=&#34;https://greasyfork.org/zh-CN/scripts/440970-qq-%E7%BE%A4%E7%9B%B8%E5%86%8C%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD&#34;&gt;QQ群相册批量下载&lt;/a&gt;脚本&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在浏览器打开QQ群相册首页，如果不知道怎么进，可以直接复制下方链接，将&lt;strong&gt;QQ群号&lt;/strong&gt;修改成需要下载的QQ群号，然后到浏览器访问&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;https://h5.qzone.qq.com/groupphoto/index?inqq=3&amp;amp;groupId=QQ群号&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;如图，在相册列表点击相应按钮即可&lt;br&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/03/05/b0Fnq1.png&#34; alt=&#34;b0Fnq1.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;注意事项&#34;&gt;&lt;a href=&#34;#注意事项&#34; class=&#34;headerlink&#34; title=&#34;注意事项&#34;&gt;&lt;/a&gt;注意事项&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;脚本只是自动化点击下载，脚本不负责打包内容，压缩包中的内容由QQ官方生成。&lt;/li&gt;
+&lt;li&gt;迅雷下载，仅支持Windows迅雷10+，其它系统版本或其他迅雷未测试，且需要提前打开迅雷，并打开迅雷的剪切板监听&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;开源地址&#34;&gt;&lt;a href=&#34;#开源地址&#34; class=&#34;headerlink&#34; title=&#34;开源地址&#34;&gt;&lt;/a&gt;开源地址&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/ShunCai/QQ-Group-Albums-Downloader&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+</content>
+        <category term="QQ" />
+        <category term="QQ空间" />
+        <category term="QQ相册" />
+        <category term="QQ群相册" />
+        <category term="备份" />
+        <category term="迅雷下载" />
+        <category term="爬虫" />
+        <category term="油猴脚本" />
+        <category term="Tampermonkey" />
+        <updated>2022-03-05T16:50:35.056Z</updated>
+    </entry>
     <entry>
         <id>https://github.lvshuncai.com/archives/qzone-export.html</id>
         <title>QQ空间备份神器，一键备份你的青春</title>

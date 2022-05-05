@@ -1,9 +1,27 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "芷炫博客 • All posts by \"360扩展\" tag",
+    "title": "芷炫博客 • All posts by \"qq\" tag",
     "description": "没有真正的绝境，只有心灵的迷途",
     "home_page_url": "https://github.lvshuncai.com",
     "items": [
+        {
+            "id": "https://github.lvshuncai.com/archives/qq-group-ablums-downloader.html",
+            "url": "https://github.lvshuncai.com/archives/qq-group-ablums-downloader.html",
+            "title": "QQ群相册批量下载，一键下载你的QQ群相册",
+            "date_published": "2022-03-05T16:50:35.056Z",
+            "content_html": "<p>QQ群相册自带一个打包下载相册的功能，对于想要下载或备份群相册的人来说是件好事，然而，当相册过多时，这是个坑爹的事情。</p>\n<p>于是乎，本脚本，通过模拟用户自动点击下载，从而实现，用户无需多次点击，一键下载备份QQ群的所有相册</p>\n<p><img src=\"https://s4.ax1x.com/2022/03/05/b0Fnq1.png\" alt=\"b0Fnq1.png\"></p>\n<span id=\"more\"></span>\n\n<p><strong>本站惯例：本文假定你知道<a href=\"https://baidu.lvshuncai.com/?q=VGFtcGVybW9ua2V5\">Tampermonkey</a>或<a href=\"https://baidu.lvshuncai.com/?q=5rK554y06ISa5pys\">油猴脚本</a>。不知道可以问问搜索引擎。</strong></p>\n<h2 id=\"使用说明\"><a href=\"#使用说明\" class=\"headerlink\" title=\"使用说明\"></a>使用说明</h2><ol>\n<li><p>安装<a href=\"https://greasyfork.org/zh-CN/scripts/440970-qq-%E7%BE%A4%E7%9B%B8%E5%86%8C%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD\">QQ群相册批量下载</a>脚本</p>\n</li>\n<li><p>在浏览器打开QQ群相册首页，如果不知道怎么进，可以直接复制下方链接，将<strong>QQ群号</strong>修改成需要下载的QQ群号，然后到浏览器访问</p>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">https://h5.qzone.qq.com/groupphoto/index?inqq=3&amp;groupId=QQ群号</span><br></pre></td></tr></table></figure>\n</li>\n<li><p>如图，在相册列表点击相应按钮即可<br><img src=\"https://s4.ax1x.com/2022/03/05/b0Fnq1.png\" alt=\"b0Fnq1.png\"></p>\n</li>\n</ol>\n<h2 id=\"注意事项\"><a href=\"#注意事项\" class=\"headerlink\" title=\"注意事项\"></a>注意事项</h2><ol>\n<li>脚本只是自动化点击下载，脚本不负责打包内容，压缩包中的内容由QQ官方生成。</li>\n<li>迅雷下载，仅支持Windows迅雷10+，其它系统版本或其他迅雷未测试，且需要提前打开迅雷，并打开迅雷的剪切板监听</li>\n</ol>\n<h2 id=\"开源地址\"><a href=\"#开源地址\" class=\"headerlink\" title=\"开源地址\"></a>开源地址</h2><p><a href=\"https://github.com/ShunCai/QQ-Group-Albums-Downloader\">GitHub</a></p>\n",
+            "tags": [
+                "QQ",
+                "QQ空间",
+                "QQ相册",
+                "QQ群相册",
+                "备份",
+                "迅雷下载",
+                "爬虫",
+                "油猴脚本",
+                "Tampermonkey"
+            ]
+        },
         {
             "id": "https://github.lvshuncai.com/archives/qzone-export.html",
             "url": "https://github.lvshuncai.com/archives/qzone-export.html",
