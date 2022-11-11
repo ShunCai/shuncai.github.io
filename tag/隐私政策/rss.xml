@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>芷炫博客 • Posts by &#34;隐私政策&#34; tag</title>
+        <link>https://github.lvshuncai.com</link>
+        <description>没有真正的绝境，只有心灵的迷途</description>
+        <language>zh-CN</language>
+        <pubDate>Sat, 12 Nov 2022 00:34:01 +0800</pubDate>
+        <lastBuildDate>Sat, 12 Nov 2022 00:34:01 +0800</lastBuildDate>
+        <category>QQ</category>
+        <category>QQ空间</category>
+        <category>QQ相册</category>
+        <category>QQ群相册</category>
+        <category>备份</category>
+        <category>导出</category>
+        <category>迅雷下载</category>
+        <category>爬虫</category>
+        <category>油猴脚本</category>
+        <category>Tampermonkey</category>
+        <category>QQ空间导出助手</category>
+        <category>Chrome扩展</category>
+        <category>Edge扩展</category>
+        <category>360扩展</category>
+        <category>Aria2下载</category>
+        <category>Motrix下载</category>
+        <category>隐私政策</category>
+        <category>jsDelivr</category>
+        <category>CDN</category>
+        <item>
+            <guid isPermalink="true">https://github.lvshuncai.com/archives/qzone-export-privacy-policy.html</guid>
+            <title>QQ空间导出助手之隐私政策</title>
+            <link>https://github.lvshuncai.com/archives/qzone-export-privacy-policy.html</link>
+            <category>QQ空间导出助手</category>
+            <category>隐私政策</category>
+            <pubDate>Sat, 12 Nov 2022 00:34:01 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;欢迎使用QQ空间导出助手（以下简称助手），请仔细阅读本隐私政策，使用助手即默认您同意本隐私政策，同意助手收集您的个人信息。&lt;br&gt;助手很尊重每个人的隐私，助手承诺在使用助手的过程中收集到的任何属于您的个人信息，仅用于助手备份数据，不做任何其他的用途与传播您的个人信息。&lt;/p&gt;
+&lt;h4 id=&#34;如何收集您的个人信息&#34;&gt;&lt;a href=&#34;#如何收集您的个人信息&#34; class=&#34;headerlink&#34; title=&#34;如何收集您的个人信息&#34;&gt;&lt;/a&gt;如何收集您的个人信息&lt;/h4&gt;&lt;p&gt;1、助手主要收集了您的浏览器的QQ空间网站的Cookie信息，用于免登录访问备份目标的QQ空间。&lt;br&gt;2、模拟用户浏览器行为访问备份目标的QQ空间，收集备份目标的QQ空间的说说、日志、私密日记、相册、视频、留言板、QQ好友、收藏夹信息。  &lt;/p&gt;
+&lt;h4 id=&#34;如何使用您的个人信息&#34;&gt;&lt;a href=&#34;#如何使用您的个人信息&#34; class=&#34;headerlink&#34; title=&#34;如何使用您的个人信息&#34;&gt;&lt;/a&gt;如何使用您的个人信息&lt;/h4&gt;&lt;p&gt;1、收集到QQ空间网站的Cookie，仅保存到浏览器的助手中，用于免登录访问备份目标的QQ空间。&lt;br&gt;2、收集到QQ空间数据，仅保存到浏览器中，用于您备份下载到本地，助手不使用和传播您的个人信息。  &lt;/p&gt;
+&lt;h4 id=&#34;如何清除助手收集的个人信息&#34;&gt;&lt;a href=&#34;#如何清除助手收集的个人信息&#34; class=&#34;headerlink&#34; title=&#34;如何清除助手收集的个人信息&#34;&gt;&lt;/a&gt;如何清除助手收集的个人信息&lt;/h4&gt;&lt;p&gt;卸载助手扩展即可&lt;/p&gt;
+&lt;h4 id=&#34;其他&#34;&gt;&lt;a href=&#34;#其他&#34; class=&#34;headerlink&#34; title=&#34;其他&#34;&gt;&lt;/a&gt;其他&lt;/h4&gt;&lt;p&gt;1、助手可以导出您的QQ空间公开、私密的数据，也可以导出你拥有访问权限的他人QQ空间的个人信息的数据，如若因您导出和传播他人空间数据，导致他人信息的泄露，助手概不负责。&lt;br&gt;2、使用第三方工具（Aria2、迅雷）下载QQ空间文件（照片、视频）的，导致个人&amp;#x2F;他人信息泄露的，助手概不负责。&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+
+&lt;hr&gt;
+&lt;p&gt;Welcome to use the QzoneExport Assistant (hereinafter referred to as the assistant), please read this privacy policy carefully, using the assistant means that you agree to this privacy policy by default and agree to the assistant’s collection of your personal information.&lt;br&gt;The assistant respects everyone’s privacy. The assistant promises that any personal information that belongs to you collected in the process of using the assistant will only be used for the assistant to back up data, and will not do any other purpose or disseminate your personal information.&lt;/p&gt;
+&lt;h4 id=&#34;How-to-collect-your-personal-information&#34;&gt;&lt;a href=&#34;#How-to-collect-your-personal-information&#34; class=&#34;headerlink&#34; title=&#34;How to collect your personal information&#34;&gt;&lt;/a&gt;How to collect your personal information&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;The assistant mainly collects the cookie information of the Qzone website of your browser, which is used to access the Qzone of the backup target without login.&lt;/li&gt;
+&lt;li&gt;Simulate the user’s browser behavior to access the QZone of the backup target, and collect the talk, log, private diary, photo album, video, message board, QQ friends, and favorites of the QZone of the backup target.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;How-to-use-your-personal-information&#34;&gt;&lt;a href=&#34;#How-to-use-your-personal-information&#34; class=&#34;headerlink&#34; title=&#34;How to use your personal information&#34;&gt;&lt;/a&gt;How to use your personal information&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Cookies collected from the Qzone website are only saved in the assistant of the browser and used to access the Qzone of the backup target without logging in.&lt;/li&gt;
+&lt;li&gt;The collected QZone data will only be saved in the browser for your backup and download to the local. The assistant does not use or spread your personal information.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;How-to-clear-the-personal-information-collected-by-the-assistant&#34;&gt;&lt;a href=&#34;#How-to-clear-the-personal-information-collected-by-the-assistant&#34; class=&#34;headerlink&#34; title=&#34;How to clear the personal information collected by the assistant&#34;&gt;&lt;/a&gt;How to clear the personal information collected by the assistant&lt;/h4&gt;&lt;p&gt;Just uninstall the assistant extension&lt;/p&gt;
+&lt;h4 id=&#34;Other&#34;&gt;&lt;a href=&#34;#Other&#34; class=&#34;headerlink&#34; title=&#34;Other&#34;&gt;&lt;/a&gt;Other&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;The assistant can export the public and private data of your Qzone, as well as the personal information of other people’s QZone that you have access to. If you export and disseminate other people’s space data, the assistant generally irresponsible.&lt;/li&gt;
+&lt;li&gt;Using third-party tools (Aria2, Thunder X) to download QZone files (photos or videos) that cause personal&amp;#x2F;other information leakage, the assistant is not responsible.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/bilicard.css&#34; type=&#34;text/css&#34;&gt; ]]></description>
+        </item>
+    </channel>
+</rss>

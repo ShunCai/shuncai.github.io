@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.1.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/6.0.0/css/all.min.css" integrity="sha256-jTIdiMuX/e3DGJUGwl3pKSxuc6YOuqtJYkM0bGQESA4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/pace/1.2.4/themes/blue/pace-theme-minimal.css">
+  <script src="https://cdn.staticfile.org/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"github.lvshuncai.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.10.1","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"changyan","storage":true,"lazyload":false,"nav":{"changyan":{"text":"畅言","order":1},"gitalk":{"text":"Gitalk","order":2}},"activeClass":"changyan"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/config.min.js"></script>
+
+    <meta name="description" content="QQ空间导出助手官方教程，一键备份QQ空间的说说、日志、私密日记、相册、视频、留言板、QQ好友、收藏夹、分享、访客">
+<meta property="og:type" content="article">
+<meta property="og:title" content="QQ空间导出助手之配置篇">
+<meta property="og:url" content="https://github.lvshuncai.com/archives/qzone-export-configuration.html">
+<meta property="og:site_name" content="芷炫博客">
+<meta property="og:description" content="QQ空间导出助手官方教程，一键备份QQ空间的说说、日志、私密日记、相册、视频、留言板、QQ好友、收藏夹、分享、访客">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/23/75Fc4g.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/23/75kAxA.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/23/75k2dK.png">
+<meta property="og:image" content="https://s1.ax1x.com/2022/06/20/XxHFy9.md.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/02/27/bmmX9g.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/23/75MAkn.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/23/75KzSf.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/23/75lFGq.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/23/75KzSf.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/23/75MAkn.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/23/751XDS.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/23/75lKo9.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/23/751DAJ.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/23/75Gqjx.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/23/758YLT.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/23/75NtIS.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/23/75NRG4.png">
+<meta property="og:image" content="https://s4.ax1x.com/2022/01/23/75Nrq0.png">
+<meta property="article:published_time" content="2022-11-11T16:34:01.130Z">
+<meta property="article:modified_time" content="2022-11-11T16:34:01.130Z">
+<meta property="article:author" content="芷炫">
+<meta property="article:tag" content="QQ空间">
+<meta property="article:tag" content="QQ相册">
+<meta property="article:tag" content="备份">
+<meta property="article:tag" content="导出">
+<meta property="article:tag" content="迅雷下载">
+<meta property="article:tag" content="爬虫">
+<meta property="article:tag" content="QQ空间导出助手">
+<meta property="article:tag" content="Chrome扩展">
+<meta property="article:tag" content="Edge扩展">
+<meta property="article:tag" content="360扩展">
+<meta property="article:tag" content="Aria2下载">
+<meta property="article:tag" content="Motrix下载">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s4.ax1x.com/2022/01/23/75Fc4g.png">
+
+
+<link rel="canonical" href="https://github.lvshuncai.com/archives/qzone-export-configuration.html">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://github.lvshuncai.com/archives/qzone-export-configuration.html","path":"archives/qzone-export-configuration.html","title":"QQ空间导出助手之配置篇"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>QQ空间导出助手之配置篇 | 芷炫博客</title>
+  
+
+
+
+
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css"><style>
+#needsharebutton-float {
+  bottom: 88px;
+  cursor: pointer;
+  left: -8px;
+  position: fixed;
+  z-index: 9999;
+}
+#needsharebutton-float .btn {
+  border: 1px solid $btn-default-border-color;
+  border-radius: 4px;
+  padding: 0 10px 0 14px;
+}
+</style><link rel="stylesheet" href="https://cdn.staticfile.org/social-share.js/1.0.16/css/share.min.css">
+
+    <script type="text/javascript" src="/custom/js/clicklove.min.js"></script>
+
+
+
+<link href="https://cdn.staticfile.org/aplayer/1.8.0/APlayer.min.css" rel="stylesheet">
+<script src="https://cdn.staticfile.org/aplayer/1.8.0/APlayer.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/meting@1.1.1/dist/Meting.min.js" integrity="sha256-RSiRv9m5KifrRuWzaSV5YGffr2vPv0S2b8+T6i4PboU=" crossorigin="anonymous"></script>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">芷炫博客</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">吕顺才的个人网站</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">10</span></a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">19</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">7</span></a></li>
+        <li class="menu-item menu-item-boards"><a href="/boards/" rel="section"><i class="fa fa-newspaper fa-fw"></i>留言</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E5%85%A5%E5%8F%A3"><span class="nav-number">1.</span> <span class="nav-text">配置入口</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E9%A1%B5%E9%9D%A2"><span class="nav-number">2.</span> <span class="nav-text">配置页面</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="nav-number">3.</span> <span class="nav-text">注意事项</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%A0%B8%E5%BF%83%E9%85%8D%E7%BD%AE"><span class="nav-number">4.</span> <span class="nav-text">核心配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7"><span class="nav-number">4.1.</span> <span class="nav-text">文件下载工具</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B5%8F%E8%A7%88%E5%99%A8"><span class="nav-number">4.1.1.</span> <span class="nav-text">浏览器</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%82%E7%94%A8%E4%BA%BA%E7%BE%A4"><span class="nav-number">4.1.1.1.</span> <span class="nav-text">适用人群</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9-1"><span class="nav-number">4.1.1.2.</span> <span class="nav-text">注意事项</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="nav-number">4.1.1.3.</span> <span class="nav-text">参考资料</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Aria2"><span class="nav-number">4.1.2.</span> <span class="nav-text">Aria2</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E4%BA%BA%E7%BE%A4"><span class="nav-number">4.1.2.1.</span> <span class="nav-text">使用人群</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9-2"><span class="nav-number">4.1.2.2.</span> <span class="nav-text">注意事项</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99-1"><span class="nav-number">4.1.2.3.</span> <span class="nav-text">参考资料</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Motrix%EF%BC%88%E6%8E%A8%E8%8D%90%EF%BC%89"><span class="nav-number">4.1.3.</span> <span class="nav-text">Motrix（推荐）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%82%E7%94%A8%E4%BA%BA%E7%BE%A4-1"><span class="nav-number">4.1.3.1.</span> <span class="nav-text">适用人群</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9-3"><span class="nav-number">4.1.3.2.</span> <span class="nav-text">注意事项</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%85%E9%9B%B7%EF%BC%88%E4%B8%8D%E6%8E%A8%E8%8D%90%EF%BC%89"><span class="nav-number">4.1.4.</span> <span class="nav-text">迅雷（不推荐）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8A%A9%E6%89%8B%E5%94%A4%E9%86%92"><span class="nav-number">4.1.4.1.</span> <span class="nav-text">助手唤醒</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E9%80%82%E7%94%A8%E7%89%88%E6%9C%AC"><span class="nav-number">4.1.4.1.1.</span> <span class="nav-text">适用版本</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9-4"><span class="nav-number">4.1.4.1.2.</span> <span class="nav-text">注意事项</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%89%AA%E5%88%87%E6%9D%BF%E5%94%A4%E9%86%92"><span class="nav-number">4.1.4.2.</span> <span class="nav-text">剪切板唤醒</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E9%80%82%E7%94%A8%E7%89%88%E6%9C%AC-1"><span class="nav-number">4.1.4.2.1.</span> <span class="nav-text">适用版本</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9-5"><span class="nav-number">4.1.4.2.2.</span> <span class="nav-text">注意事项</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5"><span class="nav-number">4.1.4.3.</span> <span class="nav-text">下载链接</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E7%89%88%E6%9C%AC"><span class="nav-number">4.1.4.3.1.</span> <span class="nav-text">使用版本</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9-6"><span class="nav-number">4.1.4.3.2.</span> <span class="nav-text">注意事项</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E6%A6%82%E8%BF%B0"><span class="nav-number">4.1.4.3.3.</span> <span class="nav-text">使用概述</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#QQ%E7%A9%BA%E9%97%B4%E5%A4%96%E9%93%BE"><span class="nav-number">4.1.5.</span> <span class="nav-text">QQ空间外链</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%87%E4%BB%BD%E7%B1%BB%E5%9E%8B"><span class="nav-number">4.2.</span> <span class="nav-text">备份类型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9F%A5%E8%AF%A2%E9%97%B4%E9%9A%94"><span class="nav-number">4.3.</span> <span class="nav-text">查询间隔</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A2%9E%E9%87%8F%E5%A4%87%E4%BB%BD"><span class="nav-number">4.4.</span> <span class="nav-text">增量备份</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%AC%E5%85%B1%E9%85%8D%E7%BD%AE"><span class="nav-number">5.</span> <span class="nav-text">公共配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%97%E8%A1%A8%E9%87%8D%E8%AF%95%E9%85%8D%E7%BD%AE"><span class="nav-number">5.1.</span> <span class="nav-text">列表重试配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%BE%E7%89%87%E7%B1%BB%E5%9E%8B%E8%AF%86%E5%88%AB"><span class="nav-number">5.2.</span> <span class="nav-text">图片类型识别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Aria2%E9%85%8D%E7%BD%AE"><span class="nav-number">5.3.</span> <span class="nav-text">Aria2配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BF%85%E9%9B%B7%E6%9C%80%E5%A4%A7%E4%BB%BB%E5%8A%A1"><span class="nav-number">5.4.</span> <span class="nav-text">迅雷最大任务</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BF%85%E9%9B%B7%E5%94%A4%E8%B5%B7%E9%97%B4%E9%9A%94"><span class="nav-number">5.5.</span> <span class="nav-text">迅雷唤起间隔</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%A8%A1%E5%9D%97%E9%85%8D%E7%BD%AE"><span class="nav-number">6.</span> <span class="nav-text">模块配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%B4%E8%AF%B4%E9%85%8D%E7%BD%AE"><span class="nav-number">6.1.</span> <span class="nav-text">说说配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%AE%E4%BF%A1%E5%9D%90%E6%A0%87"><span class="nav-number">6.1.1.</span> <span class="nav-text">微信坐标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E9%94%AE%E8%AF%8D%E5%B1%8F%E8%94%BD"><span class="nav-number">6.1.2.</span> <span class="nav-text">关键词屏蔽</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%97%A5%E5%BF%97%E9%85%8D%E7%BD%AE"><span class="nav-number">6.2.</span> <span class="nav-text">日志配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%95%E7%A4%BA%E6%96%B9%E5%BC%8F"><span class="nav-number">6.2.1.</span> <span class="nav-text">展示方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%A5%E5%BF%97%E8%A7%86%E5%9B%BE"><span class="nav-number">6.2.2.</span> <span class="nav-text">日志视图</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%97%A5%E8%AE%B0%E9%85%8D%E7%BD%AE"><span class="nav-number">6.3.</span> <span class="nav-text">日记配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%95%E7%A4%BA%E6%96%B9%E5%BC%8F-1"><span class="nav-number">6.3.1.</span> <span class="nav-text">展示方式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%B8%E5%86%8C%E9%85%8D%E7%BD%AE"><span class="nav-number">6.4.</span> <span class="nav-text">相册配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E8%A1%A8%E7%B1%BB%E5%9E%8B"><span class="nav-number">6.4.1.</span> <span class="nav-text">列表类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%B8%E7%89%87%E8%AF%A6%E6%83%85"><span class="nav-number">6.4.2.</span> <span class="nav-text">相片详情</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%B8%E7%89%87%E8%A7%86%E9%A2%91"><span class="nav-number">6.4.3.</span> <span class="nav-text">相片视频</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%B8%E7%89%87%E9%A2%84%E8%A7%88"><span class="nav-number">6.4.4.</span> <span class="nav-text">相片预览</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A5%BD%E5%8F%8B%E9%85%8D%E7%BD%AE"><span class="nav-number">6.5.</span> <span class="nav-text">好友配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%95%E7%A4%BA%E6%96%B9%E5%BC%8F-2"><span class="nav-number">6.5.1.</span> <span class="nav-text">展示方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%92%E5%8A%A8%E4%BF%A1%E6%81%AF"><span class="nav-number">6.5.2.</span> <span class="nav-text">互动信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A9%BA%E9%97%B4%E6%9D%83%E9%99%90"><span class="nav-number">6.5.3.</span> <span class="nav-text">空间权限</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%B9%E5%88%AB%E5%85%B3%E5%BF%83"><span class="nav-number">6.5.4.</span> <span class="nav-text">特别关心</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%86%E4%BA%AB%E9%85%8D%E7%BD%AE"><span class="nav-number">6.6.</span> <span class="nav-text">分享配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9D%A5%E6%BA%90%E7%AE%A1%E7%90%86"><span class="nav-number">6.6.1.</span> <span class="nav-text">来源管理</span></a></li></ol></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="芷炫"
+      src="/custom/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">芷炫</p>
+  <div class="site-description" itemprop="description">没有真正的绝境，只有心灵的迷途</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">19</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL1NodW5DYWk=" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;ShunCai"><i class="fab fa-github fa-fw"></i></span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="bWFpbHRvOmx2c2h1bmNhaUBnbWFpbC5jb20=" title="E-Mail → mailto:lvshuncai@gmail.com"><i class="fa fa-envelope fa-fw"></i></span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cDovL3dwYS5xcS5jb20vbXNncmQ/dj0zJnVpbj0xMTI5MTM2OTI0JnNpdGU9cXEmbWVudT15ZXM=" title="QQ → http:&#x2F;&#x2F;wpa.qq.com&#x2F;msgrd?v&#x3D;3&amp;uin&#x3D;1129136924&amp;site&#x3D;qq&amp;menu&#x3D;yes"><i class="fab fa-qq fa-fw"></i></span>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-rss fa-fw"></i></a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <span class="exturl cc-opacity" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC8="><img src="https://cdn.staticfile.org/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></span>
+  </div>
+
+
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+  <span class="exturl github-corner" data-url="aHR0cHM6Ly9naXRodWIuY29tL1NodW5DYWk=" title="Follow me on GitHub" aria-label="Follow me on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></span>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://github.lvshuncai.com/archives/qzone-export-configuration.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/custom/images/avatar.jpg">
+      <meta itemprop="name" content="芷炫">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="芷炫博客">
+      <meta itemprop="description" content="没有真正的绝境，只有心灵的迷途">
+    </span>
+    
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="QQ空间导出助手之配置篇 | 芷炫博客">
+      <meta itemprop="description" content="QQ空间导出助手官方教程，一键备份QQ空间的说说、日志、私密日记、相册、视频、留言板、QQ好友、收藏夹、分享、访客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          QQ空间导出助手之配置篇
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-11-12 00:34:01" itemprop="dateCreated datePublished" datetime="2022-11-12T00:34:01+08:00">2022-11-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">软件工具</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/%E5%A4%87%E4%BB%BD%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">备份工具</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/%E5%A4%87%E4%BB%BD%E5%B7%A5%E5%85%B7/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95/" itemprop="url" rel="index"><span itemprop="name">浏览器扩展</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Changyan：</span>
+    
+    <a title="QQ空间导出助手之配置篇" href="/archives/qzone-export-configuration.html#SOHUCS" itemprop="discussionUrl">
+      <span id="sourceId::c746267d593338c40c018eb7b5cc5efc" class="cy_cmt_count" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>5.3k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>5 分钟</span>
+    </span>
+</div>
+
+            <div class="post-description">QQ空间导出助手官方教程，一键备份QQ空间的说说、日志、私密日记、相册、视频、留言板、QQ好友、收藏夹、分享、访客</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p><strong>本站惯例：本文假定你已安装助手，不然请出文右转<a href="qzone-export-install.html">如何安装助手</a></strong></p>
+<p><strong>本文只针对于较为核心的配置的说明一般简单的说明，在配置页最右侧有配置</strong></p>
+<p>一般情况来说，助手默认的配置都适合大部分人使用了，完全可以即装即用。</p>
+<p>若不满足你的需求、或备份失败、或备份数据缺失，可以看个人情况来做调整，毕竟，适合自己的，才是最好的。</p>
+<h1 id="配置入口"><a href="#配置入口" class="headerlink" title="配置入口"></a>配置入口</h1><p><strong>一般来说，每个浏览器的入口都是不一样的，但是基本都大同小异，简单来说，就是扩展栏的助手的扩展图标中鼠标右键选择选项菜单即可进入</strong>。</p>
+<p>扩展栏一般在右上角，自己找下即可，右键出来的的菜单的名称可能也是不一样，但也都大同小异。</p>
+<p>比如Chrome叫选项，Edge叫扩展选项等等，也不排除有些直接叫配置，反正大同小异，自己研究一下就好。</p>
+<p>如果右键点不出来，可以重启浏览器后重试。</p>
+<span id="more"></span>
+
+<p><strong>以下以Edge浏览器为例，其它浏览器请自行摸索</strong></p>
+<p><img src="https://s4.ax1x.com/2022/01/23/75Fc4g.png" alt="75Fc4g.png"></p>
+<h1 id="配置页面"><a href="#配置页面" class="headerlink" title="配置页面"></a>配置页面</h1><p><img src="https://s4.ax1x.com/2022/01/23/75kAxA.png" alt="75kAxA.png"></p>
+<h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><p>1、更新配置后，<strong>需要人工点击保存，不会自动保存</strong></p>
+<p>2、保存配置后，备份前，<strong>需要刷新一下QQ空间页面，新的配置才在页面生效</strong></p>
+<h1 id="核心配置"><a href="#核心配置" class="headerlink" title="核心配置"></a>核心配置</h1><h2 id="文件下载工具"><a href="#文件下载工具" class="headerlink" title="文件下载工具"></a>文件下载工具</h2><p><strong>选项-&gt;设置-&gt;公共-&gt;文件下载-&gt;文件下载工具</strong></p>
+<h3 id="浏览器"><a href="#浏览器" class="headerlink" title="浏览器"></a>浏览器</h3><p>用来下载<a href="qzone-export-usage.html#%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD">多媒体文件</a>的工具，助手默认为<strong>浏览器</strong>，即使用浏览器的内置下载器来下载多媒体文件</p>
+<h4 id="适用人群"><a href="#适用人群" class="headerlink" title="适用人群"></a>适用人群</h4><p>懒得折腾，空间的多媒体文件比较少的人群</p>
+<h4 id="注意事项-1"><a href="#注意事项-1" class="headerlink" title="注意事项"></a>注意事项</h4><p>1、下载的文件过多时，不建议使用浏览器下载，很容易造成浏览器崩溃</p>
+<p>2、备份前，需要关闭浏览器中的<strong>下载前询问每个文件的保存位置</strong>，不然每个文件都会询问保存位置</p>
+<h4 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h4><p><strong>Edge</strong>：设置-&gt;下载-&gt;每次下载都询问我该做些什么，参考：<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVJXUm5aZWExaitpbmlPV1pxT1M0aStpOXZlaXV2dWU5cmc9PQ==">Edge如何设置下载文件夹<i class="fa fa-external-link-alt"></i></span></p>
+<p><strong>Chrome</strong>：设置-&gt;高级-&gt;下载内容-&gt;下载前询问每个文件的保存位置，参考：<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVEyaHliMjFsNXJXUDZLZUk1Wm1vNUxpTDZMMjk2SzYrNTcydQ==">Chrome如何设置下载文件夹<i class="fa fa-external-link-alt"></i></span></p>
+<p><strong>360极速浏览器</strong>：选项-&gt;下载设置-&gt;下载前询问每个文件的保存位置，参考：<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPU16WXc1cldQNktlSTVabW81TGlMNkwyOTZLNis1NzJ1">360极速浏览器如何设置下载文件夹<i class="fa fa-external-link-alt"></i></span></p>
+<p><strong>其它浏览器</strong>：出文右转百度</p>
+<hr>
+<h3 id="Aria2"><a href="#Aria2" class="headerlink" title="Aria2"></a>Aria2</h3><p><strong>基于<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVFYSnBZVEk9">Aria2<i class="fa fa-external-link-alt"></i></span>的第三方下载工具理论上均可使用</strong>，包括但不限于<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVRXOTBjbWw0">Motrix<i class="fa fa-external-link-alt"></i></span>、<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVVXUnZkMjQ9">Qdown<i class="fa fa-external-link-alt"></i></span>、<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVVHaHZkRzl1NUxpTDZMMjk1Wm1v">Photon<i class="fa fa-external-link-alt"></i></span>等等</p>
+<h4 id="使用人群"><a href="#使用人群" class="headerlink" title="使用人群"></a>使用人群</h4><p>QQ空间多媒体文件过多，希望无人值守备份的人群</p>
+<h4 id="注意事项-2"><a href="#注意事项-2" class="headerlink" title="注意事项"></a>注意事项</h4><p>1、需下载与安装<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVFYSnBZVEk9">Aria2<i class="fa fa-external-link-alt"></i></span></p>
+<p>2、需在助手进行Aria2的配置</p>
+<p>3、原生Aria2属于命令行工具，配置复杂，使用复杂，可使用第三方客户端避免</p>
+<h4 id="参考资料-1"><a href="#参考资料-1" class="headerlink" title="参考资料"></a>参考资料</h4><p><span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVRXOTBjbWw0">Motrix<i class="fa fa-external-link-alt"></i></span>、<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVFYSnBZVElnNW9lUzVMcTY1WXlG">Aria2 懒人包<i class="fa fa-external-link-alt"></i></span>、<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVFYSnBZVElnNVkrdjZLZUc1WXlX">Aria2 可视化<i class="fa fa-external-link-alt"></i></span>、<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVFYSnBZVElnWm05eUlFVmtaMlU9">Aria2 for Edge<i class="fa fa-external-link-alt"></i></span>、<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVFYSnBZVElnWm05eUlFTm9jbTl0WlE9PQ==">Aria2 for Chrome<i class="fa fa-external-link-alt"></i></span></p>
+<hr>
+<h3 id="Motrix（推荐）"><a href="#Motrix（推荐）" class="headerlink" title="Motrix（推荐）"></a>Motrix（推荐）</h3><p><strong>一个基于<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVFYSnBZVEk9">Aria2<i class="fa fa-external-link-alt"></i></span>的第三方下载工具理论上均可使用</strong>，更多第三方下载工具，请出文右转百度</p>
+<h4 id="适用人群-1"><a href="#适用人群-1" class="headerlink" title="适用人群"></a>适用人群</h4><p>QQ空间多媒体文件过多，希望无人值守备份的人群，希望使用Aria2，又不想折腾的人群</p>
+<h4 id="注意事项-3"><a href="#注意事项-3" class="headerlink" title="注意事项"></a>注意事项</h4><p>1、需下载与安装<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVRXOTBjbWw0">Motrix<i class="fa fa-external-link-alt"></i></span></p>
+<p>2、下载任务过多时，助手添加任务过快时，可能会造成Motrix崩溃</p>
+<p>3、助手目前没有限制添加任务的频率，也就是，很容易造成Motrix崩溃，如果造成Motrix崩溃，可更换为原生Aria2或参考<a href="qzone-export-usage.html#%E4%B8%8B%E8%BD%BD%E7%AE%A1%E7%90%86">下载管理使用说明</a></p>
+<hr>
+<h3 id="迅雷（不推荐）"><a href="#迅雷（不推荐）" class="headerlink" title="迅雷（不推荐）"></a>迅雷（不推荐）</h3><h4 id="助手唤醒"><a href="#助手唤醒" class="headerlink" title="助手唤醒"></a>助手唤醒</h4><h5 id="适用版本"><a href="#适用版本" class="headerlink" title="适用版本"></a>适用版本</h5><p><strong>Windows版本的迅雷10+版本以上</strong></p>
+<h5 id="注意事项-4"><a href="#注意事项-4" class="headerlink" title="注意事项"></a>注意事项</h5><p>1、无法正常唤起时，可更换为<a href="#%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5">迅雷下载链接</a>，人工添加下载任务</p>
+<p>2、多媒体文件过多时，只能分批次唤起，参考<a href="#%E8%BF%85%E9%9B%B7%E6%9C%80%E5%A4%A7%E4%BB%BB%E5%8A%A1">迅雷最大任务</a>，人工添加下载任务</p>
+<p>3、无法进行无人值守备份，因为唤起迅雷后，添加任务需要人工点击确认才能添加成功</p>
+<hr>
+<h4 id="剪切板唤醒"><a href="#剪切板唤醒" class="headerlink" title="剪切板唤醒"></a>剪切板唤醒</h4><h5 id="适用版本-1"><a href="#适用版本-1" class="headerlink" title="适用版本"></a>适用版本</h5><p><strong>Windows版本的迅雷10+版本以上</strong></p>
+<h5 id="注意事项-5"><a href="#注意事项-5" class="headerlink" title="注意事项"></a>注意事项</h5><p>1、需提前安装好迅雷，且打开迅雷设置中的剪切板监听</p>
+<p>2、多媒体文件过多时，只能分批次唤起，参考<a href="#%E8%BF%85%E9%9B%B7%E6%9C%80%E5%A4%A7%E4%BB%BB%E5%8A%A1">迅雷最大任务</a>，人工添加下载任务</p>
+<p>3、无法进行无人值守备份，因为唤起迅雷后，添加任务需要人工点击确认才能添加成功</p>
+<hr>
+<h4 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接"></a>下载链接</h4><h5 id="使用版本"><a href="#使用版本" class="headerlink" title="使用版本"></a>使用版本</h5><p><strong>Windows版本的迅雷10+版本以上</strong></p>
+<h5 id="注意事项-6"><a href="#注意事项-6" class="headerlink" title="注意事项"></a>注意事项</h5><p>需在<strong>备份压缩包</strong>解压的文件夹中，复制<strong>迅雷下载链接</strong>到迅雷人工添加任务</p>
+<h5 id="使用概述"><a href="#使用概述" class="headerlink" title="使用概述"></a>使用概述</h5><p>1、<strong>迅雷下载链接</strong>存放在<strong>备份压缩包</strong>中的<span style="color:red">一个或多个迅雷下载链接文件</span>中</p>
+<p>2、全选并复制<strong>迅雷下载链接</strong>的所有内容</p>
+<p>3、打开已安装的迅雷</p>
+<p>4、如果迅雷已打开剪切板监听，将会自动添加任务</p>
+<p>5、如果没有打开剪切板监听，则自行新建下载任务，然后粘贴复制的内容到下载链接然后添加任务即可</p>
+<p>6、再进行<a href="qzone-export-usage.html#%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD">文案内容备份文件夹</a>与<a href="qzone-export-usage.html#%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD">多媒体文件备份文件夹</a>合并，详情参考：<a href="qzone-export-usage.html#%E5%90%88%E5%B9%B6%E5%A4%87%E4%BB%BD">如何合并备份</a></p>
+<p>7、合并完成后，根据备份类型的不同，自行查看备份内容</p>
+<hr>
+<h3 id="QQ空间外链"><a href="#QQ空间外链" class="headerlink" title="QQ空间外链"></a>QQ空间外链</h3><p>不下载任何的<a href="qzone-export-usage.html#%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD">多媒体文件</a>，只下载<a href="qzone-export-usage.html#%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD">文案内容</a>，<a href="qzone-export-usage.html#%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD">文案内容</a>中的<a href="qzone-export-usage.html#%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD">多媒体文件</a>使用QQ空间的在线地址</p>
+<p><strong>适用人群</strong>：QQ空间内容迁移到其它社区或博客</p>
+<p><strong>缺点</strong>：链接可能存在有效期，不建议使用</p>
+<h2 id="备份类型"><a href="#备份类型" class="headerlink" title="备份类型"></a>备份类型</h2><p><strong>选项-&gt;设置-&gt;模块-&gt;公共-&gt;备份类型</strong></p>
+<p>将<a href="qzone-export-usage.html#%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD">文案内容</a>备份到什么类型的<a href="qzone-export-usage.html#%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD">文案内容文件</a>，每个模块可单独配置，<strong>建议每个模块保持一样的备份类型，比如都为HTML</strong></p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://imgtu.com/i/75k2dK"><img src="https://s4.ax1x.com/2022/01/23/75k2dK.png" alt="75k2dK.png"></a></p>
+<p><strong>备份类型清单</strong></p>
+<table>
+<thead>
+<tr>
+<th>备份类型</th>
+<th>查看方式</th>
+<th>优缺点</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>HTML</td>
+<td>浏览器</td>
+<td>备份内容齐全</td>
+<td>浏览器专用文件</td>
+</tr>
+<tr>
+<td>MarkDown</td>
+<td>MarkDown编辑器</td>
+<td>只备份核心内容</td>
+<td>一种轻量级标记语言，参考：<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVRXRnlhMFJ2ZDI3bW1LL2t1NERrdVlnPQ==">MarkDown是什么<i class="fa fa-external-link-alt"></i></span>与<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPTVhYUM1TDJWNXArbDU1eUxUVVRtbG9ma3U3WT0=">如何查看MD文件<i class="fa fa-external-link-alt"></i></span></td>
+</tr>
+<tr>
+<td>JSON</td>
+<td>文本查看器</td>
+<td>无</td>
+<td>开发者专用，可用于数据迁移</td>
+</tr>
+<tr>
+<td>文件</td>
+<td>图片查看器</td>
+<td>只备份相片文件</td>
+<td>相册模块专用的备份类型，这里指图片，比如JPEG、JPG、GIF、PNG等<br /><strong>HTML备份类型默认包含该备份类型</strong>，存放在<a href="qzone-export-usage.html#%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD">多媒体文件备份文件夹</a></td>
+</tr>
+<tr>
+<td>MP4文件</td>
+<td>视频查看器</td>
+<td>只备份视频文件</td>
+<td>视频模块专用的备份类型，指的视频，也就是MP4文件<br /><strong>HTML备份类型默认包含该备份类型</strong>，存放在<a href="qzone-export-usage.html#%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD">多媒体文件备份文件夹</a></td>
+</tr>
+<tr>
+<td>Excel</td>
+<td>Office、WPS</td>
+<td>便于筛选过滤</td>
+<td>Office或WPS</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="查询间隔"><a href="#查询间隔" class="headerlink" title="查询间隔"></a>查询间隔</h2><p><strong>选项-&gt;设置-&gt;模块-&gt;查询间隔</strong></p>
+<ul>
+<li>表示助手采集数据的采集频率，也即是助手模拟人工翻下一页的时间间隔，单位为秒</li>
+<li>可自行调整，但是也不宜过小或过大，过快可能会导致账号冻结</li>
+<li>如遇账号冻结，可将查询间隔往上调整，等待解冻后再重新备份</li>
+</ul>
+<h2 id="增量备份"><a href="#增量备份" class="headerlink" title="增量备份"></a>增量备份</h2><p><strong>选项-&gt;设置-&gt;模块-&gt;增量备份</strong></p>
+<p>详细使用说明，移步<a href="qzone-export-usage.html#%E5%A2%9E%E9%87%8F%E5%A4%87%E4%BB%BD">如何使用增量备份</a></p>
+<table>
+<thead>
+<tr>
+<th>备份方式</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>全量</td>
+<td><strong>推荐</strong>，全量备份<strong>文案内容</strong>及<strong>多媒体文件</strong></td>
+</tr>
+<tr>
+<td>上次备份</td>
+<td>基于上次备份的数据，增量备份备份<strong>文案内容</strong>及<strong>多媒体文件</strong></td>
+</tr>
+<tr>
+<td>自定义</td>
+<td>增量备份指定时间后的<strong>文案内容</strong>及<strong>多媒体文件</strong></td>
+</tr>
+</tbody></table>
+<h1 id="公共配置"><a href="#公共配置" class="headerlink" title="公共配置"></a>公共配置</h1><h2 id="列表重试配置"><a href="#列表重试配置" class="headerlink" title="列表重试配置"></a>列表重试配置</h2><p><strong>选项-&gt;设置-&gt;公共-&gt;文件下载-&gt;列表重试次数&#x2F;列表重试间隔</strong></p>
+<p>部分QQ空间接口不稳定，从而导致获取数据时失败，失败后，助手将进行重试，直到重试成功或重试次数用完。</p>
+<h2 id="图片类型识别"><a href="#图片类型识别" class="headerlink" title="图片类型识别"></a>图片类型识别</h2><p><strong>选项-&gt;设置-&gt;公共-&gt;文件下载-&gt;图片类型识别</strong></p>
+<p>开启后，将延长备份时间，将识别说说、日志、日记、留言板收藏夹、分享、访客中的图片类型，即生成配图的后缀名，便于系统可识别打开</p>
+<p><span style="color:red">如若开启后，导致无法正常备份，可关闭，理论上应该不会了，优化了几次了。^_^</span></p>
+<h2 id="Aria2配置"><a href="#Aria2配置" class="headerlink" title="Aria2配置"></a>Aria2配置</h2><p><strong>选项-&gt;设置-&gt;公共-&gt;文件下载-&gt;Aria2 RPC地址&#x2F;Aria2 认证令牌</strong></p>
+<p><strong>常见Aria2下载工具的默认配置，其它的第三方Aria2客户端，请自行出文右转百度</strong></p>
+<table>
+<thead>
+<tr>
+<th>下载工具</th>
+<th>RPC默认端口</th>
+<th>默认密钥&#x2F;认证令牌</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Aria2</td>
+<td>6800</td>
+<td>无</td>
+</tr>
+<tr>
+<td>Motrix</td>
+<td>16800</td>
+<td>无</td>
+</tr>
+<tr>
+<td>Qdown</td>
+<td>2800</td>
+<td>werqrqrasfatertg</td>
+</tr>
+<tr>
+<td>Photon</td>
+<td>6800</td>
+<td>无</td>
+</tr>
+</tbody></table>
+<p><strong>参考资料</strong></p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVFYSnBZVExtbUsva3U0RGt1WWc9">Aria2是什么<i class="fa fa-external-link-alt"></i></span></p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVRXOTBjbWw0">Motrix是什么<i class="fa fa-external-link-alt"></i></span></p>
+<h2 id="迅雷最大任务"><a href="#迅雷最大任务" class="headerlink" title="迅雷最大任务"></a>迅雷最大任务</h2><p><strong>选项-&gt;设置-&gt;公共-&gt;文件下载-&gt;迅雷最大任务</strong></p>
+<p>每次唤醒迅雷时，添加多少下载任务到迅雷，默认为3000，<strong>不宜过大，过大时无法正常唤醒迅雷</strong></p>
+<p>举个例子，多媒体文件有5000，那将会唤醒迅雷两次，第一次3000，第二次2000</p>
+<h2 id="迅雷唤起间隔"><a href="#迅雷唤起间隔" class="headerlink" title="迅雷唤起间隔"></a>迅雷唤起间隔</h2><p><strong>选项-&gt;设置-&gt;公共-&gt;文件下载-&gt;迅雷唤起间隔</strong></p>
+<p>即每次唤起迅雷的间隔时间，默认为60秒</p>
+<p>举个例子，多媒体文件有5000，那将会唤醒迅雷两次，第一次3000，间隔60秒后唤醒第二次2000</p>
+<h1 id="模块配置"><a href="#模块配置" class="headerlink" title="模块配置"></a>模块配置</h1><h2 id="说说配置"><a href="#说说配置" class="headerlink" title="说说配置"></a>说说配置</h2><h3 id="微信坐标"><a href="#微信坐标" class="headerlink" title="微信坐标"></a>微信坐标</h3><p><strong>选项-&gt;设置-&gt;说说-&gt;微信定位</strong></p>
+<p>勾选时，将会刷新与修正从朋友圈同步发表到QQ空间的坐标信息</p>
+<p><strong>修正前 VS 修正后</strong></p>
+<p><img src="https://s1.ax1x.com/2022/06/20/XxHFy9.md.png" alt="XxHFy9.md.png"></p>
+<h3 id="关键词屏蔽"><a href="#关键词屏蔽" class="headerlink" title="关键词屏蔽"></a>关键词屏蔽</h3><p><strong>选项-&gt;设置-&gt;说说-&gt;说说选项-&gt;屏蔽开关</strong></p>
+<p>根据关键字过滤掉说说，即不备份含指定关键字的说说，<strong>谨慎使用，避免屏蔽正常说说。</strong></p>
+<p>一般不建议使用，除非你不需要备份你的或TA人发表的<strong>微商式</strong>的说说</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://imgtu.com/i/bmmX9g"><img src="https://s4.ax1x.com/2022/02/27/bmmX9g.png" alt="bmmX9g.png"></a></p>
+<h2 id="日志配置"><a href="#日志配置" class="headerlink" title="日志配置"></a>日志配置</h2><h3 id="展示方式"><a href="#展示方式" class="headerlink" title="展示方式"></a>展示方式</h3><p><strong>选项-&gt;设置-&gt;日志-&gt;日志选项-&gt;展示方式</strong></p>
+<p>日志列表的展示方式，表格或列表</p>
+<p><strong>表格</strong></p>
+<p>日志列表以表格的方式展示</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://imgtu.com/i/75MAkn"><img src="https://s4.ax1x.com/2022/01/23/75MAkn.png" alt="75MAkn.png"></a></p>
+<p><strong>列表（默认）</strong></p>
+<p>日志列表以列表的方式展示</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://imgtu.com/i/75KzSf"><img src="https://s4.ax1x.com/2022/01/23/75KzSf.png" alt="75KzSf.png"></a></p>
+<h3 id="日志视图"><a href="#日志视图" class="headerlink" title="日志视图"></a>日志视图</h3><p><strong>选项-&gt;设置-&gt;日志-&gt;日志选项-&gt;日志视图</strong></p>
+<p>日志列表的展示视图，列表或摘要</p>
+<p><strong>列表</strong></p>
+<p>日志列表以纯文字标题的方式展示</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://imgtu.com/i/75lFGq"><img src="https://s4.ax1x.com/2022/01/23/75lFGq.png" alt="75lFGq.png"></a></p>
+<p><strong>摘要（默认）</strong></p>
+<p>日志列表以纯文字内容+日志图片的方式展示</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://imgtu.com/i/75KzSf"><img src="https://s4.ax1x.com/2022/01/23/75KzSf.png" alt="75KzSf.png"></a></p>
+<h2 id="日记配置"><a href="#日记配置" class="headerlink" title="日记配置"></a>日记配置</h2><h3 id="展示方式-1"><a href="#展示方式-1" class="headerlink" title="展示方式"></a>展示方式</h3><p><strong>选项-&gt;设置-&gt;私密日记-&gt;日记选项-&gt;展示方式</strong></p>
+<p>私密日记列表的展示方式，表格或列表</p>
+<p><strong>表格</strong></p>
+<p>私密日记列表以表格的方式展示</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://imgtu.com/i/75MAkn"><img src="https://s4.ax1x.com/2022/01/23/75MAkn.png" alt="75MAkn.png"></a></p>
+<p><strong>列表（默认）</strong></p>
+<p>私密日记列表以列表的方式展示</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://imgtu.com/i/751XDS"><img src="https://s4.ax1x.com/2022/01/23/751XDS.png" alt="751XDS.png"></a></p>
+<h2 id="相册配置"><a href="#相册配置" class="headerlink" title="相册配置"></a>相册配置</h2><h3 id="列表类型"><a href="#列表类型" class="headerlink" title="列表类型"></a>列表类型</h3><p><strong>选项-&gt;设置-&gt;相册-&gt;相片选项-&gt;列表类型</strong></p>
+<p>助手采集相片列表时，使用什么方式采集相片列表</p>
+<p><strong>默认列表</strong></p>
+<p>助手通过模拟<strong>你在相册中以非大图的方式查看相片列表</strong>的方式获取相片的列表</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://imgtu.com/i/75lKo9"><img src="https://s4.ax1x.com/2022/01/23/75lKo9.png" alt="75lKo9.png"></a></p>
+<ul>
+<li>每页最大条目数为90，相片过多时，备份缓慢</li>
+<li>如若需要备份相片上传时的坐标信息，需要额外打开<a href="#%E7%9B%B8%E7%89%87%E8%AF%A6%E6%83%85">相片详情</a>，不然无法备份上传的坐标信息</li>
+<li>如若需要备份他人空间相册时，需要额外打开<a href="#%E7%9B%B8%E7%89%87%E8%AF%A6%E6%83%85">相片详情</a>，不然无法备份加密相册的相片</li>
+<li>如若需要备份相册中的视频的时候，需要额外打开<a href="#%E7%9B%B8%E7%89%87%E8%A7%86%E9%A2%91">相片视频</a>，不然无法下载相册中的视频</li>
+</ul>
+<hr>
+<p><strong>详情列表（推荐）</strong></p>
+<p>助手通过模拟<strong>你在相册中以查看大图的方式浏览相片</strong>的方式获取相片的列表</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://imgtu.com/i/751DAJ"><img src="https://s4.ax1x.com/2022/01/23/751DAJ.png" alt="751DAJ.png"></a></p>
+<ul>
+<li>默认使用该方式，但因是新支持的方式，如若有问题，可以切回【默认列表】</li>
+<li>每页最大条目数为似乎没限制，但不宜过大，默认为1000，相对于【默认列表】而言，有较快的备份速度，<strong>如遇无法正常备份视频，可将默认值1000往下调整，比如调整到500或200</strong></li>
+<li>该方式自带相片详情，无需额外获取相片详情<a href="#%E7%9B%B8%E7%89%87%E8%AF%A6%E6%83%85">相片详情</a>与<a href="#%E7%9B%B8%E7%89%87%E8%A7%86%E9%A2%91">相片视频</a></li>
+</ul>
+<h3 id="相片详情"><a href="#相片详情" class="headerlink" title="相片详情"></a>相片详情</h3><p><strong>选项-&gt;设置-&gt;相册-&gt;相片选项-&gt;相片详情</strong></p>
+<p>勾选后，将查询相片详情</p>
+<p><strong>需要获取相片详情的场景：</strong></p>
+<p>1、<a href="#%E5%88%97%E8%A1%A8%E7%B1%BB%E5%9E%8B">列表类型</a>为<strong>默认列表</strong>时，若为<strong>详情列表</strong>，默认相片自带详情</p>
+<p>2、需要备份他人有权限访问的加密相册时</p>
+<p>3、需要备份相册相片上传地点坐标信息时</p>
+<p>4、需要备份相册中的视频时</p>
+<h3 id="相片视频"><a href="#相片视频" class="headerlink" title="相片视频"></a>相片视频</h3><p><strong>选项-&gt;设置-&gt;相册-&gt;相片选项-&gt;相片视频</strong></p>
+<p>勾选后，将查询相册相片关联的视频</p>
+<p><strong>需要获取相片视频的场景：</strong></p>
+<p>1、<a href="#%E5%88%97%E8%A1%A8%E7%B1%BB%E5%9E%8B">列表类型</a>为<strong>默认列表</strong>时</p>
+<p>2、<a href="#%E7%9B%B8%E7%89%87%E8%AF%A6%E6%83%85">相片详情</a>不勾选时</p>
+<p>3、需要备份相册中的视频时</p>
+<h3 id="相片预览"><a href="#相片预览" class="headerlink" title="相片预览"></a>相片预览</h3><p><strong>选项-&gt;设置-&gt;相册-&gt;相片选项-&gt;相片预览</strong></p>
+<p>勾选后，查看备份的相册列表时，使用预览图查看相片列表，点击相片时才查看原图</p>
+<p><strong>优点</strong>：打开相册页面查看相片列表时，可加快相片展示速度，需要点击相片才能查看原图</p>
+<p><strong>缺点</strong>：相册页面展示相片列表时，相片过于模糊，相片下载任务翻倍，原图一张，预览图一张</p>
+<h2 id="好友配置"><a href="#好友配置" class="headerlink" title="好友配置"></a>好友配置</h2><h3 id="展示方式-2"><a href="#展示方式-2" class="headerlink" title="展示方式"></a>展示方式</h3><p><strong>选项-&gt;设置-&gt;好友-&gt;好友选项-&gt;展示方式</strong></p>
+<p>好友列表的展示方式，表格或列表</p>
+<p><strong>表格</strong></p>
+<p>好友列表以表格的方式展示</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://imgtu.com/i/75Gqjx"><img src="https://s4.ax1x.com/2022/01/23/75Gqjx.png" alt="75Gqjx.png"></a></p>
+<p><strong>列表（默认）</strong></p>
+<p>好友列表以列表的方式展示</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://imgtu.com/i/758YLT"><img src="https://s4.ax1x.com/2022/01/23/758YLT.png" alt="758YLT.png"></a></p>
+<h3 id="互动信息"><a href="#互动信息" class="headerlink" title="互动信息"></a>互动信息</h3><p><strong>选项-&gt;设置-&gt;好友-&gt;好友选项-&gt;互动信息</strong></p>
+<p>互动信息，来源于QQ空间的好友亲密度页面，勾选后，将备份以下内容</p>
+<p>1、<strong>好友添加时间，数据来源QQ空间，非来源QQ，时间仅供参考，具体的以QQ的为准。</strong></p>
+<blockquote>
+<p>显示为老朋友，原因可能如下：<br>或是因为TA曾经删除过你，后面加回来的，别问我为啥知道。<br>或是因为TA是你的单向好友，猜的，我也不知道对不对。<br>或是没有TA的空间访问权限，猜的，我也不知道对不对。</p>
+</blockquote>
+<p>2、<strong>单向好友检测，即检测你QQ好友列表中有TA，TA好友列表中没有你的TA</strong></p>
+<blockquote>
+<p>可参考微信的单向好友删除功能，没错，以前QQ是支持单向删除的，现在似乎不支持了。</p>
+</blockquote>
+<p>3、<strong>亲密度，数据来源QQ空间，仅供参考</strong></p>
+<blockquote>
+<p>显示为老朋友，原因可能如下：<br>或是因为TA曾经删除过你，后面加回来的，别问我为啥知道。<br>或是因为TA是你的单向好友，猜的，我也不知道对不对。<br>或是没有TA的空间访问权限，猜的，我也不知道对不对。</p>
+</blockquote>
+<p>4、<strong>共同好友个数，仅支持检测QQ共同好友的个数，不支持检测具体的共同好友</strong></p>
+<p>5、<strong>共同QQ群组，就是两者的共同所在的QQ群</strong></p>
+<h3 id="空间权限"><a href="#空间权限" class="headerlink" title="空间权限"></a>空间权限</h3><p><strong>选项-&gt;设置-&gt;好友-&gt;好友选项-&gt;空间权限</strong></p>
+<p>勾选后，助手将检测是否有权限访问好友的空间，仅供参考</p>
+<h3 id="特别关心"><a href="#特别关心" class="headerlink" title="特别关心"></a>特别关心</h3><p><strong>选项-&gt;设置-&gt;好友-&gt;好友选项-&gt;特别关心</strong></p>
+<p>勾选后，将检测好友是否为特别关心好友，<strong>不是检测哪个好友特别关心了自己</strong>，仅供参考</p>
+<h2 id="分享配置"><a href="#分享配置" class="headerlink" title="分享配置"></a>分享配置</h2><h3 id="来源管理"><a href="#来源管理" class="headerlink" title="来源管理"></a>来源管理</h3><p><strong>选项-&gt;设置-&gt;分享-&gt;分享选项-&gt;来源管理</strong></p>
+<p>自定义来源后，分享下方的来源将不显示来源URL地址，而是显示你自定义的来源别名</p>
+<p><strong>配置别名</strong><br><a target="_blank" rel="noopener external nofollow noreferrer" href="https://imgtu.com/i/75NtIS"><img src="https://s4.ax1x.com/2022/01/23/75NtIS.png" alt="75NtIS.png"></a></p>
+<p><strong>未配置别名前</strong><br><a target="_blank" rel="noopener external nofollow noreferrer" href="https://imgtu.com/i/75NRG4"><img src="https://s4.ax1x.com/2022/01/23/75NRG4.png" alt="75NRG4.png"></a></p>
+<p><strong>配置别名后</strong><br><a target="_blank" rel="noopener external nofollow noreferrer" href="https://imgtu.com/i/75Nrq0"><img src="https://s4.ax1x.com/2022/01/23/75Nrq0.png" alt="75Nrq0.png"></a></p>
+<link rel="stylesheet" href="/css/bilicard.css" type="text/css">
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer"><div class="post-widgets">
+    <div
+      class="social-share"
+      
+        data-sites="weibo,qq,wechat,qzone,douban,facebook,twitter,linkedin"
+      
+      
+        data-wechat-qrcode-title="打开微信扫一扫"
+      
+      
+        data-wechat-qrcode-helper="分享文章到朋友圈"
+      
+    >
+    </div>
+  </div>
+  <script src="https://cdn.staticfile.org/social-share.js/1.0.16/js/social-share.min.js"></script>
+    <div>
+        
+            <div style="text-align:center;color: #ccc;margin: 2em 0 0;">-------------本文结束<i class='fa fa-paw'></i>感谢您的阅读-------------</div>
+        
+    </div>
+
+          <div class="reward-container">
+  <div>您的支持将鼓励我继续创作！</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="https://s1.ax1x.com/2020/05/16/YcePUI.png" alt="芷炫 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="https://s1.ax1x.com/2020/05/16/YceCVA.png" alt="芷炫 支付宝">
+        <span>支付宝</span>
+      </div>
+      <div>
+        <img src="https://s1.ax1x.com/2020/05/16/Ycei5t.png" alt="芷炫 QQ">
+        <span>QQ</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>芷炫
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://github.lvshuncai.com/archives/qzone-export-configuration.html" title="QQ空间导出助手之配置篇">https://github.lvshuncai.com/archives/qzone-export-configuration.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC8="><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</span> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/custom/images/wechat-qcode.jpg">
+          <span class="icon">
+            <i class="fab fa-weixin"></i>
+          </span>
+
+          <span class="label">WeChat</span>
+        </a>
+      </div>
+
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/atom.xml">
+          <span class="icon">
+            <i class="fa fa-rss"></i>
+          </span>
+
+          <span class="label">RSS</span>
+        </a>
+      </div>
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/QQ%E7%A9%BA%E9%97%B4/" rel="tag"><i class="fa fa-tag"></i> QQ空间</a>
+              <a href="/tags/QQ%E7%9B%B8%E5%86%8C/" rel="tag"><i class="fa fa-tag"></i> QQ相册</a>
+              <a href="/tags/%E5%A4%87%E4%BB%BD/" rel="tag"><i class="fa fa-tag"></i> 备份</a>
+              <a href="/tags/%E5%AF%BC%E5%87%BA/" rel="tag"><i class="fa fa-tag"></i> 导出</a>
+              <a href="/tags/%E8%BF%85%E9%9B%B7%E4%B8%8B%E8%BD%BD/" rel="tag"><i class="fa fa-tag"></i> 迅雷下载</a>
+              <a href="/tags/%E7%88%AC%E8%99%AB/" rel="tag"><i class="fa fa-tag"></i> 爬虫</a>
+              <a href="/tags/QQ%E7%A9%BA%E9%97%B4%E5%AF%BC%E5%87%BA%E5%8A%A9%E6%89%8B/" rel="tag"><i class="fa fa-tag"></i> QQ空间导出助手</a>
+              <a href="/tags/Chrome%E6%89%A9%E5%B1%95/" rel="tag"><i class="fa fa-tag"></i> Chrome扩展</a>
+              <a href="/tags/Edge%E6%89%A9%E5%B1%95/" rel="tag"><i class="fa fa-tag"></i> Edge扩展</a>
+              <a href="/tags/360%E6%89%A9%E5%B1%95/" rel="tag"><i class="fa fa-tag"></i> 360扩展</a>
+              <a href="/tags/Aria2%E4%B8%8B%E8%BD%BD/" rel="tag"><i class="fa fa-tag"></i> Aria2下载</a>
+              <a href="/tags/Motrix%E4%B8%8B%E8%BD%BD/" rel="tag"><i class="fa fa-tag"></i> Motrix下载</a>
+          </div>
+
+        
+  <div class="post-widgets">
+    <div class="wpac-rating-container">
+      <div id="wpac-rating"></div>
+    </div>
+  </div>
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/archives/qzone-export-changelog.html" rel="prev" title="QQ空间导出助手更新日志">
+                  <i class="fa fa-chevron-left"></i> QQ空间导出助手更新日志
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/archives/qzone-export-install.html" rel="next" title="QQ空间导出助手之安装篇">
+                  QQ空间导出助手之安装篇 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="SOHUCS" sid="c746267d593338c40c018eb7b5cc5efc"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><span class="exturl" data-url="aHR0cHM6Ly9iZWlhbi5taWl0Lmdvdi5jbg==">粤 ICP 备 18074637 号 </span>
+  </div>
+
+<div class="copyright">
+  &copy; 2015 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">芷炫</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">24k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">22 分钟</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZw==">NexT.Gemini</span> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.staticfile.org/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/comments.min.js"></script><script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/utils.min.js"></script><script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/motion.min.js"></script><script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/next-boot.min.js"></script><script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/bookmark.min.js"></script>
+
+  
+  <script src="https://embed.widgetpack.com/widget.js" async></script>
+  <script class="next-config" data-name="rating" type="application/json">{"enable":true,"id":15085,"color":"fc6423"}</script>
+  <script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/third-party/rating.min.js"></script>
+<script src="https://cdn.staticfile.org/hexo-generator-searchdb/1.4.0/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/third-party/search/local-search.min.js"></script>
+
+
+
+
+  <script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/third-party/pace.min.js"></script>
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  <script src="https://cdn.staticfile.org/quicklink/2.2.0/quicklink.umd.js" integrity="sha256-4kQf9z5ntdQrzsBC3YSHnEz02Z9C1UeW/E9OgnvlzSY=" crossorigin="anonymous"></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"https://github.lvshuncai.com/archives/qzone-export-configuration.html"}</script>
+  <script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/third-party/quicklink.min.js"></script>
+<div id="needsharebutton-float">
+      <span class="btn">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </span>
+    </div>
+  <script src="https://fastly.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js"></script>
+  <script>
+      flOptions = {};
+        flOptions.iconStyle = "box";
+        flOptions.boxForm = "vertical";
+        flOptions.position = "middleRight";
+        flOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook,Mailto";
+      new needShareButton('#needsharebutton-float', flOptions);
+  </script><script class="next-config" data-name="changyan" type="application/json">{"enable":true,"appid":"cyvRwlSWA","appkey":"prod_96fac6e159a203d3827ebab87ba4c7d8"}</script>
+<script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/third-party/comments/changyan.min.js"></script>
+
+</body>
+</html>

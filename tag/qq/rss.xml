@@ -5,8 +5,8 @@
         <link>https://github.lvshuncai.com</link>
         <description>没有真正的绝境，只有心灵的迷途</description>
         <language>zh-CN</language>
-        <pubDate>Sun, 06 Mar 2022 00:50:35 +0800</pubDate>
-        <lastBuildDate>Sun, 06 Mar 2022 00:50:35 +0800</lastBuildDate>
+        <pubDate>Sat, 12 Nov 2022 00:34:01 +0800</pubDate>
+        <lastBuildDate>Sat, 12 Nov 2022 00:34:01 +0800</lastBuildDate>
         <category>QQ</category>
         <category>QQ空间</category>
         <category>QQ相册</category>
@@ -40,7 +40,7 @@
             <category>爬虫</category>
             <category>油猴脚本</category>
             <category>Tampermonkey</category>
-            <pubDate>Sun, 06 Mar 2022 00:50:35 +0800</pubDate>
+            <pubDate>Sat, 12 Nov 2022 00:34:01 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;QQ群相册自带一个打包下载相册的功能，对于想要下载或备份群相册的人来说是件好事，然而，当相册过多时，这是个坑爹的事情。&lt;/p&gt;
 &lt;p&gt;于是乎，本脚本，通过模拟用户自动点击下载，从而实现，用户无需多次点击，一键下载备份QQ群的所有相册&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://s4.ax1x.com/2022/03/05/b0Fnq1.png&#34; alt=&#34;b0Fnq1.png&#34;&gt;&lt;/p&gt;

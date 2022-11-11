@@ -3,7 +3,7 @@
     <id>https://github.lvshuncai.com</id>
     <title>芷炫博客 • Posts by &#34;爬虫&#34; tag</title>
     <link href="https://github.lvshuncai.com" />
-    <updated>2022-11-06T14:16:18.298Z</updated>
+    <updated>2022-11-11T16:34:01.135Z</updated>
     <category term="QQ" />
     <category term="QQ空间" />
     <category term="QQ相册" />
@@ -23,6 +23,119 @@
     <category term="隐私政策" />
     <category term="jsDelivr" />
     <category term="CDN" />
+    <entry>
+        <id>https://github.lvshuncai.com/archives/qzone-export.html</id>
+        <title>QQ空间备份神器，一键备份你的青春</title>
+        <link rel="alternate" href="https://github.lvshuncai.com/archives/qzone-export.html"/>
+        <content type="html">&lt;p&gt;落叶随风，青春，稍纵即逝，QQ空间，一个承载了很多人的青春的地方。&lt;br&gt;或许，是遗憾，毕竟，谁的青春没留遗憾呢，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly91c2VyLnF6b25lLnFxLmNvbS8yMDA1MDYwNi9ibG9nLzE1NTk3ODY3OTM=&#34;&gt;《曾经沧海无限感慨，唯愿往事随风》&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;。&lt;br&gt;&lt;a href=&#34;https://v.qq.com/x/page/f08719wqfd0.html&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2020/05/16/YcekPP.gif&#34; alt=&#34;我是往事随风。你好，我是轻舞飞扬。&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+&lt;p&gt;或许，是害怕，曾经的青春变得不可控，毕竟，新浪博客相册、网易相册、腾讯微博等相继停运，无不意味着，互联网产品都有着自己的生命周期。&lt;br&gt;于是，萌生了备份QQ空间的念头，也在互联网上找到一些工具与脚本，要么操作复杂、要么备份类型单一，于是乎，简单易用全类型备份的QQ空间导出助手诞生了。&lt;/p&gt;
+&lt;h1 id=&#34;功能清单&#34;&gt;&lt;a href=&#34;#功能清单&#34; class=&#34;headerlink&#34; title=&#34;功能清单&#34;&gt;&lt;/a&gt;功能清单&lt;/h1&gt;&lt;p&gt;1、支持备份QQ空间文字说说、图文说说、语音说说、长说说，以及评论、点赞、最近访问&lt;/p&gt;
+&lt;p&gt;2、支持备份QQ空间文字日志、图文日志、模板日志，以及评论、点赞、最近访问&lt;/p&gt;
+&lt;p&gt;3、支持备份QQ空间文字私密日记、图文私密日记，以及评论、点赞、最近访问&lt;/p&gt;
+&lt;p&gt;4、支持备份QQ空间相册&amp;#x2F;相片，以及相册&amp;#x2F;相片的评论、相册&amp;#x2F;相片的点赞、相册的最近访问&lt;/p&gt;
+&lt;p&gt;5、支持备份QQ空间视频，以及评论、点赞、最近访问&lt;/p&gt;
+&lt;p&gt;6、支持备份QQ空间留言板寄语与留言、以及留言回复&lt;/p&gt;
+&lt;p&gt;7、支持备份QQ好友、含好友成立时间、单向好友检测、空间访问权限检测、特别关心的好友等&lt;/p&gt;
+&lt;p&gt;8、支持备份QQ空间分享内容，以及评论、点赞、最近访问&lt;/p&gt;
+&lt;p&gt;9、支持备份QQ空间收藏夹内容&lt;/p&gt;
+&lt;p&gt;10、支持备份QQ空间访客，仅支持备份谁访问了我，非全部备份&lt;/p&gt;
+&lt;h1 id=&#34;快速开始&#34;&gt;&lt;a href=&#34;#快速开始&#34; class=&#34;headerlink&#34; title=&#34;快速开始&#34;&gt;&lt;/a&gt;快速开始&lt;/h1&gt;&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;&lt;strong&gt;适用于老司机的简易核心教程，新手用户请跳转到&lt;a href=&#34;#%E6%96%B0%E6%89%8B%E5%AF%BC%E8%88%AA&#34;&gt;新手导航&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;1、阅读&lt;a href=&#34;qzone-export-privacy-policy.html&#34;&gt;隐私政策&lt;/a&gt;，并安装并配置助手&lt;/p&gt;
+&lt;p&gt;2、&lt;span style=&#34;color:red&#34;&gt;登录并访问&lt;/span&gt;需要备份的QQ空间，在&lt;span style=&#34;color:red&#34;&gt;备份的QQ空间页面&lt;/span&gt;点击浏览器扩展栏的助手图标开始备份&lt;/p&gt;
+&lt;p&gt;3、助手开始采集数据，采集时长视空间数据量而定，请耐心等待采集完成，主号建议睡前备份&lt;/p&gt;
+&lt;p&gt;4、数据采集完成后，采集页面点击&lt;span style=&#34;color:red&#34;&gt;打包下载&lt;/span&gt;按钮打包&lt;span style=&#34;color:red&#34;&gt;文案内容(即说说、日志等文字内容)&lt;/span&gt;到压缩包&lt;/p&gt;
+&lt;p&gt;5、等待压缩包下载完成，压缩包存放的是&lt;span style=&#34;color:red&#34;&gt;文案内容&lt;/span&gt;，不包含&lt;span style=&#34;color:red&#34;&gt;多媒体文件&lt;/span&gt;，解压后得到&lt;span style=&#34;color:red&#34;&gt;QQ空间备份_QQ号&lt;/span&gt;命名的文件夹&lt;/p&gt;
+&lt;p&gt;6、等待多媒体文件下载完成，多媒体文件将会下载到助手配置的&lt;span style=&#34;color:red&#34;&gt;下载工具本身所设置的文件夹&lt;/span&gt;中，生成&lt;span style=&#34;color:red&#34;&gt;QQ空间备份_QQ号&lt;/span&gt;命名的文件夹&lt;/p&gt;
+&lt;p&gt;7、合并第5步与第6步中的两个&lt;span style=&#34;color:red&#34;&gt;QQ空间备份_QQ号命名的文件夹&lt;/span&gt;中的，即剪切或复制其中一个所有内容到另外一个即可&lt;/p&gt;
+&lt;p&gt;8、打开&lt;span style=&#34;color:red&#34;&gt;合并后的QQ空间备份_QQ号命名的文件夹&lt;/span&gt;中的&lt;span style=&#34;color:red&#34;&gt;index&lt;/span&gt;文件查看备份内容即可&lt;/p&gt;
+&lt;p&gt;9、如需要，可再次把&lt;span style=&#34;color:red&#34;&gt;合并后的QQ空间备份_QQ号命名的文件夹&lt;/span&gt;复制、剪切到其它地方可进行再次备份，避免因磁盘损坏等导致备份丢失或损坏&lt;/p&gt;
+&lt;p&gt;10、&lt;a href=&#34;switch-qzx-jsdelivr-to-local.html&#34;&gt;如何在断网状态下查看QQ空间备份内容&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;新手导航&#34;&gt;&lt;a href=&#34;#新手导航&#34; class=&#34;headerlink&#34; title=&#34;新手导航&#34;&gt;&lt;/a&gt;新手导航&lt;/h1&gt;&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;&lt;strong&gt;新手用户请按顺序点击下方链接进行阅读&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;1、&lt;a href=&#34;qzone-export-privacy-policy.html&#34;&gt;查看助手隐私政策，了解助手对你的隐私保护&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2、&lt;a href=&#34;qzone-export-install.html&#34;&gt;如何安装助手，适用于未安装助手用户&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3、&lt;a href=&#34;#%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B&#34;&gt;简易视频教程，适用于初步了解助手备份流程&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4、&lt;a href=&#34;qzone-export-issue.html&#34;&gt;常见热门问题，避免踩坑的最佳方式&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;5、&lt;a href=&#34;qzone-export-configuration.html&#34;&gt;如何配置助手，了解助手核心配置，适合自己才是最合适的&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;6、&lt;a href=&#34;qzone-export-usage.html&#34;&gt;如何开始备份，一份不是核心的核心教程&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;7、&lt;a href=&#34;switch-qzx-jsdelivr-to-local.html&#34;&gt;如何在断网状态下查看QQ空间备份内容&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;视频教程&#34;&gt;&lt;a href=&#34;#视频教程&#34; class=&#34;headerlink&#34; title=&#34;视频教程&#34;&gt;&lt;/a&gt;视频教程&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;非原创，来源于助手用户&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zcGFjZS5iaWxpYmlsaS5jb20vMzY0MTE0ODU=&#34;&gt;阿博特-安稳&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;投稿&lt;/strong&gt;&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=769601487&amp;bvid=BV16r4y1x7hP&amp;cid=733036176&amp;page=1&amp;danmaku=0&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+
+&lt;h1 id=&#34;备份预览&#34;&gt;&lt;a href=&#34;#备份预览&#34; class=&#34;headerlink&#34; title=&#34;备份预览&#34;&gt;&lt;/a&gt;备份预览&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;本预览内容基于助手&lt;span style=&#34;color:red&#34;&gt;HTML备份类型&lt;/span&gt;备份生成，完整预览与交互&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZW1vLmx2c2h1bmNhaS5jb20vcXpvbmUtZXhwb3J0L2luZGV4Lmh0bWw=&#34;&gt;点击这里浏览更多&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;首页预览&#34;&gt;&lt;a href=&#34;#首页预览&#34; class=&#34;headerlink&#34; title=&#34;首页预览&#34;&gt;&lt;/a&gt;首页预览&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/10/25/xWCMyF.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;说说预览&#34;&gt;&lt;a href=&#34;#说说预览&#34; class=&#34;headerlink&#34; title=&#34;说说预览&#34;&gt;&lt;/a&gt;说说预览&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/10/25/xWC8oR.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;日志预览&#34;&gt;&lt;a href=&#34;#日志预览&#34; class=&#34;headerlink&#34; title=&#34;日志预览&#34;&gt;&lt;/a&gt;日志预览&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/10/25/xWCtW6.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/10/25/xWCdyD.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;相册预览&#34;&gt;&lt;a href=&#34;#相册预览&#34; class=&#34;headerlink&#34; title=&#34;相册预览&#34;&gt;&lt;/a&gt;相册预览&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/10/25/xWCDwd.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/10/25/xWCrTA.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;留言板预览&#34;&gt;&lt;a href=&#34;#留言板预览&#34; class=&#34;headerlink&#34; title=&#34;留言板预览&#34;&gt;&lt;/a&gt;留言板预览&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/10/25/xWC2Sf.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;好友预览&#34;&gt;&lt;a href=&#34;#好友预览&#34; class=&#34;headerlink&#34; title=&#34;好友预览&#34;&gt;&lt;/a&gt;好友预览&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/10/25/xWCITs.png&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;项目地址&#34;&gt;&lt;a href=&#34;#项目地址&#34; class=&#34;headerlink&#34; title=&#34;项目地址&#34;&gt;&lt;/a&gt;项目地址&lt;/h1&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;官方地址&lt;/th&gt;
+&lt;th&gt;注意事项&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1NodW5DYWkvUVpvbmVFeHBvcnQ=&#34;&gt;GitHub&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;国外网站，网络不稳定，建议科学上网，有发行版&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRlZS5jb20vbHZzaHVuY2FpL1Fab25lRXhwb3J0&#34;&gt;Gitee&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;国内网站，网络稳定，无发行版，可自行下载源码安装&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;h1 id=&#34;反馈评价&#34;&gt;&lt;a href=&#34;#反馈评价&#34; class=&#34;headerlink&#34; title=&#34;反馈评价&#34;&gt;&lt;/a&gt;反馈评价&lt;/h1&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;问题反馈&lt;/th&gt;
+&lt;th&gt;评价&lt;/th&gt;
+&lt;th&gt;注意事项&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1NodW5DYWkvUVpvbmVFeHBvcnQvaXNzdWVz&#34;&gt;GitHub&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1NodW5DYWkvUVpvbmVFeHBvcnQ=&#34;&gt;Start一下&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;建议科学上网&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jaHJvbWUuZ29vZ2xlLmNvbS93ZWJzdG9yZS9kZXRhaWwvYW9mYWRpbWVncGhmZ2xsZ2pibGRkYXBpYW9qYmdsaGY=&#34;&gt;Chrome商店&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jaHJvbWUuZ29vZ2xlLmNvbS93ZWJzdG9yZS9kZXRhaWwvYW9mYWRpbWVncGhmZ2xsZ2pibGRkYXBpYW9qYmdsaGY=&#34;&gt;评论一下&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;需科学上网&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9taWNyb3NvZnRlZGdlLm1pY3Jvc29mdC5jb20vYWRkb25zL2RldGFpbC9kamZhbHBrcGpncGtmbmtmbW5lZ2JhbG5pY2RvbGpjbg==&#34;&gt;Edge商店&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9taWNyb3NvZnRlZGdlLm1pY3Jvc29mdC5jb20vYWRkb25zL2RldGFpbC9kamZhbHBrcGpncGtmbmtmbW5lZ2JhbG5pY2RvbGpjbg==&#34;&gt;评论一下&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;无需科学上网&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;QQ群：&lt;strong&gt;959828088&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;赞美一下&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;文明发言，拒绝广告&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;h1 id=&#34;注意事项&#34;&gt;&lt;a href=&#34;#注意事项&#34; class=&#34;headerlink&#34; title=&#34;注意事项&#34;&gt;&lt;/a&gt;注意事项&lt;/h1&gt;&lt;p&gt;1、本项目只做个人学习研究之用，不是官话，当初就是为了学习Chrome扩展开发写的工具，随时会因不可抗力因素下架，且用且珍惜。&lt;/p&gt;
+&lt;p&gt;2、本助手开源免费，请勿从第三方购买或第三方下载，助手不保证第三方安全可靠。&lt;/p&gt;
+&lt;p&gt;3、本助手基于&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9xem9uZS5xcS5jb20vaW5kZXguaHRtbA==&#34;&gt;QQ空间官方网站&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;备份个人空间数据，与QQ空间不存在任何联系。&lt;/p&gt;
+&lt;p&gt;4、使用本助手即同意助手收集QQ空间网站的Cookie信息，仅用于获取QQ空间数据，不传输任何数据到后台服务器，仅保存到浏览器客户端&lt;/p&gt;
+&lt;p&gt;5、更多详情请查看&lt;a href=&#34;qzone-export-privacy-policy.html&#34;&gt;隐私政策&lt;/a&gt;&lt;/p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/bilicard.css&#34; type=&#34;text/css&#34;&gt;</content>
+        <category term="QQ空间" />
+        <category term="QQ相册" />
+        <category term="备份" />
+        <category term="导出" />
+        <category term="迅雷下载" />
+        <category term="爬虫" />
+        <category term="QQ空间导出助手" />
+        <category term="Chrome扩展" />
+        <category term="Edge扩展" />
+        <category term="360扩展" />
+        <category term="Aria2下载" />
+        <category term="Motrix下载" />
+        <updated>2022-11-11T16:34:01.135Z</updated>
+    </entry>
     <entry>
         <id>https://github.lvshuncai.com/archives/qzone-export-usage.html</id>
         <title>QQ空间导出助手之使用篇</title>
@@ -271,86 +384,7 @@
         <category term="360扩展" />
         <category term="Aria2下载" />
         <category term="Motrix下载" />
-        <updated>2022-11-06T14:16:18.298Z</updated>
-    </entry>
-    <entry>
-        <id>https://github.lvshuncai.com/archives/qzone-export-install.html</id>
-        <title>QQ空间导出助手之安装篇</title>
-        <link rel="alternate" href="https://github.lvshuncai.com/archives/qzone-export-install.html"/>
-        <content type="html">&lt;p&gt;&lt;strong&gt;本站惯例：本文假定你知道&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVEyaHliMjFwZFczbGhvWG1vTGptdFkvb3A0amxtYWptbUsva3U0RGt1WWc9&#34;&gt;Chromium内核浏览器&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;以及&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPTVyV1A2S2VJNVptbzVvbXA1YkdWNXBpdjVMdUE1TG1JNW9TUDVvQ2Q=&#34;&gt;浏览器扩展&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;，不知道出文右转问百度&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id=&#34;安装前提&#34;&gt;&lt;a href=&#34;#安装前提&#34; class=&#34;headerlink&#34; title=&#34;安装前提&#34;&gt;&lt;/a&gt;安装前提&lt;/h4&gt;&lt;p&gt;1、&lt;strong&gt;已安装Chromium内核的浏览器&lt;/strong&gt;，比如国内主流的Microsoft Edge浏览器、360极速浏览器、360安全浏览器、百分浏览器等等&lt;/p&gt;
-&lt;p&gt;2、&lt;strong&gt;Chromium内核的浏览器支持扩展程序功能&lt;/strong&gt;，一般PC端的，都支持，那么有没有手机端支持呢，也是有的，也就是说手机也是可以安装和使用助手，剩下的自由发挥。&lt;/p&gt;
-&lt;p&gt;3、&lt;strong&gt;Chromium内核版本86以上&lt;/strong&gt;，一般来说，目前国内主流的基于Chromium的在最新浏览器版本基本在这个版本以上，问题不大。&lt;/p&gt;
-&lt;h4 id=&#34;安装方式&#34;&gt;&lt;a href=&#34;#安装方式&#34; class=&#34;headerlink&#34; title=&#34;安装方式&#34;&gt;&lt;/a&gt;安装方式&lt;/h4&gt;&lt;p&gt;主要是两种方式，在线安装与离线安装，两种安装方式安装的功能并没有区别，看个人情况选择即可，推荐在线安装。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;在线安装&lt;/strong&gt;：仅支持部分Chromium内核的浏览器，优点安装简易方便，并可在线更新。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;离线安装&lt;/strong&gt;：支持所有的Chromium内核的浏览器，缺点复杂安装麻烦，不可在线更新。&lt;/p&gt;
-&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
-
-&lt;h5 id=&#34;安装概览&#34;&gt;&lt;a href=&#34;#安装概览&#34; class=&#34;headerlink&#34; title=&#34;安装概览&#34;&gt;&lt;/a&gt;安装概览&lt;/h5&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;浏览器&lt;/th&gt;
-&lt;th&gt;安装方式&lt;/th&gt;
-&lt;th&gt;安装入口&lt;/th&gt;
-&lt;th&gt;备注&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;Microsoft Edge&lt;/td&gt;
-&lt;td&gt;在线&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9taWNyb3NvZnRlZGdlLm1pY3Jvc29mdC5jb20vYWRkb25zL2RldGFpbC9kamZhbHBrcGpncGtmbmtmbW5lZ2JhbG5pY2RvbGpjbg==&#34;&gt;访问商店&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;推荐&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Chrome&lt;/td&gt;
-&lt;td&gt;在线&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jaHJvbWUuZ29vZ2xlLmNvbS93ZWJzdG9yZS9kZXRhaWwvYW9mYWRpbWVncGhmZ2xsZ2pibGRkYXBpYW9qYmdsaGY=&#34;&gt;访问商店&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;需科学上网&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;360极速浏览器&lt;/td&gt;
-&lt;td&gt;在线&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9leHQuY2hyb21lLjM2MC5jbi93ZWJzdG9yZS9kZXRhaWwvZGJvcGxvcG1ob2FmbWJjYm1jZWNhcGttY29kaGNlZ2g=&#34;&gt;访问商店&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;360安全浏览器&lt;/td&gt;
-&lt;td&gt;在线&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9leHQuc2UuMzYwLmNuL3dlYnN0b3JlL2RldGFpbC9kYm9wbG9wbWhvYWZtYmNibWNlY2Fwa21jb2RoY2VnaA==&#34;&gt;访问商店&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;其它Chromium浏览器&lt;/td&gt;
-&lt;td&gt;离线&lt;/td&gt;
-&lt;td&gt;无&lt;/td&gt;
-&lt;td&gt;移步&lt;a href=&#34;#%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85&#34;&gt;离线安装&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;h5 id=&#34;离线安装&#34;&gt;&lt;a href=&#34;#离线安装&#34; class=&#34;headerlink&#34; title=&#34;离线安装&#34;&gt;&lt;/a&gt;离线安装&lt;/h5&gt;&lt;p&gt;1、下载离线安装包(ZIP)，下载渠道：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sdnNodW5jYWkubGFuem91bC5jb20vaVQySTgwZmNvdW5h&#34;&gt;蓝奏云&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1NodW5DYWkvUVpvbmVFeHBvcnQ=&#34;&gt;GitHub&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRlZS5jb20vbHZzaHVuY2FpL1Fab25lRXhwb3J0&#34;&gt;Gitee&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;、&lt;a href=&#34;qzone-export.html#%E5%8F%8D%E9%A6%88%E8%AF%84%E4%BB%B7&#34;&gt;QQ群文件&lt;/a&gt;等&lt;/p&gt;
-&lt;p&gt;2、解压ZIP包，并记住解压的位置&lt;/p&gt;
-&lt;p&gt;3、打开&lt;strong&gt;浏览器扩展管理&lt;/strong&gt;，并开启&lt;strong&gt;开发者模式&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;4、点击&lt;strong&gt;加载已解压的扩展程序&lt;/strong&gt;按钮，&lt;strong&gt;选择第二步解压的文件夹&lt;/strong&gt;，&lt;span style=&#34;color:red&#34;&gt;确保所选文件夹下存在manifest文件&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;5、安装完成，建议重启一下浏览器&lt;/p&gt;
-&lt;p&gt;6、其它更多问题，请移步&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPTVyV1A2S2VJNVptbzVvbXA1YkdWSU9lbXUrZTZ2K1d1aWVpamhRPT0=&#34;&gt;浏览器扩展如何离线安装&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;h4 id=&#34;文章结语&#34;&gt;&lt;a href=&#34;#文章结语&#34; class=&#34;headerlink&#34; title=&#34;文章结语&#34;&gt;&lt;/a&gt;文章结语&lt;/h4&gt;&lt;p&gt;世（an）界（zhuang），如此简单，如遇到其它问题，请自行出文右转问百度。&lt;/p&gt;
-&lt;h4 id=&#34;参考资料&#34;&gt;&lt;a href=&#34;#参考资料&#34; class=&#34;headerlink&#34; title=&#34;参考资料&#34;&gt;&lt;/a&gt;参考资料&lt;/h4&gt;&lt;p&gt;1、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVEyaHliMjFwZFczbGhvWG1vTGptdFkvb3A0amxtYWptbUsva3U0RGt1WWc9&#34;&gt;Chromium内核浏览器是什么&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;2、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVEyaHliMjFwZFczbGhvWG1vTGptdFkvb3A0amxtYWptbklubGs2cmt1cHM9&#34;&gt;Chromium内核浏览器有哪些&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;3、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPTVyV1A2S2VJNVptbzVvbXA1YkdWNXBpdjVMdUE1TG1JNW9TUDVvQ2Q=&#34;&gt;浏览器扩展是什么意思&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;4、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPTVyV1A2S2VJNVptbzVvbXA1YkdWNW8rUzVMdTI1b0NPNUxtSTU1U28=&#34;&gt;浏览器扩展插件怎么用&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/bilicard.css&#34; type=&#34;text/css&#34;&gt;</content>
-        <category term="QQ空间" />
-        <category term="QQ相册" />
-        <category term="备份" />
-        <category term="导出" />
-        <category term="迅雷下载" />
-        <category term="爬虫" />
-        <category term="QQ空间导出助手" />
-        <category term="Chrome扩展" />
-        <category term="Edge扩展" />
-        <category term="360扩展" />
-        <category term="Aria2下载" />
-        <category term="Motrix下载" />
-        <updated>2022-11-06T14:16:18.296Z</updated>
+        <updated>2022-11-11T16:34:01.134Z</updated>
     </entry>
     <entry>
         <id>https://github.lvshuncai.com/archives/qzone-export-issue.html</id>
@@ -581,7 +615,86 @@
         <category term="360扩展" />
         <category term="Aria2下载" />
         <category term="Motrix下载" />
-        <updated>2022-11-06T14:16:18.296Z</updated>
+        <updated>2022-11-11T16:34:01.132Z</updated>
+    </entry>
+    <entry>
+        <id>https://github.lvshuncai.com/archives/qzone-export-install.html</id>
+        <title>QQ空间导出助手之安装篇</title>
+        <link rel="alternate" href="https://github.lvshuncai.com/archives/qzone-export-install.html"/>
+        <content type="html">&lt;p&gt;&lt;strong&gt;本站惯例：本文假定你知道&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVEyaHliMjFwZFczbGhvWG1vTGptdFkvb3A0amxtYWptbUsva3U0RGt1WWc9&#34;&gt;Chromium内核浏览器&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;以及&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPTVyV1A2S2VJNVptbzVvbXA1YkdWNXBpdjVMdUE1TG1JNW9TUDVvQ2Q=&#34;&gt;浏览器扩展&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;，不知道出文右转问百度&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;安装前提&#34;&gt;&lt;a href=&#34;#安装前提&#34; class=&#34;headerlink&#34; title=&#34;安装前提&#34;&gt;&lt;/a&gt;安装前提&lt;/h4&gt;&lt;p&gt;1、&lt;strong&gt;已安装Chromium内核的浏览器&lt;/strong&gt;，比如国内主流的Microsoft Edge浏览器、360极速浏览器、360安全浏览器、百分浏览器等等&lt;/p&gt;
+&lt;p&gt;2、&lt;strong&gt;Chromium内核的浏览器支持扩展程序功能&lt;/strong&gt;，一般PC端的，都支持，那么有没有手机端支持呢，也是有的，也就是说手机也是可以安装和使用助手，剩下的自由发挥。&lt;/p&gt;
+&lt;p&gt;3、&lt;strong&gt;Chromium内核版本86以上&lt;/strong&gt;，一般来说，目前国内主流的基于Chromium的在最新浏览器版本基本在这个版本以上，问题不大。&lt;/p&gt;
+&lt;h4 id=&#34;安装方式&#34;&gt;&lt;a href=&#34;#安装方式&#34; class=&#34;headerlink&#34; title=&#34;安装方式&#34;&gt;&lt;/a&gt;安装方式&lt;/h4&gt;&lt;p&gt;主要是两种方式，在线安装与离线安装，两种安装方式安装的功能并没有区别，看个人情况选择即可，推荐在线安装。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;在线安装&lt;/strong&gt;：仅支持部分Chromium内核的浏览器，优点安装简易方便，并可在线更新。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;离线安装&lt;/strong&gt;：支持所有的Chromium内核的浏览器，缺点复杂安装麻烦，不可在线更新。&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+
+&lt;h5 id=&#34;安装概览&#34;&gt;&lt;a href=&#34;#安装概览&#34; class=&#34;headerlink&#34; title=&#34;安装概览&#34;&gt;&lt;/a&gt;安装概览&lt;/h5&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;浏览器&lt;/th&gt;
+&lt;th&gt;安装方式&lt;/th&gt;
+&lt;th&gt;安装入口&lt;/th&gt;
+&lt;th&gt;备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;Microsoft Edge&lt;/td&gt;
+&lt;td&gt;在线&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9taWNyb3NvZnRlZGdlLm1pY3Jvc29mdC5jb20vYWRkb25zL2RldGFpbC9kamZhbHBrcGpncGtmbmtmbW5lZ2JhbG5pY2RvbGpjbg==&#34;&gt;访问商店&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;推荐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chrome&lt;/td&gt;
+&lt;td&gt;在线&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jaHJvbWUuZ29vZ2xlLmNvbS93ZWJzdG9yZS9kZXRhaWwvYW9mYWRpbWVncGhmZ2xsZ2pibGRkYXBpYW9qYmdsaGY=&#34;&gt;访问商店&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;需科学上网&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;360极速浏览器&lt;/td&gt;
+&lt;td&gt;在线&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9leHQuY2hyb21lLjM2MC5jbi93ZWJzdG9yZS9kZXRhaWwvZGJvcGxvcG1ob2FmbWJjYm1jZWNhcGttY29kaGNlZ2g=&#34;&gt;访问商店&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;360安全浏览器&lt;/td&gt;
+&lt;td&gt;在线&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9leHQuc2UuMzYwLmNuL3dlYnN0b3JlL2RldGFpbC9kYm9wbG9wbWhvYWZtYmNibWNlY2Fwa21jb2RoY2VnaA==&#34;&gt;访问商店&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;其它Chromium浏览器&lt;/td&gt;
+&lt;td&gt;离线&lt;/td&gt;
+&lt;td&gt;无&lt;/td&gt;
+&lt;td&gt;移步&lt;a href=&#34;#%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85&#34;&gt;离线安装&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;h5 id=&#34;离线安装&#34;&gt;&lt;a href=&#34;#离线安装&#34; class=&#34;headerlink&#34; title=&#34;离线安装&#34;&gt;&lt;/a&gt;离线安装&lt;/h5&gt;&lt;p&gt;1、下载离线安装包(ZIP)，下载渠道：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sdnNodW5jYWkubGFuem91bC5jb20vaVQySTgwZmNvdW5h&#34;&gt;蓝奏云&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1NodW5DYWkvUVpvbmVFeHBvcnQ=&#34;&gt;GitHub&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRlZS5jb20vbHZzaHVuY2FpL1Fab25lRXhwb3J0&#34;&gt;Gitee&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;、&lt;a href=&#34;qzone-export.html#%E5%8F%8D%E9%A6%88%E8%AF%84%E4%BB%B7&#34;&gt;QQ群文件&lt;/a&gt;等&lt;/p&gt;
+&lt;p&gt;2、解压ZIP包，并记住解压的位置&lt;/p&gt;
+&lt;p&gt;3、打开&lt;strong&gt;浏览器扩展管理&lt;/strong&gt;，并开启&lt;strong&gt;开发者模式&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;4、点击&lt;strong&gt;加载已解压的扩展程序&lt;/strong&gt;按钮，&lt;strong&gt;选择第二步解压的文件夹&lt;/strong&gt;，&lt;span style=&#34;color:red&#34;&gt;确保所选文件夹下存在manifest文件&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;5、安装完成，建议重启一下浏览器&lt;/p&gt;
+&lt;p&gt;6、其它更多问题，请移步&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPTVyV1A2S2VJNVptbzVvbXA1YkdWSU9lbXUrZTZ2K1d1aWVpamhRPT0=&#34;&gt;浏览器扩展如何离线安装&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;文章结语&#34;&gt;&lt;a href=&#34;#文章结语&#34; class=&#34;headerlink&#34; title=&#34;文章结语&#34;&gt;&lt;/a&gt;文章结语&lt;/h4&gt;&lt;p&gt;世（an）界（zhuang），如此简单，如遇到其它问题，请自行出文右转问百度。&lt;/p&gt;
+&lt;h4 id=&#34;参考资料&#34;&gt;&lt;a href=&#34;#参考资料&#34; class=&#34;headerlink&#34; title=&#34;参考资料&#34;&gt;&lt;/a&gt;参考资料&lt;/h4&gt;&lt;p&gt;1、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVEyaHliMjFwZFczbGhvWG1vTGptdFkvb3A0amxtYWptbUsva3U0RGt1WWc9&#34;&gt;Chromium内核浏览器是什么&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;2、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVEyaHliMjFwZFczbGhvWG1vTGptdFkvb3A0amxtYWptbklubGs2cmt1cHM9&#34;&gt;Chromium内核浏览器有哪些&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;3、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPTVyV1A2S2VJNVptbzVvbXA1YkdWNXBpdjVMdUE1TG1JNW9TUDVvQ2Q=&#34;&gt;浏览器扩展是什么意思&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;4、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPTVyV1A2S2VJNVptbzVvbXA1YkdWNW8rUzVMdTI1b0NPNUxtSTU1U28=&#34;&gt;浏览器扩展插件怎么用&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/bilicard.css&#34; type=&#34;text/css&#34;&gt;</content>
+        <category term="QQ空间" />
+        <category term="QQ相册" />
+        <category term="备份" />
+        <category term="导出" />
+        <category term="迅雷下载" />
+        <category term="爬虫" />
+        <category term="QQ空间导出助手" />
+        <category term="Chrome扩展" />
+        <category term="Edge扩展" />
+        <category term="360扩展" />
+        <category term="Aria2下载" />
+        <category term="Motrix下载" />
+        <updated>2022-11-11T16:34:01.131Z</updated>
     </entry>
     <entry>
         <id>https://github.lvshuncai.com/archives/qzone-export-configuration.html</id>
@@ -887,7 +1000,7 @@
         <category term="360扩展" />
         <category term="Aria2下载" />
         <category term="Motrix下载" />
-        <updated>2022-11-06T14:16:18.295Z</updated>
+        <updated>2022-11-11T16:34:01.130Z</updated>
     </entry>
     <entry>
         <id>https://github.lvshuncai.com/archives/qzone-export-changelog.html</id>
@@ -945,7 +1058,7 @@
         <category term="360扩展" />
         <category term="Aria2下载" />
         <category term="Motrix下载" />
-        <updated>2022-11-06T14:16:18.294Z</updated>
+        <updated>2022-11-11T16:34:01.129Z</updated>
     </entry>
     <entry>
         <id>https://github.lvshuncai.com/archives/qq-group-ablums-downloader.html</id>
@@ -982,119 +1095,6 @@
         <category term="爬虫" />
         <category term="油猴脚本" />
         <category term="Tampermonkey" />
-        <updated>2022-03-05T16:50:35.056Z</updated>
-    </entry>
-    <entry>
-        <id>https://github.lvshuncai.com/archives/qzone-export.html</id>
-        <title>QQ空间备份神器，一键备份你的青春</title>
-        <link rel="alternate" href="https://github.lvshuncai.com/archives/qzone-export.html"/>
-        <content type="html">&lt;p&gt;落叶随风，青春，稍纵即逝，QQ空间，一个承载了很多人的青春的地方。&lt;br&gt;或许，是遗憾，毕竟，谁的青春没留遗憾呢，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly91c2VyLnF6b25lLnFxLmNvbS8yMDA1MDYwNi9ibG9nLzE1NTk3ODY3OTM=&#34;&gt;《曾经沧海无限感慨，唯愿往事随风》&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;。&lt;br&gt;&lt;a href=&#34;https://v.qq.com/x/page/f08719wqfd0.html&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2020/05/16/YcekPP.gif&#34; alt=&#34;我是往事随风。你好，我是轻舞飞扬。&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
-&lt;p&gt;或许，是害怕，曾经的青春变得不可控，毕竟，新浪博客相册、网易相册、腾讯微博等相继停运，无不意味着，互联网产品都有着自己的生命周期。&lt;br&gt;于是，萌生了备份QQ空间的念头，也在互联网上找到一些工具与脚本，要么操作复杂、要么备份类型单一，于是乎，简单易用全类型备份的QQ空间导出助手诞生了。&lt;/p&gt;
-&lt;h1 id=&#34;功能清单&#34;&gt;&lt;a href=&#34;#功能清单&#34; class=&#34;headerlink&#34; title=&#34;功能清单&#34;&gt;&lt;/a&gt;功能清单&lt;/h1&gt;&lt;p&gt;1、支持备份QQ空间文字说说、图文说说、语音说说、长说说，以及评论、点赞、最近访问&lt;/p&gt;
-&lt;p&gt;2、支持备份QQ空间文字日志、图文日志、模板日志，以及评论、点赞、最近访问&lt;/p&gt;
-&lt;p&gt;3、支持备份QQ空间文字私密日记、图文私密日记，以及评论、点赞、最近访问&lt;/p&gt;
-&lt;p&gt;4、支持备份QQ空间相册&amp;#x2F;相片，以及相册&amp;#x2F;相片的评论、相册&amp;#x2F;相片的点赞、相册的最近访问&lt;/p&gt;
-&lt;p&gt;5、支持备份QQ空间视频，以及评论、点赞、最近访问&lt;/p&gt;
-&lt;p&gt;6、支持备份QQ空间留言板寄语与留言、以及留言回复&lt;/p&gt;
-&lt;p&gt;7、支持备份QQ好友、含好友成立时间、单向好友检测、空间访问权限检测、特别关心的好友等&lt;/p&gt;
-&lt;p&gt;8、支持备份QQ空间分享内容，以及评论、点赞、最近访问&lt;/p&gt;
-&lt;p&gt;9、支持备份QQ空间收藏夹内容&lt;/p&gt;
-&lt;p&gt;10、支持备份QQ空间访客，仅支持备份谁访问了我，非全部备份&lt;/p&gt;
-&lt;h1 id=&#34;快速开始&#34;&gt;&lt;a href=&#34;#快速开始&#34; class=&#34;headerlink&#34; title=&#34;快速开始&#34;&gt;&lt;/a&gt;快速开始&lt;/h1&gt;&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;&lt;strong&gt;适用于老司机的简易核心教程，新手用户请跳转到&lt;a href=&#34;#%E6%96%B0%E6%89%8B%E5%AF%BC%E8%88%AA&#34;&gt;新手导航&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;1、阅读&lt;a href=&#34;qzone-export-privacy-policy.html&#34;&gt;隐私政策&lt;/a&gt;，并安装并配置助手&lt;/p&gt;
-&lt;p&gt;2、&lt;span style=&#34;color:red&#34;&gt;登录并访问&lt;/span&gt;需要备份的QQ空间，在&lt;span style=&#34;color:red&#34;&gt;备份的QQ空间页面&lt;/span&gt;点击浏览器扩展栏的助手图标开始备份&lt;/p&gt;
-&lt;p&gt;3、助手开始采集数据，采集时长视空间数据量而定，请耐心等待采集完成，主号建议睡前备份&lt;/p&gt;
-&lt;p&gt;4、数据采集完成后，采集页面点击&lt;span style=&#34;color:red&#34;&gt;打包下载&lt;/span&gt;按钮打包&lt;span style=&#34;color:red&#34;&gt;文案内容(即说说、日志等文字内容)&lt;/span&gt;到压缩包&lt;/p&gt;
-&lt;p&gt;5、等待压缩包下载完成，压缩包存放的是&lt;span style=&#34;color:red&#34;&gt;文案内容&lt;/span&gt;，不包含&lt;span style=&#34;color:red&#34;&gt;多媒体文件&lt;/span&gt;，解压后得到&lt;span style=&#34;color:red&#34;&gt;QQ空间备份_QQ号&lt;/span&gt;命名的文件夹&lt;/p&gt;
-&lt;p&gt;6、等待多媒体文件下载完成，多媒体文件将会下载到助手配置的&lt;span style=&#34;color:red&#34;&gt;下载工具本身所设置的文件夹&lt;/span&gt;中，生成&lt;span style=&#34;color:red&#34;&gt;QQ空间备份_QQ号&lt;/span&gt;命名的文件夹&lt;/p&gt;
-&lt;p&gt;7、合并第5步与第6步中的两个&lt;span style=&#34;color:red&#34;&gt;QQ空间备份_QQ号命名的文件夹&lt;/span&gt;中的，即剪切或复制其中一个所有内容到另外一个即可&lt;/p&gt;
-&lt;p&gt;8、打开&lt;span style=&#34;color:red&#34;&gt;合并后的QQ空间备份_QQ号命名的文件夹&lt;/span&gt;中的&lt;span style=&#34;color:red&#34;&gt;index&lt;/span&gt;文件查看备份内容即可&lt;/p&gt;
-&lt;p&gt;9、如需要，可再次把&lt;span style=&#34;color:red&#34;&gt;合并后的QQ空间备份_QQ号命名的文件夹&lt;/span&gt;复制、剪切到其它地方可进行再次备份，避免因磁盘损坏等导致备份丢失或损坏&lt;/p&gt;
-&lt;p&gt;10、&lt;a href=&#34;switch-qzx-jsdelivr-to-local.html&#34;&gt;如何在断网状态下查看QQ空间备份内容&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;新手导航&#34;&gt;&lt;a href=&#34;#新手导航&#34; class=&#34;headerlink&#34; title=&#34;新手导航&#34;&gt;&lt;/a&gt;新手导航&lt;/h1&gt;&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;&lt;strong&gt;新手用户请按顺序点击下方链接进行阅读&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;1、&lt;a href=&#34;qzone-export-privacy-policy.html&#34;&gt;查看助手隐私政策，了解助手对你的隐私保护&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2、&lt;a href=&#34;qzone-export-install.html&#34;&gt;如何安装助手，适用于未安装助手用户&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;3、&lt;a href=&#34;#%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B&#34;&gt;简易视频教程，适用于初步了解助手备份流程&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4、&lt;a href=&#34;qzone-export-issue.html&#34;&gt;常见热门问题，避免踩坑的最佳方式&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;5、&lt;a href=&#34;qzone-export-configuration.html&#34;&gt;如何配置助手，了解助手核心配置，适合自己才是最合适的&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;6、&lt;a href=&#34;qzone-export-usage.html&#34;&gt;如何开始备份，一份不是核心的核心教程&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;7、&lt;a href=&#34;switch-qzx-jsdelivr-to-local.html&#34;&gt;如何在断网状态下查看QQ空间备份内容&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;视频教程&#34;&gt;&lt;a href=&#34;#视频教程&#34; class=&#34;headerlink&#34; title=&#34;视频教程&#34;&gt;&lt;/a&gt;视频教程&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;非原创，来源于助手用户&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zcGFjZS5iaWxpYmlsaS5jb20vMzY0MTE0ODU=&#34;&gt;阿博特-安稳&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;投稿&lt;/strong&gt;&lt;/p&gt;
-&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=769601487&amp;bvid=BV16r4y1x7hP&amp;cid=733036176&amp;page=1&amp;danmaku=0&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
-
-&lt;h1 id=&#34;备份预览&#34;&gt;&lt;a href=&#34;#备份预览&#34; class=&#34;headerlink&#34; title=&#34;备份预览&#34;&gt;&lt;/a&gt;备份预览&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;本预览内容基于助手&lt;span style=&#34;color:red&#34;&gt;HTML备份类型&lt;/span&gt;备份生成，完整预览与交互&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZW1vLmx2c2h1bmNhaS5jb20vcXpvbmUtZXhwb3J0L2luZGV4Lmh0bWw=&#34;&gt;点击这里浏览更多&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;首页预览&#34;&gt;&lt;a href=&#34;#首页预览&#34; class=&#34;headerlink&#34; title=&#34;首页预览&#34;&gt;&lt;/a&gt;首页预览&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/10/25/xWCMyF.png&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;说说预览&#34;&gt;&lt;a href=&#34;#说说预览&#34; class=&#34;headerlink&#34; title=&#34;说说预览&#34;&gt;&lt;/a&gt;说说预览&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/10/25/xWC8oR.png&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;日志预览&#34;&gt;&lt;a href=&#34;#日志预览&#34; class=&#34;headerlink&#34; title=&#34;日志预览&#34;&gt;&lt;/a&gt;日志预览&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/10/25/xWCtW6.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/10/25/xWCdyD.png&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;相册预览&#34;&gt;&lt;a href=&#34;#相册预览&#34; class=&#34;headerlink&#34; title=&#34;相册预览&#34;&gt;&lt;/a&gt;相册预览&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/10/25/xWCDwd.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/10/25/xWCrTA.png&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;留言板预览&#34;&gt;&lt;a href=&#34;#留言板预览&#34; class=&#34;headerlink&#34; title=&#34;留言板预览&#34;&gt;&lt;/a&gt;留言板预览&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/10/25/xWC2Sf.png&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;好友预览&#34;&gt;&lt;a href=&#34;#好友预览&#34; class=&#34;headerlink&#34; title=&#34;好友预览&#34;&gt;&lt;/a&gt;好友预览&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2022/10/25/xWCITs.png&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;项目地址&#34;&gt;&lt;a href=&#34;#项目地址&#34; class=&#34;headerlink&#34; title=&#34;项目地址&#34;&gt;&lt;/a&gt;项目地址&lt;/h1&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;官方地址&lt;/th&gt;
-&lt;th&gt;注意事项&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1NodW5DYWkvUVpvbmVFeHBvcnQ=&#34;&gt;GitHub&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;国外网站，网络不稳定，建议科学上网，有发行版&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRlZS5jb20vbHZzaHVuY2FpL1Fab25lRXhwb3J0&#34;&gt;Gitee&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;国内网站，网络稳定，无发行版，可自行下载源码安装&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;h1 id=&#34;反馈评价&#34;&gt;&lt;a href=&#34;#反馈评价&#34; class=&#34;headerlink&#34; title=&#34;反馈评价&#34;&gt;&lt;/a&gt;反馈评价&lt;/h1&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;问题反馈&lt;/th&gt;
-&lt;th&gt;评价&lt;/th&gt;
-&lt;th&gt;注意事项&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1NodW5DYWkvUVpvbmVFeHBvcnQvaXNzdWVz&#34;&gt;GitHub&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1NodW5DYWkvUVpvbmVFeHBvcnQ=&#34;&gt;Start一下&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;建议科学上网&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jaHJvbWUuZ29vZ2xlLmNvbS93ZWJzdG9yZS9kZXRhaWwvYW9mYWRpbWVncGhmZ2xsZ2pibGRkYXBpYW9qYmdsaGY=&#34;&gt;Chrome商店&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jaHJvbWUuZ29vZ2xlLmNvbS93ZWJzdG9yZS9kZXRhaWwvYW9mYWRpbWVncGhmZ2xsZ2pibGRkYXBpYW9qYmdsaGY=&#34;&gt;评论一下&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;需科学上网&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9taWNyb3NvZnRlZGdlLm1pY3Jvc29mdC5jb20vYWRkb25zL2RldGFpbC9kamZhbHBrcGpncGtmbmtmbW5lZ2JhbG5pY2RvbGpjbg==&#34;&gt;Edge商店&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9taWNyb3NvZnRlZGdlLm1pY3Jvc29mdC5jb20vYWRkb25zL2RldGFpbC9kamZhbHBrcGpncGtmbmtmbW5lZ2JhbG5pY2RvbGpjbg==&#34;&gt;评论一下&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;无需科学上网&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;QQ群：&lt;strong&gt;959828088&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;赞美一下&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;文明发言，拒绝广告&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;h1 id=&#34;注意事项&#34;&gt;&lt;a href=&#34;#注意事项&#34; class=&#34;headerlink&#34; title=&#34;注意事项&#34;&gt;&lt;/a&gt;注意事项&lt;/h1&gt;&lt;p&gt;1、本项目只做个人学习研究之用，不是官话，当初就是为了学习Chrome扩展开发写的工具，随时会因不可抗力因素下架，且用且珍惜。&lt;/p&gt;
-&lt;p&gt;2、本助手开源免费，请勿从第三方购买或第三方下载，助手不保证第三方安全可靠。&lt;/p&gt;
-&lt;p&gt;3、本助手基于&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9xem9uZS5xcS5jb20vaW5kZXguaHRtbA==&#34;&gt;QQ空间官方网站&lt;i class=&#34;fa fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/span&gt;备份个人空间数据，与QQ空间不存在任何联系。&lt;/p&gt;
-&lt;p&gt;4、使用本助手即同意助手收集QQ空间网站的Cookie信息，仅用于获取QQ空间数据，不传输任何数据到后台服务器，仅保存到浏览器客户端&lt;/p&gt;
-&lt;p&gt;5、更多详情请查看&lt;a href=&#34;qzone-export-privacy-policy.html&#34;&gt;隐私政策&lt;/a&gt;&lt;/p&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/bilicard.css&#34; type=&#34;text/css&#34;&gt;</content>
-        <category term="QQ空间" />
-        <category term="QQ相册" />
-        <category term="备份" />
-        <category term="导出" />
-        <category term="迅雷下载" />
-        <category term="爬虫" />
-        <category term="QQ空间导出助手" />
-        <category term="Chrome扩展" />
-        <category term="Edge扩展" />
-        <category term="360扩展" />
-        <category term="Aria2下载" />
-        <category term="Motrix下载" />
-        <updated>2022-01-27T12:08:02.486Z</updated>
+        <updated>2022-11-11T16:34:01.128Z</updated>
     </entry>
 </feed>

@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.1.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/6.0.0/css/all.min.css" integrity="sha256-jTIdiMuX/e3DGJUGwl3pKSxuc6YOuqtJYkM0bGQESA4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/pace/1.2.4/themes/blue/pace-theme-minimal.css">
+  <script src="https://cdn.staticfile.org/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"github.lvshuncai.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.10.1","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"changyan","storage":true,"lazyload":false,"nav":{"changyan":{"text":"畅言","order":1},"gitalk":{"text":"Gitalk","order":2}},"activeClass":"changyan"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/config.min.js"></script>
+
+    <meta name="description" content="如何安装QQ空间导出助手">
+<meta property="og:type" content="article">
+<meta property="og:title" content="QQ空间导出助手之安装篇">
+<meta property="og:url" content="https://github.lvshuncai.com/archives/qzone-export-install.html">
+<meta property="og:site_name" content="芷炫博客">
+<meta property="og:description" content="如何安装QQ空间导出助手">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-11-11T16:34:01.131Z">
+<meta property="article:modified_time" content="2022-11-11T16:34:01.131Z">
+<meta property="article:author" content="芷炫">
+<meta property="article:tag" content="QQ空间">
+<meta property="article:tag" content="QQ相册">
+<meta property="article:tag" content="备份">
+<meta property="article:tag" content="导出">
+<meta property="article:tag" content="迅雷下载">
+<meta property="article:tag" content="爬虫">
+<meta property="article:tag" content="QQ空间导出助手">
+<meta property="article:tag" content="Chrome扩展">
+<meta property="article:tag" content="Edge扩展">
+<meta property="article:tag" content="360扩展">
+<meta property="article:tag" content="Aria2下载">
+<meta property="article:tag" content="Motrix下载">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://github.lvshuncai.com/archives/qzone-export-install.html">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://github.lvshuncai.com/archives/qzone-export-install.html","path":"archives/qzone-export-install.html","title":"QQ空间导出助手之安装篇"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>QQ空间导出助手之安装篇 | 芷炫博客</title>
+  
+
+
+
+
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css"><style>
+#needsharebutton-float {
+  bottom: 88px;
+  cursor: pointer;
+  left: -8px;
+  position: fixed;
+  z-index: 9999;
+}
+#needsharebutton-float .btn {
+  border: 1px solid $btn-default-border-color;
+  border-radius: 4px;
+  padding: 0 10px 0 14px;
+}
+</style><link rel="stylesheet" href="https://cdn.staticfile.org/social-share.js/1.0.16/css/share.min.css">
+
+    <script type="text/javascript" src="/custom/js/clicklove.min.js"></script>
+
+
+
+<link href="https://cdn.staticfile.org/aplayer/1.8.0/APlayer.min.css" rel="stylesheet">
+<script src="https://cdn.staticfile.org/aplayer/1.8.0/APlayer.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/meting@1.1.1/dist/Meting.min.js" integrity="sha256-RSiRv9m5KifrRuWzaSV5YGffr2vPv0S2b8+T6i4PboU=" crossorigin="anonymous"></script>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">芷炫博客</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">吕顺才的个人网站</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">10</span></a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">19</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">7</span></a></li>
+        <li class="menu-item menu-item-boards"><a href="/boards/" rel="section"><i class="fa fa-newspaper fa-fw"></i>留言</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%89%8D%E6%8F%90"><span class="nav-number">1.</span> <span class="nav-text">安装前提</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F"><span class="nav-number">2.</span> <span class="nav-text">安装方式</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E6%A6%82%E8%A7%88"><span class="nav-number">2.1.</span> <span class="nav-text">安装概览</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85"><span class="nav-number">2.2.</span> <span class="nav-text">离线安装</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E7%BB%93%E8%AF%AD"><span class="nav-number">3.</span> <span class="nav-text">文章结语</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="nav-number">4.</span> <span class="nav-text">参考资料</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="芷炫"
+      src="/custom/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">芷炫</p>
+  <div class="site-description" itemprop="description">没有真正的绝境，只有心灵的迷途</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">19</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL1NodW5DYWk=" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;ShunCai"><i class="fab fa-github fa-fw"></i></span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="bWFpbHRvOmx2c2h1bmNhaUBnbWFpbC5jb20=" title="E-Mail → mailto:lvshuncai@gmail.com"><i class="fa fa-envelope fa-fw"></i></span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cDovL3dwYS5xcS5jb20vbXNncmQ/dj0zJnVpbj0xMTI5MTM2OTI0JnNpdGU9cXEmbWVudT15ZXM=" title="QQ → http:&#x2F;&#x2F;wpa.qq.com&#x2F;msgrd?v&#x3D;3&amp;uin&#x3D;1129136924&amp;site&#x3D;qq&amp;menu&#x3D;yes"><i class="fab fa-qq fa-fw"></i></span>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-rss fa-fw"></i></a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <span class="exturl cc-opacity" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC8="><img src="https://cdn.staticfile.org/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></span>
+  </div>
+
+
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+  <span class="exturl github-corner" data-url="aHR0cHM6Ly9naXRodWIuY29tL1NodW5DYWk=" title="Follow me on GitHub" aria-label="Follow me on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></span>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://github.lvshuncai.com/archives/qzone-export-install.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/custom/images/avatar.jpg">
+      <meta itemprop="name" content="芷炫">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="芷炫博客">
+      <meta itemprop="description" content="没有真正的绝境，只有心灵的迷途">
+    </span>
+    
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="QQ空间导出助手之安装篇 | 芷炫博客">
+      <meta itemprop="description" content="如何安装QQ空间导出助手">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          QQ空间导出助手之安装篇
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-11-12 00:34:01" itemprop="dateCreated datePublished" datetime="2022-11-12T00:34:01+08:00">2022-11-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">软件工具</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/%E5%A4%87%E4%BB%BD%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">备份工具</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/%E5%A4%87%E4%BB%BD%E5%B7%A5%E5%85%B7/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95/" itemprop="url" rel="index"><span itemprop="name">浏览器扩展</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Changyan：</span>
+    
+    <a title="QQ空间导出助手之安装篇" href="/archives/qzone-export-install.html#SOHUCS" itemprop="discussionUrl">
+      <span id="sourceId::8134395cc3977605fb3e081095ebcaa8" class="cy_cmt_count" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>782</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+            <div class="post-description">如何安装QQ空间导出助手</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p><strong>本站惯例：本文假定你知道<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVEyaHliMjFwZFczbGhvWG1vTGptdFkvb3A0amxtYWptbUsva3U0RGt1WWc9">Chromium内核浏览器<i class="fa fa-external-link-alt"></i></span>以及<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPTVyV1A2S2VJNVptbzVvbXA1YkdWNXBpdjVMdUE1TG1JNW9TUDVvQ2Q=">浏览器扩展<i class="fa fa-external-link-alt"></i></span>，不知道出文右转问百度</strong></p>
+<h4 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h4><p>1、<strong>已安装Chromium内核的浏览器</strong>，比如国内主流的Microsoft Edge浏览器、360极速浏览器、360安全浏览器、百分浏览器等等</p>
+<p>2、<strong>Chromium内核的浏览器支持扩展程序功能</strong>，一般PC端的，都支持，那么有没有手机端支持呢，也是有的，也就是说手机也是可以安装和使用助手，剩下的自由发挥。</p>
+<p>3、<strong>Chromium内核版本86以上</strong>，一般来说，目前国内主流的基于Chromium的在最新浏览器版本基本在这个版本以上，问题不大。</p>
+<h4 id="安装方式"><a href="#安装方式" class="headerlink" title="安装方式"></a>安装方式</h4><p>主要是两种方式，在线安装与离线安装，两种安装方式安装的功能并没有区别，看个人情况选择即可，推荐在线安装。</p>
+<p><strong>在线安装</strong>：仅支持部分Chromium内核的浏览器，优点安装简易方便，并可在线更新。</p>
+<p><strong>离线安装</strong>：支持所有的Chromium内核的浏览器，缺点复杂安装麻烦，不可在线更新。</p>
+<span id="more"></span>
+
+<h5 id="安装概览"><a href="#安装概览" class="headerlink" title="安装概览"></a>安装概览</h5><table>
+<thead>
+<tr>
+<th>浏览器</th>
+<th>安装方式</th>
+<th>安装入口</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Microsoft Edge</td>
+<td>在线</td>
+<td><span class="exturl" data-url="aHR0cHM6Ly9taWNyb3NvZnRlZGdlLm1pY3Jvc29mdC5jb20vYWRkb25zL2RldGFpbC9kamZhbHBrcGpncGtmbmtmbW5lZ2JhbG5pY2RvbGpjbg==">访问商店<i class="fa fa-external-link-alt"></i></span></td>
+<td>推荐</td>
+</tr>
+<tr>
+<td>Chrome</td>
+<td>在线</td>
+<td><span class="exturl" data-url="aHR0cHM6Ly9jaHJvbWUuZ29vZ2xlLmNvbS93ZWJzdG9yZS9kZXRhaWwvYW9mYWRpbWVncGhmZ2xsZ2pibGRkYXBpYW9qYmdsaGY=">访问商店<i class="fa fa-external-link-alt"></i></span></td>
+<td>需科学上网</td>
+</tr>
+<tr>
+<td>360极速浏览器</td>
+<td>在线</td>
+<td><span class="exturl" data-url="aHR0cHM6Ly9leHQuY2hyb21lLjM2MC5jbi93ZWJzdG9yZS9kZXRhaWwvZGJvcGxvcG1ob2FmbWJjYm1jZWNhcGttY29kaGNlZ2g=">访问商店<i class="fa fa-external-link-alt"></i></span></td>
+<td></td>
+</tr>
+<tr>
+<td>360安全浏览器</td>
+<td>在线</td>
+<td><span class="exturl" data-url="aHR0cHM6Ly9leHQuc2UuMzYwLmNuL3dlYnN0b3JlL2RldGFpbC9kYm9wbG9wbWhvYWZtYmNibWNlY2Fwa21jb2RoY2VnaA==">访问商店<i class="fa fa-external-link-alt"></i></span></td>
+<td></td>
+</tr>
+<tr>
+<td>其它Chromium浏览器</td>
+<td>离线</td>
+<td>无</td>
+<td>移步<a href="#%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85">离线安装</a></td>
+</tr>
+</tbody></table>
+<h5 id="离线安装"><a href="#离线安装" class="headerlink" title="离线安装"></a>离线安装</h5><p>1、下载离线安装包(ZIP)，下载渠道：<span class="exturl" data-url="aHR0cHM6Ly9sdnNodW5jYWkubGFuem91bC5jb20vaVQySTgwZmNvdW5h">蓝奏云<i class="fa fa-external-link-alt"></i></span>、<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL1NodW5DYWkvUVpvbmVFeHBvcnQ=">GitHub<i class="fa fa-external-link-alt"></i></span>、<span class="exturl" data-url="aHR0cHM6Ly9naXRlZS5jb20vbHZzaHVuY2FpL1Fab25lRXhwb3J0">Gitee<i class="fa fa-external-link-alt"></i></span>、<a href="qzone-export.html#%E5%8F%8D%E9%A6%88%E8%AF%84%E4%BB%B7">QQ群文件</a>等</p>
+<p>2、解压ZIP包，并记住解压的位置</p>
+<p>3、打开<strong>浏览器扩展管理</strong>，并开启<strong>开发者模式</strong></p>
+<p>4、点击<strong>加载已解压的扩展程序</strong>按钮，<strong>选择第二步解压的文件夹</strong>，<span style="color:red">确保所选文件夹下存在manifest文件</span></p>
+<p>5、安装完成，建议重启一下浏览器</p>
+<p>6、其它更多问题，请移步<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPTVyV1A2S2VJNVptbzVvbXA1YkdWSU9lbXUrZTZ2K1d1aWVpamhRPT0=">浏览器扩展如何离线安装<i class="fa fa-external-link-alt"></i></span></p>
+<h4 id="文章结语"><a href="#文章结语" class="headerlink" title="文章结语"></a>文章结语</h4><p>世（an）界（zhuang），如此简单，如遇到其它问题，请自行出文右转问百度。</p>
+<h4 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h4><p>1、<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVEyaHliMjFwZFczbGhvWG1vTGptdFkvb3A0amxtYWptbUsva3U0RGt1WWc9">Chromium内核浏览器是什么<i class="fa fa-external-link-alt"></i></span></p>
+<p>2、<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPVEyaHliMjFwZFczbGhvWG1vTGptdFkvb3A0amxtYWptbklubGs2cmt1cHM9">Chromium内核浏览器有哪些<i class="fa fa-external-link-alt"></i></span></p>
+<p>3、<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPTVyV1A2S2VJNVptbzVvbXA1YkdWNXBpdjVMdUE1TG1JNW9TUDVvQ2Q=">浏览器扩展是什么意思<i class="fa fa-external-link-alt"></i></span></p>
+<p>4、<span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5sdnNodW5jYWkuY29tLz9xPTVyV1A2S2VJNVptbzVvbXA1YkdWNW8rUzVMdTI1b0NPNUxtSTU1U28=">浏览器扩展插件怎么用<i class="fa fa-external-link-alt"></i></span></p>
+<link rel="stylesheet" href="/css/bilicard.css" type="text/css">
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer"><div class="post-widgets">
+    <div
+      class="social-share"
+      
+        data-sites="weibo,qq,wechat,qzone,douban,facebook,twitter,linkedin"
+      
+      
+        data-wechat-qrcode-title="打开微信扫一扫"
+      
+      
+        data-wechat-qrcode-helper="分享文章到朋友圈"
+      
+    >
+    </div>
+  </div>
+  <script src="https://cdn.staticfile.org/social-share.js/1.0.16/js/social-share.min.js"></script>
+    <div>
+        
+            <div style="text-align:center;color: #ccc;margin: 2em 0 0;">-------------本文结束<i class='fa fa-paw'></i>感谢您的阅读-------------</div>
+        
+    </div>
+
+          <div class="reward-container">
+  <div>您的支持将鼓励我继续创作！</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="https://s1.ax1x.com/2020/05/16/YcePUI.png" alt="芷炫 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="https://s1.ax1x.com/2020/05/16/YceCVA.png" alt="芷炫 支付宝">
+        <span>支付宝</span>
+      </div>
+      <div>
+        <img src="https://s1.ax1x.com/2020/05/16/Ycei5t.png" alt="芷炫 QQ">
+        <span>QQ</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>芷炫
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://github.lvshuncai.com/archives/qzone-export-install.html" title="QQ空间导出助手之安装篇">https://github.lvshuncai.com/archives/qzone-export-install.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC8="><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</span> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/custom/images/wechat-qcode.jpg">
+          <span class="icon">
+            <i class="fab fa-weixin"></i>
+          </span>
+
+          <span class="label">WeChat</span>
+        </a>
+      </div>
+
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/atom.xml">
+          <span class="icon">
+            <i class="fa fa-rss"></i>
+          </span>
+
+          <span class="label">RSS</span>
+        </a>
+      </div>
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/QQ%E7%A9%BA%E9%97%B4/" rel="tag"><i class="fa fa-tag"></i> QQ空间</a>
+              <a href="/tags/QQ%E7%9B%B8%E5%86%8C/" rel="tag"><i class="fa fa-tag"></i> QQ相册</a>
+              <a href="/tags/%E5%A4%87%E4%BB%BD/" rel="tag"><i class="fa fa-tag"></i> 备份</a>
+              <a href="/tags/%E5%AF%BC%E5%87%BA/" rel="tag"><i class="fa fa-tag"></i> 导出</a>
+              <a href="/tags/%E8%BF%85%E9%9B%B7%E4%B8%8B%E8%BD%BD/" rel="tag"><i class="fa fa-tag"></i> 迅雷下载</a>
+              <a href="/tags/%E7%88%AC%E8%99%AB/" rel="tag"><i class="fa fa-tag"></i> 爬虫</a>
+              <a href="/tags/QQ%E7%A9%BA%E9%97%B4%E5%AF%BC%E5%87%BA%E5%8A%A9%E6%89%8B/" rel="tag"><i class="fa fa-tag"></i> QQ空间导出助手</a>
+              <a href="/tags/Chrome%E6%89%A9%E5%B1%95/" rel="tag"><i class="fa fa-tag"></i> Chrome扩展</a>
+              <a href="/tags/Edge%E6%89%A9%E5%B1%95/" rel="tag"><i class="fa fa-tag"></i> Edge扩展</a>
+              <a href="/tags/360%E6%89%A9%E5%B1%95/" rel="tag"><i class="fa fa-tag"></i> 360扩展</a>
+              <a href="/tags/Aria2%E4%B8%8B%E8%BD%BD/" rel="tag"><i class="fa fa-tag"></i> Aria2下载</a>
+              <a href="/tags/Motrix%E4%B8%8B%E8%BD%BD/" rel="tag"><i class="fa fa-tag"></i> Motrix下载</a>
+          </div>
+
+        
+  <div class="post-widgets">
+    <div class="wpac-rating-container">
+      <div id="wpac-rating"></div>
+    </div>
+  </div>
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/archives/qzone-export-configuration.html" rel="prev" title="QQ空间导出助手之配置篇">
+                  <i class="fa fa-chevron-left"></i> QQ空间导出助手之配置篇
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/archives/qzone-export-issue.html" rel="next" title="QQ空间导出助手之问题篇">
+                  QQ空间导出助手之问题篇 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="SOHUCS" sid="8134395cc3977605fb3e081095ebcaa8"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><span class="exturl" data-url="aHR0cHM6Ly9iZWlhbi5taWl0Lmdvdi5jbg==">粤 ICP 备 18074637 号 </span>
+  </div>
+
+<div class="copyright">
+  &copy; 2015 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">芷炫</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">24k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">22 分钟</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZw==">NexT.Gemini</span> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.staticfile.org/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/comments.min.js"></script><script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/utils.min.js"></script><script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/motion.min.js"></script><script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/next-boot.min.js"></script><script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/bookmark.min.js"></script>
+
+  
+  <script src="https://embed.widgetpack.com/widget.js" async></script>
+  <script class="next-config" data-name="rating" type="application/json">{"enable":true,"id":15085,"color":"fc6423"}</script>
+  <script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/third-party/rating.min.js"></script>
+<script src="https://cdn.staticfile.org/hexo-generator-searchdb/1.4.0/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/third-party/search/local-search.min.js"></script>
+
+
+
+
+  <script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/third-party/pace.min.js"></script>
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  <script src="https://cdn.staticfile.org/quicklink/2.2.0/quicklink.umd.js" integrity="sha256-4kQf9z5ntdQrzsBC3YSHnEz02Z9C1UeW/E9OgnvlzSY=" crossorigin="anonymous"></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"https://github.lvshuncai.com/archives/qzone-export-install.html"}</script>
+  <script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/third-party/quicklink.min.js"></script>
+<div id="needsharebutton-float">
+      <span class="btn">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </span>
+    </div>
+  <script src="https://fastly.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js"></script>
+  <script>
+      flOptions = {};
+        flOptions.iconStyle = "box";
+        flOptions.boxForm = "vertical";
+        flOptions.position = "middleRight";
+        flOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook,Mailto";
+      new needShareButton('#needsharebutton-float', flOptions);
+  </script><script class="next-config" data-name="changyan" type="application/json">{"enable":true,"appid":"cyvRwlSWA","appkey":"prod_96fac6e159a203d3827ebab87ba4c7d8"}</script>
+<script src="https://cdn.staticfile.org/hexo-theme-next/8.10.1/third-party/comments/changyan.min.js"></script>
+
+</body>
+</html>
